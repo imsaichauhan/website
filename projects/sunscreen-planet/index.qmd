@@ -1,0 +1,38 @@
+---
+title: "Sunscreen for the planet"
+description: "The world is warming faster than we can cut emissions. Volcanoes are already cooling the planet, with particles that reflect sunlight. Maybe we can too."
+tag: "Cooling"
+image: "../../_assets/images/projects/sunscreen-planet.jpg"
+date: "2024-01-15"
+---
+
+## Introduction
+
+The world is warming faster than we can cut emissions. Volcanoes are already cooling the planet, with particles that reflect sunlight. Maybe we can too.
+
+## The Challenge
+
+Climate change is accelerating, and traditional mitigation strategies may not be enough to prevent catastrophic warming. We need to explore all available options, including controversial ones like solar geoengineering.
+
+## Volcanic Inspiration
+
+When Mount Pinatubo erupted in 1991, it injected millions of tons of sulfur dioxide into the stratosphere. The resulting aerosols reflected sunlight and cooled the planet by about 0.5°C for nearly two years. This natural experiment demonstrated that stratospheric aerosols can have a significant cooling effect.
+
+## The Proposal
+
+Solar geoengineering involves deliberately introducing reflective particles into the upper atmosphere to mimic the cooling effect of volcanic eruptions. This could buy us time while we transition to renewable energy and reduce emissions.
+
+## Risks and Considerations
+
+- Potential disruption to weather patterns
+- Moral hazard concerns
+- International governance challenges
+- Unknown long-term effects
+
+## Current Research
+
+Several research institutions are studying the feasibility and risks of solar geoengineering through computer models and small-scale experiments.
+
+## Conclusion
+
+While solar geoengineering is not a solution to climate change, it may be a necessary tool in our arsenal as we face increasingly severe warming. The key is to research it responsibly while continuing to pursue emissions reductions as our primary strategy.

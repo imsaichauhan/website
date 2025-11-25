@@ -1,0 +1,2 @@
+# Requirements for scripts in _scripts/
+pyyaml==6.0

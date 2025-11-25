@@ -1,0 +1,11 @@
+---
+title: "Media"
+bookmarks_grid: true
+---
+
+*Videos, films, podcasts, music albums.*
+
+Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
+
+- [Example media item](https://example.com) | Short description of the media item | Media
+

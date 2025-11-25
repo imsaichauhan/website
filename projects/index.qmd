@@ -1,0 +1,117 @@
+---
+title: ""
+---
+
+```{=html}
+<!-- Preload featured image for faster loading -->
+    <link rel="preload" as="image" href="../_assets/images/projects/rice.jpg">
+```
+
+::: {.projects-layout}
+::: {.featured-project}
+::: {.featured-image}
+[![](../../_assets/images/projects/rice.jpg)](/projects/rice/)
+:::
+::: {.featured-content}
+::: {.featured-title}
+[Regional Climate Cooperation: A RICE Model Analysis](/projects/rice/)
+:::
+::: {.featured-separator}
+:::
+::: {.featured-description-wrapper}
+::: {.featured-description}
+How global giants can curb warming together and why fairness, not just carbon pricing, decides if cooperation survives.
+:::
+::: {.featured-read-more}
+[Read more →](/projects/rice/)
+:::
+:::
+::: {.featured-separator}
+:::
+::: {.featured-tag}
+Climate Change
+:::
+::: {.featured-separator}
+:::
+:::
+:::
+
+::: {.projects-grid}
+::: {.project-grid-card}
+::: {.project-grid-title}
+[Rivers are now battlefields](/projects/rivers-battlefields/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-description}
+Chinese dams will hold billions of people downstream to ransom. Could solar-powered desalination make them irrelevant?
+:::
+::: {.project-grid-read-more}
+[Read more →](/projects/rivers-battlefields/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-tag}
+Dams
+:::
+:::
+
+::: {.project-grid-card}
+::: {.project-grid-title}
+[Sunscreen for the planet](/projects/sunscreen-planet/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-description}
+The world is warming faster than we can cut emissions. Volcanoes are already cooling the planet, with particles that reflect sunlight. Maybe we can too.
+:::
+::: {.project-grid-read-more}
+[Read more →](/projects/sunscreen-planet/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-tag}
+Cooling
+:::
+:::
+
+::: {.project-grid-card}
+::: {.project-grid-title}
+[Why science needs outsiders](/projects/science-outsiders/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-description}
+Science has forgotten that the greatest breakthroughs often come from outsiders who are able to take a fresh perspective.
+:::
+::: {.project-grid-read-more}
+[Read more →](/projects/science-outsiders/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-tag}
+Outsiders
+:::
+:::
+
+::: {.project-grid-card}
+::: {.project-grid-title}
+[The future of energy storage](/projects/energy-storage/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-description}
+Next-generation batteries are transforming renewable energy. New materials and designs promise to make solar and wind power reliable around the clock.
+:::
+::: {.project-grid-read-more}
+[Read more →](/projects/energy-storage/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-tag}
+Energy
+:::
+:::
+
+:::
+:::

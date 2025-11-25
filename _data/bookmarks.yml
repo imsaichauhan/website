@@ -1,0 +1,86 @@
+# Bookmarks data file
+# Each entry represents a bookmark card on the bookmarks index page
+# 
+# Fields:
+#   id: unique identifier and filename (e.g., 'reading' creates reading.html)
+#   title: Display name of the category
+#   description: Short description shown in the card footer
+#   image: Unsplash URL or image path (w=455&h=449&fit=crop)
+#   color_light: CSS class for sidebar background (e.g., 'blue-light')
+#   color_dark: CSS class for text and footer (e.g., 'blue-dark')
+#   color_accent: CSS class for overlay link (e.g., 'blue')
+
+# Intuitive fine-grained color variables (optional). If present, the
+    # generator will emit inline styles for these values so you can control
+    # exactly which color is used where from YAML.
+
+bookmarks:
+  - id: reading
+    title: Reading
+    description: Articles, essays, research papers, quotes, books
+    image: ../_assets/images/bookmarks/reading.webp
+    color_light: blue-light
+    color_dark: blue-dark
+    color_accent: blue
+    
+    colors:
+      sidebar_bg: "#e8edf5"
+      sidebar_border: "#1a2642"
+      label_text: "#1a2642"
+      overlay_bg: "#e8edf5"
+      overlay_text: "#1a2642"
+      footer_bg: "#1a2642"
+      footer_text: "rgba(255,255,255,0.85)"
+      description_text: "rgba(250,250,250,1)"
+    
+  - id: media
+    title: Media
+    description: Videos, films, podcasts, music albums
+    image: ../_assets/images/bookmarks/media.jpg
+    color_light: teal-light
+    color_dark: teal-dark
+    color_accent: teal
+
+    colors:
+      sidebar_bg: "#e8f2f5"
+      sidebar_border: "#063429"
+      label_text: "#063429"
+      overlay_bg: "#e8f2f5"
+      overlay_text: "#063429"
+      footer_bg: "#063429"
+      footer_text: "rgba(255,255,255,0.85)"
+      description_text: "rgba(250,250,250,1)"
+    
+  - id: system
+    title: System
+    description: Software, extensions, workflows, online projects
+    image: ../_assets/images/bookmarks/system.jpg
+    color_light: purple-light
+    color_dark: purple-dark
+    color_accent: purple
+    colors:
+      sidebar_bg: "#f0e8f5"
+      sidebar_border: "#2a1a42"
+      label_text: "#2a1a42"
+      overlay_bg: "#f0e8f5"
+      overlay_text: "#2a1a42"
+      footer_bg: "#2a1a42"
+      footer_text: "rgba(255,255,255,0.85)"
+      description_text: "rgba(250,250,250,1)"
+    
+  - id: curiosities
+    title: Curiosities
+    description: Stray links, odd visuals, marginal discoveries
+    image: ../_assets/images/bookmarks/curiosities.jpg
+    color_light: navy-light
+    color_dark: navy-dark
+    color_accent: navy
+    colors:
+      sidebar_bg: "#e8ecf2"
+      sidebar_border: "#1a2535"
+      label_text: "#1a2535"
+      overlay_bg: "#e8ecf2"
+      overlay_text: "#1a2535"
+      footer_bg: "#1a2535"
+      footer_text: "rgba(255,255,255,0.85)"
+      description_text: "rgba(250,250,250,1)"

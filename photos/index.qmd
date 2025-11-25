@@ -1,0 +1,86 @@
+---
+title: "Photos"
+page-layout: full
+listing: false
+
+---
+
+<link rel="stylesheet" href="/_assets/css/photos.css">
+
+```{=html}
+<div class="overflow-x-auto">
+<table class="collections-table w-full text-left">
+<thead>
+<tr class="border-b">
+<th class="px-4 py-3 text-left">Collection</th>
+<th class="px-4 py-3 hidden md:table-cell text-center">Count</th>
+<th class="px-4 py-3 hidden md:table-cell text-left">Date</th>
+<th class="px-4 py-3 text-right">Photos</th>
+</tr>
+</thead>
+<tbody>
+    <tr onclick="window.location.href='/photos/banaras/'" class="cursor-pointer hover:bg-gray-50 border-b border-neutral-300">
+      <td class="px-4 py-3">
+        <div class="collection-name font-semibold">Banaras</div>
+      </td>
+      <td class="px-4 py-3 hidden md:table-cell text-center"><span class="count-number">109</span></td>
+      <td class="px-4 py-3 hidden md:table-cell text-left">November 2025</td>
+      <td class="px-4 py-3 text-right">
+        <div class="preview-thumbnails inline-flex gap-2">
+  <div class="thumb-4-3">
+    <img src="/_assets/images/photos/banaras/thumbnails/photo0013.jpg" alt="Banaras — Photo 1">
+  </div>
+  <div class="thumb-4-3 hidden sm:inline-block">
+    <img src="/_assets/images/photos/banaras/thumbnails/photo0015.jpg" alt="Banaras — Photo 2">
+  </div>
+  <div class="thumb-4-3 hidden sm:inline-block">
+    <img src="/_assets/images/photos/banaras/thumbnails/photo0016.jpg" alt="Banaras — Photo 3">
+  </div>
+</div>
+      </td>
+    </tr>
+    <tr onclick="window.location.href='/photos/chennai/'" class="cursor-pointer hover:bg-gray-50 border-b border-neutral-300">
+      <td class="px-4 py-3">
+        <div class="collection-name font-semibold">Chennai</div>
+      </td>
+      <td class="px-4 py-3 hidden md:table-cell text-center"><span class="count-number">45</span></td>
+      <td class="px-4 py-3 hidden md:table-cell text-left">November 2025</td>
+      <td class="px-4 py-3 text-right">
+        <div class="preview-thumbnails inline-flex gap-2">
+  <div class="thumb-4-3">
+    <img src="/_assets/images/photos/chennai/thumbnails/photo0267.jpg" alt="Chennai — Photo 1">
+  </div>
+  <div class="thumb-4-3 hidden sm:inline-block">
+    <img src="/_assets/images/photos/chennai/thumbnails/photo0268.jpg" alt="Chennai — Photo 2">
+  </div>
+  <div class="thumb-4-3 hidden sm:inline-block">
+    <img src="/_assets/images/photos/chennai/thumbnails/photo0270.jpg" alt="Chennai — Photo 3">
+  </div>
+</div>
+      </td>
+    </tr>
+    <tr onclick="window.location.href='/photos/patna/'" class="cursor-pointer hover:bg-gray-50 border-b border-neutral-300">
+      <td class="px-4 py-3">
+        <div class="collection-name font-semibold">Patna</div>
+      </td>
+      <td class="px-4 py-3 hidden md:table-cell text-center"><span class="count-number">54</span></td>
+      <td class="px-4 py-3 hidden md:table-cell text-left">November 2025</td>
+      <td class="px-4 py-3 text-right">
+        <div class="preview-thumbnails inline-flex gap-2">
+  <div class="thumb-4-3">
+    <img src="/_assets/images/photos/patna/thumbnails/photo0178.jpg" alt="Patna — Photo 1">
+  </div>
+  <div class="thumb-4-3 hidden sm:inline-block">
+    <img src="/_assets/images/photos/patna/thumbnails/photo0180.jpg" alt="Patna — Photo 2">
+  </div>
+  <div class="thumb-4-3 hidden sm:inline-block">
+    <img src="/_assets/images/photos/patna/thumbnails/photo0181.jpg" alt="Patna — Photo 3">
+  </div>
+</div>
+      </td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+```

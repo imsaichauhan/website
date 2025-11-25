@@ -1,0 +1,626 @@
+---
+title: "Banaras"
+page-layout: full
+listing: false
+---
+
+<link rel="stylesheet" href="/_assets/css/photos.css">
+<script src="/_assets/js/photos-viewer-fallback.js" defer></script>
+
+```{=html}
+<div class="collection-header mb-8">
+  <div class="collection-header-left">
+    <h1 class="text-4xl font-bold mb-2">Banaras</h1>
+    <p class="text-gray-700 mt-2">Auto-generated placeholder collection from workspace</p>
+  </div>
+  <p class="collection-month text-sm"><time datetime="2025-11">November 2025</time></p>
+</div>
+
+```
+<section aria-label="Photo grid" class="photo-grid" id="photo-grid">
+  <a href="#photo-1" data-image-index="1" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0013.jpg" alt="Banaras — Photo 1" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-2" data-image-index="2" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0015.jpg" alt="Banaras — Photo 2" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-3" data-image-index="3" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0016.jpg" alt="Banaras — Photo 3" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-4" data-image-index="4" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0018.jpg" alt="Banaras — Photo 4" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-5" data-image-index="5" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0020.jpg" alt="Banaras — Photo 5" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-6" data-image-index="6" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0021.jpg" alt="Banaras — Photo 6" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-7" data-image-index="7" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0023.jpg" alt="Banaras — Photo 7" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-8" data-image-index="8" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0024.jpg" alt="Banaras — Photo 8" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-9" data-image-index="9" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0025.jpg" alt="Banaras — Photo 9" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-10" data-image-index="10" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0026.jpg" alt="Banaras — Photo 10" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-11" data-image-index="11" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0027.jpg" alt="Banaras — Photo 11" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-12" data-image-index="12" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0028.jpg" alt="Banaras — Photo 12" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-13" data-image-index="13" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0029.jpg" alt="Banaras — Photo 13" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-14" data-image-index="14" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0031.jpg" alt="Banaras — Photo 14" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-15" data-image-index="15" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0032.jpg" alt="Banaras — Photo 15" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-16" data-image-index="16" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0033.jpg" alt="Banaras — Photo 16" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-17" data-image-index="17" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0034.jpg" alt="Banaras — Photo 17" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-18" data-image-index="18" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0037.jpg" alt="Banaras — Photo 18" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-19" data-image-index="19" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0040.jpg" alt="Banaras — Photo 19" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-20" data-image-index="20" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0041.jpg" alt="Banaras — Photo 20" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-21" data-image-index="21" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0042.jpg" alt="Banaras — Photo 21" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-22" data-image-index="22" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0044.jpg" alt="Banaras — Photo 22" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-23" data-image-index="23" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0046.jpg" alt="Banaras — Photo 23" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-24" data-image-index="24" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0047.jpg" alt="Banaras — Photo 24" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-25" data-image-index="25" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0048.jpg" alt="Banaras — Photo 25" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-26" data-image-index="26" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0049.jpg" alt="Banaras — Photo 26" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-27" data-image-index="27" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0051.jpg" alt="Banaras — Photo 27" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-28" data-image-index="28" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0053.jpg" alt="Banaras — Photo 28" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-29" data-image-index="29" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0056.jpg" alt="Banaras — Photo 29" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-30" data-image-index="30" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0057.jpg" alt="Banaras — Photo 30" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-31" data-image-index="31" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0058.jpg" alt="Banaras — Photo 31" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-32" data-image-index="32" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0059.jpg" alt="Banaras — Photo 32" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-33" data-image-index="33" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0060.jpg" alt="Banaras — Photo 33" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-34" data-image-index="34" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0065.jpg" alt="Banaras — Photo 34" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-35" data-image-index="35" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0067.jpg" alt="Banaras — Photo 35" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-36" data-image-index="36" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0068.jpg" alt="Banaras — Photo 36" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-37" data-image-index="37" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0069.jpg" alt="Banaras — Photo 37" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-38" data-image-index="38" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0071.jpg" alt="Banaras — Photo 38" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-39" data-image-index="39" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0076.jpg" alt="Banaras — Photo 39" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-40" data-image-index="40" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0077.jpg" alt="Banaras — Photo 40" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-41" data-image-index="41" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0078.jpg" alt="Banaras — Photo 41" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-42" data-image-index="42" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0080.jpg" alt="Banaras — Photo 42" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-43" data-image-index="43" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0081.jpg" alt="Banaras — Photo 43" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-44" data-image-index="44" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0083.jpg" alt="Banaras — Photo 44" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-45" data-image-index="45" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0085.jpg" alt="Banaras — Photo 45" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-46" data-image-index="46" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0086.jpg" alt="Banaras — Photo 46" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-47" data-image-index="47" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0087.jpg" alt="Banaras — Photo 47" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-48" data-image-index="48" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0088.jpg" alt="Banaras — Photo 48" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-49" data-image-index="49" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0096.jpg" alt="Banaras — Photo 49" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-50" data-image-index="50" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0097.jpg" alt="Banaras — Photo 50" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-51" data-image-index="51" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0098.jpg" alt="Banaras — Photo 51" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-52" data-image-index="52" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0099.jpg" alt="Banaras — Photo 52" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-53" data-image-index="53" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0102.jpg" alt="Banaras — Photo 53" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-54" data-image-index="54" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0103.jpg" alt="Banaras — Photo 54" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-55" data-image-index="55" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0108.jpg" alt="Banaras — Photo 55" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-56" data-image-index="56" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0109.jpg" alt="Banaras — Photo 56" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-57" data-image-index="57" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0110.jpg" alt="Banaras — Photo 57" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-58" data-image-index="58" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0111.jpg" alt="Banaras — Photo 58" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-59" data-image-index="59" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0112.jpg" alt="Banaras — Photo 59" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-60" data-image-index="60" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0113.jpg" alt="Banaras — Photo 60" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-61" data-image-index="61" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0114.jpg" alt="Banaras — Photo 61" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-62" data-image-index="62" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0116.jpg" alt="Banaras — Photo 62" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-63" data-image-index="63" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0117.jpg" alt="Banaras — Photo 63" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-64" data-image-index="64" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0118.jpg" alt="Banaras — Photo 64" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-65" data-image-index="65" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0119.jpg" alt="Banaras — Photo 65" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-66" data-image-index="66" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0120.jpg" alt="Banaras — Photo 66" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-67" data-image-index="67" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0123.jpg" alt="Banaras — Photo 67" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-68" data-image-index="68" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0125.jpg" alt="Banaras — Photo 68" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-69" data-image-index="69" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0126.jpg" alt="Banaras — Photo 69" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-70" data-image-index="70" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0127.jpg" alt="Banaras — Photo 70" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-71" data-image-index="71" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0129.jpg" alt="Banaras — Photo 71" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-72" data-image-index="72" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0130.jpg" alt="Banaras — Photo 72" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-73" data-image-index="73" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0132.jpg" alt="Banaras — Photo 73" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-74" data-image-index="74" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0133.jpg" alt="Banaras — Photo 74" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-75" data-image-index="75" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0135.jpg" alt="Banaras — Photo 75" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-76" data-image-index="76" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0136.jpg" alt="Banaras — Photo 76" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-77" data-image-index="77" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0140.jpg" alt="Banaras — Photo 77" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-78" data-image-index="78" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0141.jpg" alt="Banaras — Photo 78" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-79" data-image-index="79" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0142.jpg" alt="Banaras — Photo 79" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-80" data-image-index="80" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0143.jpg" alt="Banaras — Photo 80" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-81" data-image-index="81" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0145.jpg" alt="Banaras — Photo 81" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-82" data-image-index="82" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0146.jpg" alt="Banaras — Photo 82" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-83" data-image-index="83" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0147.jpg" alt="Banaras — Photo 83" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-84" data-image-index="84" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0151.jpg" alt="Banaras — Photo 84" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-85" data-image-index="85" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0152.jpg" alt="Banaras — Photo 85" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-86" data-image-index="86" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0153.jpg" alt="Banaras — Photo 86" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-87" data-image-index="87" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0154.jpg" alt="Banaras — Photo 87" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-88" data-image-index="88" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0155.jpg" alt="Banaras — Photo 88" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-89" data-image-index="89" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0156.jpg" alt="Banaras — Photo 89" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-90" data-image-index="90" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0157.jpg" alt="Banaras — Photo 90" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-91" data-image-index="91" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0158.jpg" alt="Banaras — Photo 91" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-92" data-image-index="92" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0159.jpg" alt="Banaras — Photo 92" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-93" data-image-index="93" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0160.jpg" alt="Banaras — Photo 93" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-94" data-image-index="94" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0161.jpg" alt="Banaras — Photo 94" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-95" data-image-index="95" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0162.jpg" alt="Banaras — Photo 95" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-96" data-image-index="96" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0163.jpg" alt="Banaras — Photo 96" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-97" data-image-index="97" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0164.jpg" alt="Banaras — Photo 97" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-98" data-image-index="98" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0165.jpg" alt="Banaras — Photo 98" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-99" data-image-index="99" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0166.jpg" alt="Banaras — Photo 99" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-100" data-image-index="100" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0167.jpg" alt="Banaras — Photo 100" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-101" data-image-index="101" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0168.jpg" alt="Banaras — Photo 101" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-102" data-image-index="102" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0169.jpg" alt="Banaras — Photo 102" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-103" data-image-index="103" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0171.jpg" alt="Banaras — Photo 103" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-104" data-image-index="104" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0173.jpg" alt="Banaras — Photo 104" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-105" data-image-index="105" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0174.jpg" alt="Banaras — Photo 105" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-106" data-image-index="106" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0175.jpg" alt="Banaras — Photo 106" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-107" data-image-index="107" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0176.jpg" alt="Banaras — Photo 107" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-108" data-image-index="108" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/photo0177.jpg" alt="Banaras — Photo 108" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-109" data-image-index="109" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/banaras/thumbnails/test.jpg" alt="Test image" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+</section>
+
+```{=html}
+<div class="photo-viewer" id="photo-viewer" style="display:none;">
+<div class="viewer-header">
+<div class="viewer-meta">
+<span id="viewer-title">Banaras</span> · 
+<span id="photo-counter">1 / 109</span>
+</div>
+<button class="close-btn" onclick="closeViewer()">✕</button>
+</div>
+<div class="viewer-content">
+  <div class="viewer-nav-left" onclick="navigatePrev()">
+    <span class="nav-arrow" aria-hidden="true">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false">
+        <path d="M15 6 L9 12 L15 18"/>
+      </svg>
+    </span>
+  </div>
+  <div class="viewer-main">
+    <div class="viewer-image-container"><img id="viewer-image" src="" alt="" /></div>
+    <div class="viewer-caption"><div id="caption-text" class="text-center"></div></div>
+  </div>
+  <div class="viewer-nav-right" onclick="navigateNext()">
+    <span class="nav-arrow" aria-hidden="true">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false">
+        <path d="M9 6 L15 12 L9 18"/>
+      </svg>
+    </span>
+  </div>
+</div>
+</div>
+
+```
+
+<script>
+(function(){
+  var images = [{"file": "photo0013.jpg", "caption": "Banaras — Photo 1", "alt": "Banaras — Photo 1"}, {"file": "photo0015.jpg", "caption": "Banaras — Photo 2", "alt": "Banaras — Photo 2"}, {"file": "photo0016.jpg", "caption": "Banaras — Photo 3", "alt": "Banaras — Photo 3"}, {"file": "photo0018.jpg", "caption": "Banaras — Photo 4", "alt": "Banaras — Photo 4"}, {"file": "photo0020.jpg", "caption": "Banaras — Photo 5", "alt": "Banaras — Photo 5"}, {"file": "photo0021.jpg", "caption": "Banaras — Photo 6", "alt": "Banaras — Photo 6"}, {"file": "photo0023.jpg", "caption": "Banaras — Photo 7", "alt": "Banaras — Photo 7"}, {"file": "photo0024.jpg", "caption": "Banaras — Photo 8", "alt": "Banaras — Photo 8"}, {"file": "photo0025.jpg", "caption": "Banaras — Photo 9", "alt": "Banaras — Photo 9"}, {"file": "photo0026.jpg", "caption": "Banaras — Photo 10", "alt": "Banaras — Photo 10"}, {"file": "photo0027.jpg", "caption": "Banaras — Photo 11", "alt": "Banaras — Photo 11"}, {"file": "photo0028.jpg", "caption": "Banaras — Photo 12", "alt": "Banaras — Photo 12"}, {"file": "photo0029.jpg", "caption": "Banaras — Photo 13", "alt": "Banaras — Photo 13"}, {"file": "photo0031.jpg", "caption": "Banaras — Photo 14", "alt": "Banaras — Photo 14"}, {"file": "photo0032.jpg", "caption": "Banaras — Photo 15", "alt": "Banaras — Photo 15"}, {"file": "photo0033.jpg", "caption": "Banaras — Photo 16", "alt": "Banaras — Photo 16"}, {"file": "photo0034.jpg", "caption": "Banaras — Photo 17", "alt": "Banaras — Photo 17"}, {"file": "photo0037.jpg", "caption": "Banaras — Photo 18", "alt": "Banaras — Photo 18"}, {"file": "photo0040.jpg", "caption": "Banaras — Photo 19", "alt": "Banaras — Photo 19"}, {"file": "photo0041.jpg", "caption": "Banaras — Photo 20", "alt": "Banaras — Photo 20"}, {"file": "photo0042.jpg", "caption": "Banaras — Photo 21", "alt": "Banaras — Photo 21"}, {"file": "photo0044.jpg", "caption": "Banaras — Photo 22", "alt": "Banaras — Photo 22"}, {"file": "photo0046.jpg", "caption": "Banaras — Photo 23", "alt": "Banaras — Photo 23"}, {"file": "photo0047.jpg", "caption": "Banaras — Photo 24", "alt": "Banaras — Photo 24"}, {"file": "photo0048.jpg", "caption": "Banaras — Photo 25", "alt": "Banaras — Photo 25"}, {"file": "photo0049.jpg", "caption": "Banaras — Photo 26", "alt": "Banaras — Photo 26"}, {"file": "photo0051.jpg", "caption": "Banaras — Photo 27", "alt": "Banaras — Photo 27"}, {"file": "photo0053.jpg", "caption": "Banaras — Photo 28", "alt": "Banaras — Photo 28"}, {"file": "photo0056.jpg", "caption": "Banaras — Photo 29", "alt": "Banaras — Photo 29"}, {"file": "photo0057.jpg", "caption": "Banaras — Photo 30", "alt": "Banaras — Photo 30"}, {"file": "photo0058.jpg", "caption": "Banaras — Photo 31", "alt": "Banaras — Photo 31"}, {"file": "photo0059.jpg", "caption": "Banaras — Photo 32", "alt": "Banaras — Photo 32"}, {"file": "photo0060.jpg", "caption": "Banaras — Photo 33", "alt": "Banaras — Photo 33"}, {"file": "photo0065.jpg", "caption": "Banaras — Photo 34", "alt": "Banaras — Photo 34"}, {"file": "photo0067.jpg", "caption": "Banaras — Photo 35", "alt": "Banaras — Photo 35"}, {"file": "photo0068.jpg", "caption": "Banaras — Photo 36", "alt": "Banaras — Photo 36"}, {"file": "photo0069.jpg", "caption": "Banaras — Photo 37", "alt": "Banaras — Photo 37"}, {"file": "photo0071.jpg", "caption": "Banaras — Photo 38", "alt": "Banaras — Photo 38"}, {"file": "photo0076.jpg", "caption": "Banaras — Photo 39", "alt": "Banaras — Photo 39"}, {"file": "photo0077.jpg", "caption": "Banaras — Photo 40", "alt": "Banaras — Photo 40"}, {"file": "photo0078.jpg", "caption": "Banaras — Photo 41", "alt": "Banaras — Photo 41"}, {"file": "photo0080.jpg", "caption": "Banaras — Photo 42", "alt": "Banaras — Photo 42"}, {"file": "photo0081.jpg", "caption": "Banaras — Photo 43", "alt": "Banaras — Photo 43"}, {"file": "photo0083.jpg", "caption": "Banaras — Photo 44", "alt": "Banaras — Photo 44"}, {"file": "photo0085.jpg", "caption": "Banaras — Photo 45", "alt": "Banaras — Photo 45"}, {"file": "photo0086.jpg", "caption": "Banaras — Photo 46", "alt": "Banaras — Photo 46"}, {"file": "photo0087.jpg", "caption": "Banaras — Photo 47", "alt": "Banaras — Photo 47"}, {"file": "photo0088.jpg", "caption": "Banaras — Photo 48", "alt": "Banaras — Photo 48"}, {"file": "photo0096.jpg", "caption": "Banaras — Photo 49", "alt": "Banaras — Photo 49"}, {"file": "photo0097.jpg", "caption": "Banaras — Photo 50", "alt": "Banaras — Photo 50"}, {"file": "photo0098.jpg", "caption": "Banaras — Photo 51", "alt": "Banaras — Photo 51"}, {"file": "photo0099.jpg", "caption": "Banaras — Photo 52", "alt": "Banaras — Photo 52"}, {"file": "photo0102.jpg", "caption": "Banaras — Photo 53", "alt": "Banaras — Photo 53"}, {"file": "photo0103.jpg", "caption": "Banaras — Photo 54", "alt": "Banaras — Photo 54"}, {"file": "photo0108.jpg", "caption": "Banaras — Photo 55", "alt": "Banaras — Photo 55"}, {"file": "photo0109.jpg", "caption": "Banaras — Photo 56", "alt": "Banaras — Photo 56"}, {"file": "photo0110.jpg", "caption": "Banaras — Photo 57", "alt": "Banaras — Photo 57"}, {"file": "photo0111.jpg", "caption": "Banaras — Photo 58", "alt": "Banaras — Photo 58"}, {"file": "photo0112.jpg", "caption": "Banaras — Photo 59", "alt": "Banaras — Photo 59"}, {"file": "photo0113.jpg", "caption": "Banaras — Photo 60", "alt": "Banaras — Photo 60"}, {"file": "photo0114.jpg", "caption": "Banaras — Photo 61", "alt": "Banaras — Photo 61"}, {"file": "photo0116.jpg", "caption": "Banaras — Photo 62", "alt": "Banaras — Photo 62"}, {"file": "photo0117.jpg", "caption": "Banaras — Photo 63", "alt": "Banaras — Photo 63"}, {"file": "photo0118.jpg", "caption": "Banaras — Photo 64", "alt": "Banaras — Photo 64"}, {"file": "photo0119.jpg", "caption": "Banaras — Photo 65", "alt": "Banaras — Photo 65"}, {"file": "photo0120.jpg", "caption": "Banaras — Photo 66", "alt": "Banaras — Photo 66"}, {"file": "photo0123.jpg", "caption": "Banaras — Photo 67", "alt": "Banaras — Photo 67"}, {"file": "photo0125.jpg", "caption": "Banaras — Photo 68", "alt": "Banaras — Photo 68"}, {"file": "photo0126.jpg", "caption": "Banaras — Photo 69", "alt": "Banaras — Photo 69"}, {"file": "photo0127.jpg", "caption": "Banaras — Photo 70", "alt": "Banaras — Photo 70"}, {"file": "photo0129.jpg", "caption": "Banaras — Photo 71", "alt": "Banaras — Photo 71"}, {"file": "photo0130.jpg", "caption": "Banaras — Photo 72", "alt": "Banaras — Photo 72"}, {"file": "photo0132.jpg", "caption": "Banaras — Photo 73", "alt": "Banaras — Photo 73"}, {"file": "photo0133.jpg", "caption": "Banaras — Photo 74", "alt": "Banaras — Photo 74"}, {"file": "photo0135.jpg", "caption": "Banaras — Photo 75", "alt": "Banaras — Photo 75"}, {"file": "photo0136.jpg", "caption": "Banaras — Photo 76", "alt": "Banaras — Photo 76"}, {"file": "photo0140.jpg", "caption": "Banaras — Photo 77", "alt": "Banaras — Photo 77"}, {"file": "photo0141.jpg", "caption": "Banaras — Photo 78", "alt": "Banaras — Photo 78"}, {"file": "photo0142.jpg", "caption": "Banaras — Photo 79", "alt": "Banaras — Photo 79"}, {"file": "photo0143.jpg", "caption": "Banaras — Photo 80", "alt": "Banaras — Photo 80"}, {"file": "photo0145.jpg", "caption": "Banaras — Photo 81", "alt": "Banaras — Photo 81"}, {"file": "photo0146.jpg", "caption": "Banaras — Photo 82", "alt": "Banaras — Photo 82"}, {"file": "photo0147.jpg", "caption": "Banaras — Photo 83", "alt": "Banaras — Photo 83"}, {"file": "photo0151.jpg", "caption": "Banaras — Photo 84", "alt": "Banaras — Photo 84"}, {"file": "photo0152.jpg", "caption": "Banaras — Photo 85", "alt": "Banaras — Photo 85"}, {"file": "photo0153.jpg", "caption": "Banaras — Photo 86", "alt": "Banaras — Photo 86"}, {"file": "photo0154.jpg", "caption": "Banaras — Photo 87", "alt": "Banaras — Photo 87"}, {"file": "photo0155.jpg", "caption": "Banaras — Photo 88", "alt": "Banaras — Photo 88"}, {"file": "photo0156.jpg", "caption": "Banaras — Photo 89", "alt": "Banaras — Photo 89"}, {"file": "photo0157.jpg", "caption": "Banaras — Photo 90", "alt": "Banaras — Photo 90"}, {"file": "photo0158.jpg", "caption": "Banaras — Photo 91", "alt": "Banaras — Photo 91"}, {"file": "photo0159.jpg", "caption": "Banaras — Photo 92", "alt": "Banaras — Photo 92"}, {"file": "photo0160.jpg", "caption": "Banaras — Photo 93", "alt": "Banaras — Photo 93"}, {"file": "photo0161.jpg", "caption": "Banaras — Photo 94", "alt": "Banaras — Photo 94"}, {"file": "photo0162.jpg", "caption": "Banaras — Photo 95", "alt": "Banaras — Photo 95"}, {"file": "photo0163.jpg", "caption": "Banaras — Photo 96", "alt": "Banaras — Photo 96"}, {"file": "photo0164.jpg", "caption": "Banaras — Photo 97", "alt": "Banaras — Photo 97"}, {"file": "photo0165.jpg", "caption": "Banaras — Photo 98", "alt": "Banaras — Photo 98"}, {"file": "photo0166.jpg", "caption": "Banaras — Photo 99", "alt": "Banaras — Photo 99"}, {"file": "photo0167.jpg", "caption": "Banaras — Photo 100", "alt": "Banaras — Photo 100"}, {"file": "photo0168.jpg", "caption": "Banaras — Photo 101", "alt": "Banaras — Photo 101"}, {"file": "photo0169.jpg", "caption": "Banaras — Photo 102", "alt": "Banaras — Photo 102"}, {"file": "photo0171.jpg", "caption": "Banaras — Photo 103", "alt": "Banaras — Photo 103"}, {"file": "photo0173.jpg", "caption": "Banaras — Photo 104", "alt": "Banaras — Photo 104"}, {"file": "photo0174.jpg", "caption": "Banaras — Photo 105", "alt": "Banaras — Photo 105"}, {"file": "photo0175.jpg", "caption": "Banaras — Photo 106", "alt": "Banaras — Photo 106"}, {"file": "photo0176.jpg", "caption": "Banaras — Photo 107", "alt": "Banaras — Photo 107"}, {"file": "photo0177.jpg", "caption": "Banaras — Photo 108", "alt": "Banaras — Photo 108"}, {"file": "test.jpg", "caption": "Test image", "alt": "Test image"}];
+  var slug = "banaras";
+  var totalImages = images.length;
+  var currentIndex = 0;
+  var grid = document.getElementById("photo-grid");
+  var viewer = document.getElementById("photo-viewer");
+  var viewerImage = document.getElementById("viewer-image");
+  var captionText = document.getElementById("caption-text");
+  var photoCounter = document.getElementById("photo-counter");
+  function showGrid(){ if(grid) grid.style.display="grid"; if(viewer) { viewer.style.display="none"; viewer.classList.remove("active"); } document.body.style.overflow="auto"; }
+  function showViewer(index){ currentIndex = index; if(grid) grid.style.display="none"; if(!viewer) viewer = document.getElementById("photo-viewer"); if(viewer){ viewer.style.display="flex"; viewer.classList.add("active"); } document.body.style.overflow="hidden"; loadPhoto(index); }
+  function loadPhoto(index){ try{ if(!viewerImage) viewerImage = document.getElementById("viewer-image"); if(!captionText) captionText = document.getElementById("caption-text"); if(!photoCounter) photoCounter = document.getElementById("photo-counter"); var img = images[index]; if(!img) return; var src = "/_assets/images/photos/" + slug + "/originals/" + (img.file||""); if(viewerImage) { viewerImage.src = src; viewerImage.alt = img.alt || ""; } if(captionText) captionText.textContent = img.caption || ""; if(photoCounter) photoCounter.textContent = (index+1) + " / " + totalImages; currentIndex = index; }catch(e){console.error("loadPhoto error",e);} }
+  window.navigatePrev = function(){ var newIndex = currentIndex===0 ? totalImages-1 : currentIndex-1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
+  window.navigateNext = function(){ var newIndex = currentIndex===totalImages-1 ? 0 : currentIndex+1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
+  window.closeViewer = function(){ try{ history.replaceState(null, "", window.location.pathname); showGrid(); }catch(e){} }
+  window.openPhoto = function(evt, num){ try{ if(evt && typeof evt.preventDefault === "function") evt.preventDefault(); var idx = (typeof num === "number") ? num-1 : (parseInt(num,10)-1); if(isNaN(idx)) idx = 0; var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); }catch(e){console.error("openPhoto error",e);} };
+  function handleHash(){ var hash = window.location.hash; if(!hash || hash==="#") { showGrid(); } else { var m = hash.match(/#photo-(\d+)/); if(m){ var num = parseInt(m[1],10); if(num>=1 && num<=totalImages){ showViewer(num-1); } else { showGrid(); } } } }
+  document.addEventListener("keydown", function(e){ try{ if(viewer && (viewer.classList && viewer.classList.contains("active") || viewer.style.display==="flex")){ if(e.key==="ArrowLeft") navigatePrev(); else if(e.key==="ArrowRight") navigateNext(); else if(e.key==="Escape") closeViewer(); } }catch(e){} });
+  window.addEventListener("hashchange", handleHash);
+  window.addEventListener("popstate", handleHash);
+  handleHash();
+  document.addEventListener("click", function(e){ try{ var a = e.target.closest && e.target.closest("a[data-image-index]"); if(a){ var idx = parseInt(a.getAttribute("data-image-index"),10)-1; if(!isNaN(idx)){ var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); e.preventDefault(); } } }catch(e){} });
+})();
+</script>

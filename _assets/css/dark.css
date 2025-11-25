@@ -1,0 +1,941 @@
+/* ===== Dark Mode Styles ===== */
+/* Apply smooth transitions for theme switching */
+body {
+    transition: background-color 150ms ease, color 150ms ease;
+}
+
+/* Dark mode color scheme - warm tones to match light mode aesthetic */
+[data-theme="dark"] {
+    color-scheme: dark;
+}
+
+[data-theme="dark"] body {
+    background-color: #2a2520; /* softer warm dark gray, less harsh */
+    color: #d4cfc4; /* softer text with lower contrast */
+}
+
+/* Dark mode text colors */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] p,
+[data-theme="dark"] li {
+    color: #d4cfc4;
+}
+
+/* Dark mode link colors */
+[data-theme="dark"] a {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] a:hover {
+    opacity: 0.8;
+}
+
+/* Dark mode borders and rules */
+[data-theme="dark"] hr {
+    background-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Dark mode code blocks */
+[data-theme="dark"] pre,
+[data-theme="dark"] code {
+    background-color: #363430;
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] pre {
+    border-color: rgba(212, 207, 196, 0.2);
+}
+
+/* Dark mode blockquotes */
+[data-theme="dark"] blockquote {
+    color: rgba(212, 207, 196, 0.85);
+    border-left-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Dark mode form elements */
+[data-theme="dark"] .contact-form label {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .contact-form input[type="text"],
+[data-theme="dark"] .contact-form input[type="email"],
+[data-theme="dark"] .contact-form textarea {
+    border-color: rgba(212, 207, 196, 0.4);
+    background-color: transparent;
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .contact-form input[type="text"]:focus,
+[data-theme="dark"] .contact-form input[type="email"]:focus,
+[data-theme="dark"] .contact-form textarea:focus {
+    border-color: #d4cfc4;
+}
+
+[data-theme="dark"] .contact-form input[type="submit"] {
+    border-color: #d4cfc4;
+    background-color: transparent;
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .contact-form input[type="submit"]:hover {
+    background-color: #d4cfc4;
+    color: #2a2520;
+}
+
+/* Dark mode contact page - left column */
+[data-theme="dark"] .contact-left {
+    background-color: #24201b; /* 2-3% darker than main background, matching project pages */
+}
+
+[data-theme="dark"] .method-label {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .email-link a {
+    color: #d4cfc4;
+    border-bottom-color: #d4cfc4;
+}
+
+[data-theme="dark"] .email-link a:hover {
+    border-bottom-color: transparent;
+}
+
+[data-theme="dark"] .social-links a {
+    color: #d4cfc4;
+    border-bottom-color: #d4cfc4;
+}
+
+[data-theme="dark"] .social-links a:hover {
+    border-bottom-color: transparent;
+}
+
+[data-theme="dark"] .social-username {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .social-note {
+    color: rgba(212, 207, 196, 0.65);
+}
+
+[data-theme="dark"] .form-privacy-note {
+    color: rgba(212, 207, 196, 0.65);
+}
+
+[data-theme="dark"] .form-privacy-note a {
+    color: rgba(212, 207, 196, 0.65);
+    border-bottom-color: rgba(212, 207, 196, 0.4);
+}
+
+[data-theme="dark"] .form-privacy-note a:hover {
+    border-bottom-color: transparent;
+}
+
+[data-theme="dark"] .field-optional {
+    color: rgba(212, 207, 196, 0.5);
+}
+
+/* Dark mode: maintain two-column layout tonal difference */
+/* Projects page - left column slightly darker */
+[data-theme="dark"] .project-left-column {
+    background-color: #24201b; /* 2-3% darker than main background */
+}
+
+/* Dark mode tables */
+[data-theme="dark"] table {
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] th,
+[data-theme="dark"] td {
+    border-color: rgba(212, 207, 196, 0.2);
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] th {
+    background-color: #363430;
+}
+
+/* Dark mode notes/callouts */
+[data-theme="dark"] .callout {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Dark mode highlights */
+[data-theme="dark"] mark {
+    background-color: rgba(255, 215, 64, 0.2);
+    color: #d4cfc4;
+}
+
+/* Dark mode selection */
+[data-theme="dark"] ::selection {
+    background-color: rgba(212, 207, 196, 0.25);
+    color: #d4cfc4;
+}
+
+/* Dark mode thanks page */
+[data-theme="dark"] .thanks-lines {
+    color: rgba(212, 207, 196, 0.8);
+}
+
+/* Dark mode postcard styles */
+[data-theme="dark"] .postcard {
+    background-color: #24201b; /* 2-3% darker than main background, matching project pages */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .postcard-content {
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .postcard-greeting {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .postcard-divider {
+    background-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .postcard-message {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .postcard-closing {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .postcard-signature {
+    color: #d4cfc4;
+}
+
+/* Dark mode 404 page styles */
+[data-theme="dark"] .error-container::before {
+    background-color: #d4a574;
+    opacity: 0.15; /* Slightly reduced opacity for dark mode */
+}
+
+[data-theme="dark"] .error-code {
+    color: #d4cfc4;
+    opacity: 0.3; /* Slightly increased from 0.25 for better visibility in dark mode */
+}
+
+[data-theme="dark"] .error-heading {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .error-message {
+    color: #d4cfc4;
+    opacity: 0.75;
+}
+
+[data-theme="dark"] .error-home-link {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .error-home-link::after {
+    background-color: #d4cfc4;
+}
+
+/* Dark mode footer styles */
+[data-theme="dark"] .site-footer {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .site-footer .footer-text {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .site-footer .footer-text a {
+    color: inherit;
+}
+
+[data-theme="dark"] .site-footer .footer-rule {
+    background-color: rgba(212, 207, 196, 0.45);
+}
+
+/* Smooth transitions for footer elements */
+.site-footer,
+.site-footer .footer-text,
+.site-footer .footer-text a,
+.site-footer .footer-rule,
+.dark-mode-toggle {
+    transition: color 150ms ease, background-color 150ms ease, opacity 150ms ease;
+}
+
+/* ===== MISSING DARK MODE STYLES ===== */
+
+/* Header navigation */
+[data-theme="dark"] body > header {
+    background-color: #2a2520;
+    border-top-color: rgba(212, 207, 196, 0.25);
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] nav a {
+    color: #d4cfc4;
+    background-color: #2a2520;
+    border-left-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] nav a:hover {
+    background-color: #d4cfc4 !important;
+    color: #2a2520 !important;
+}
+
+[data-theme="dark"] nav a.active {
+    background-color: #d4cfc4;
+    color: #2a2520;
+}
+
+[data-theme="dark"] .nav-separator {
+    background-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Quarto header (if shown) */
+[data-theme="dark"] #quarto-header {
+    background-color: #2a2520;
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Hero section */
+[data-theme="dark"] .hero {
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Title block */
+[data-theme="dark"] #title-block-header {
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] #title-block-header .date {
+    color: rgba(212, 207, 196, 0.5);
+}
+
+/* Grid and card backgrounds */
+[data-theme="dark"] .grid-item {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .grid-item:hover {
+    box-shadow: 4px 4px 0 rgba(212, 207, 196, 0.2);
+}
+
+/* Featured project */
+[data-theme="dark"] .featured-project {
+    background-color: #363430;
+}
+
+[data-theme="dark"] .featured-content {
+    background-color: #3d3830;
+}
+
+[data-theme="dark"] .featured-title a {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .featured-description {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .featured-tag {
+    color: rgba(212, 207, 196, 0.75);
+}
+
+[data-theme="dark"] .featured-read-more a {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .featured-separator {
+    background-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .featured-author {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+/* Project cards */
+[data-theme="dark"] .project-card {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .project-card:hover {
+    box-shadow: 6px 6px 0 rgba(212, 207, 196, 0.2);
+}
+
+[data-theme="dark"] .project-grid-card {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .project-grid-separator {
+    background-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Remove hover effect for bookmarks to match light mode */
+[data-theme="dark"] .projects-grid.bookmarks-grid .project-grid-card:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+[data-theme="dark"] .project-grid-title a {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .project-grid-description {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .project-grid-author {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .project-grid-tag {
+    background-color: #363430;
+    color: rgba(212, 207, 196, 0.75);
+}
+
+[data-theme="dark"] .project-grid-read-more a {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .project-meta {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .tag {
+    background-color: #363430;
+}
+
+/* Bookmark index page - horizontal scrolling cards */
+[data-theme="dark"] .bookmark-card {
+    background-color: #363430;
+    border: 1px solid rgba(212, 207, 196, 0.25);
+    /* Sidebar provides the visible left divider; avoid double-thickness by
+       removing the card's left border so the inner `.category-sidebar` left
+       border (1px) is the single visible divider. */
+    border-left: none;
+}
+
+/* Remove hover effect on bookmark cards */
+[data-theme="dark"] .card-main-link:hover {
+    opacity: 1 !important;
+}
+
+[data-theme="dark"] .bookmark-card:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+[data-theme="dark"] .category-sidebar {
+    /* Fallback tonal lift if a category-specific color isn't matched. We
+       prefer per-category overrides below so each sidebar keeps its identity
+       in dark mode. The left border color is aligned with the dark-mode
+       bookmark-card border so the divider appears consistent. */
+    background-color: rgba(42, 37, 32, 0.6) !important;
+    border-left-color: rgba(212, 207, 196, 0.25) !important;
+}
+
+/* Per-category dark-mode backgrounds and left-border accents. These
+   intentionally use !important so they override the inline light-mode
+   backgrounds emitted by the bookmarks generator and give tuned dark
+   variants for each palette. */
+[data-theme="dark"] .category-sidebar.blue-light {
+    background-color: #3b475a !important;
+    /* Use the same subtle card-border color for the left divider */
+    border-left-color: rgba(212, 207, 196, 0.25) !important;
+}
+
+[data-theme="dark"] .category-sidebar.teal-light {
+    background-color: #254443 !important;
+    border-left-color: rgba(212, 207, 196, 0.25) !important;
+}
+
+[data-theme="dark"] .category-sidebar.purple-light {
+    background-color: #4a2f4f !important;
+    border-left-color: rgba(212, 207, 196, 0.25) !important;
+}
+
+[data-theme="dark"] .category-sidebar.navy-light {
+    background-color: #323845 !important;
+    border-left-color: rgba(212, 207, 196, 0.25) !important;
+}
+
+[data-theme="dark"] .category-text {
+    color: #d4cfc4 !important;
+}
+
+[data-theme="dark"] .view-link-overlay {
+    background-color: rgba(42, 37, 32, 0.9) !important;
+    color: #d4cfc4 !important;
+}
+
+[data-theme="dark"] .card-footer {
+    background-color: #24201b !important;
+    /* Restore a left divider for the footer/description area since the
+       `.bookmark-card` left border was removed to avoid double-thickness. */
+    border-left: 1px solid rgba(212, 207, 196, 0.25) !important;
+}
+
+/* Per-category footer backgrounds for dark mode so the description area
+   preserves the category identity (these override any inline light-mode
+   background styles). */
+[data-theme="dark"] .card-footer.blue-dark {
+    background-color: #1a2642 !important;
+}
+
+[data-theme="dark"] .card-footer.teal-dark {
+    background-color: #063429 !important;
+}
+
+[data-theme="dark"] .card-footer.purple-dark {
+    background-color: #2a1a42 !important;
+}
+
+[data-theme="dark"] .card-footer.navy-dark {
+    background-color: #1a2535 !important;
+}
+
+[data-theme="dark"] .featuring-label {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .featuring-title {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .featuring-title a {
+    color: #d4cfc4;
+}
+
+/* Bookmark highlights - adjust for dark mode */
+[data-theme="dark"] .projects-grid.bookmarks-grid .project-grid-title a {
+    background-color: rgba(255, 215, 64, 0.15);
+}
+
+[data-theme="dark"] .projects-grid.bookmarks-grid .project-grid-title a:hover {
+    background-color: transparent;
+}
+
+/* Bookmark items */
+[data-theme="dark"] .bookmark-item {
+    border-left-color: rgba(212, 207, 196, 0.35);
+}
+
+[data-theme="dark"] .bookmark-link {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+/* Photos page */
+[data-theme="dark"] .collections-table {
+    background: transparent;
+}
+
+[data-theme="dark"] .collections-table thead {
+    border-bottom: 1px solid rgba(212, 207, 196, 0.2);
+    background: transparent !important; /* Override global thead background */
+}
+
+[data-theme="dark"] .collections-table thead th {
+    color: rgba(212, 207, 196, 0.7);
+    background: transparent !important; /* Override global thead background */
+    font-weight: 500;
+}
+
+[data-theme="dark"] .collections-table tbody tr {
+    border-bottom-color: rgba(212, 207, 196, 0.15);
+    background: transparent;
+}
+
+[data-theme="dark"] .collections-table tbody tr:hover {
+    background: rgba(212, 207, 196, 0.05);
+}
+
+[data-theme="dark"] .collections-table td {
+    color: #d4cfc4;
+    background: transparent;
+}
+
+[data-theme="dark"] .collection-name {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .collection-meta {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .collection-count-mobile {
+    color: rgba(212, 207, 196, 0.5);
+}
+
+[data-theme="dark"] .preview-thumb {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .back-link {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .photo-grid-item img {
+    opacity: 0.95;
+}
+
+[data-theme="dark"] .photo-grid-item:hover img {
+    opacity: 1;
+}
+
+/* Photo viewer (fullscreen) */
+[data-theme="dark"] .photo-viewer {
+    background: #2a2520;
+}
+
+[data-theme="dark"] .viewer-header {
+    background: #2a2520;
+    color: #d4cfc4;
+    border-bottom-color: rgba(212, 207, 196, 0.2);
+}
+
+[data-theme="dark"] .close-btn {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .close-btn:focus-visible {
+    box-shadow: 0 0 0 3px rgba(212, 207, 196, 0.3);
+}
+
+[data-theme="dark"] .viewer-caption {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .nav-arrow {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .viewer-nav-mobile {
+    background: transparent;
+    border-top-color: rgba(212, 207, 196, 0.2);
+}
+
+[data-theme="dark"] .viewer-nav-mobile a,
+[data-theme="dark"] .viewer-nav-mobile button {
+    color: #d4cfc4;
+    background: transparent;
+}
+
+[data-theme="dark"] .viewer-nav-mobile svg path {
+    stroke: #d4cfc4;
+}
+
+/* Photo grid */
+[data-theme="dark"] .photo-item {
+    border-color: rgba(212, 207, 196, 0.25);
+    background-color: #363430;
+}
+
+/* Now section */
+[data-theme="dark"] .now-section {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .now-section h2 {
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Article metadata */
+[data-theme="dark"] .article-metadata {
+    background-color: #363430;
+    border-left-color: rgba(212, 207, 196, 0.35);
+}
+
+/* Abstract box */
+[data-theme="dark"] .abstract {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Keywords */
+[data-theme="dark"] .keywords {
+    background-color: #363430;
+    border-left-color: rgba(212, 207, 196, 0.35);
+}
+
+/* Callout variants - adjust colors for dark mode */
+[data-theme="dark"] .callout-note {
+    background-color: rgba(0, 102, 204, 0.15);
+    border-left-color: rgba(0, 102, 204, 0.5);
+}
+
+[data-theme="dark"] .callout-warning {
+    background-color: rgba(255, 152, 0, 0.15);
+    border-left-color: rgba(255, 152, 0, 0.5);
+}
+
+[data-theme="dark"] .callout-important {
+    background-color: rgba(220, 53, 69, 0.15);
+    border-left-color: rgba(220, 53, 69, 0.5);
+}
+
+[data-theme="dark"] .callout-tip {
+    background-color: rgba(40, 167, 69, 0.15);
+    border-left-color: rgba(40, 167, 69, 0.5);
+}
+
+/* Pull quotes */
+[data-theme="dark"] .pullquote {
+    border-top-color: rgba(212, 207, 196, 0.25);
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Sidebar */
+[data-theme="dark"] .sidebar {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Figures */
+[data-theme="dark"] .figure {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .figure img {
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .figure-caption {
+    color: rgba(212, 207, 196, 0.75);
+}
+
+/* Tables - additional styling */
+[data-theme="dark"] tbody tr:hover {
+    background-color: rgba(212, 207, 196, 0.05);
+}
+
+[data-theme="dark"] thead {
+    background-color: #363430;
+}
+
+/* TOC */
+[data-theme="dark"] nav#TOC h2#toc-title {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] nav#TOC h2#toc-title:hover {
+    color: rgba(212, 207, 196, 0.75);
+}
+
+[data-theme="dark"] nav#TOC a {
+    color: rgba(212, 207, 196, 0.5);
+}
+
+[data-theme="dark"] nav#TOC a.active {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+/* Legacy TOC */
+[data-theme="dark"] .toc {
+    background-color: #363430;
+    border-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Article hero */
+[data-theme="dark"] .article-hero {
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .article-hero-caption {
+    background-color: #363430;
+    color: rgba(212, 207, 196, 0.75);
+}
+
+/* Section dividers */
+[data-theme="dark"] .section-divider {
+    background-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Sidenotes */
+[data-theme="dark"] .sidenote {
+    background-color: #2a2520;
+    color: rgba(212, 207, 196, 0.7);
+}
+
+[data-theme="dark"] .sidenote::before {
+    background-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .sidenote-number {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .sidenote a {
+    color: rgba(212, 207, 196, 0.7);
+}
+
+/* Focus states - light outline for dark mode */
+[data-theme="dark"] :focus-visible {
+    outline-color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .focus-ring-dark:focus-visible {
+    outline-color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .projects-grid.bookmarks-grid .project-grid-title a:focus {
+    outline-color: rgba(212, 207, 196, 0.6);
+}
+
+/* Footer */
+[data-theme="dark"] #quarto-footer {
+    border-top-color: rgba(212, 207, 196, 0.25);
+    background-color: #2a2520;
+}
+
+/* Citations */
+[data-theme="dark"] .citation {
+    color: #d4cfc4;
+    text-decoration-color: rgba(212, 207, 196, 0.5);
+}
+
+[data-theme="dark"] .citation a {
+    color: #d4cfc4;
+    text-decoration-color: rgba(212, 207, 196, 0.5);
+}
+
+[data-theme="dark"] .references .csl-entry {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] #refs .csl-entry {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+/* References section heading border */
+[data-theme="dark"] .references h2,
+[data-theme="dark"] h2#references {
+    border-top-color: rgba(212, 207, 196, 0.25);
+}
+
+/* Dark mode: quick highlight animation with dark text on yellow */
+[data-theme="dark"] .references .csl-entry:target,
+[data-theme="dark"] div[id^="ref-"]:target {
+    position: relative;
+    animation: quickHighlightDark 3s ease-out forwards !important;
+}
+
+@keyframes quickHighlightDark {
+    0%, 90% {
+        background-color: #fffacd;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        border-radius: 2px;
+        color: #000000;
+    }
+    100% {
+        background-color: transparent;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: inherit;
+    }
+}
+
+/* Animate child text color separately to ensure it returns to normal */
+[data-theme="dark"] div[id^="ref-"]:target *,
+[data-theme="dark"] .references .csl-entry:target * {
+    animation: textColorDark 3s ease-out forwards !important;
+}
+
+@keyframes textColorDark {
+    0%, 90% {
+        color: #000000 !important;
+    }
+    100% {
+        color: inherit !important;
+    }
+}
+
+/* Article page specific */
+[data-theme="dark"] article.page-layout-article h3 a {
+    color: #d4cfc4;
+    border-bottom-color: rgba(212, 207, 196, 0.3);
+}
+
+[data-theme="dark"] article.page-layout-article h3 a:hover {
+    border-bottom-color: #d4cfc4;
+}
+
+[data-theme="dark"] article.page-layout-article h3 + p em {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] article.page-layout-article p {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] article.page-layout-article hr {
+    border-bottom-color: rgba(212, 207, 196, 0.2);
+}
+
+/* Mobile sidenote styling for dark mode */
+@media (max-width: 900px) {
+    [data-theme="dark"] .sidenote {
+        border-top-color: rgba(212, 207, 196, 0.2);
+        background-color: #363430;
+    }
+}
+
+/* ===== Colophon Page Dark Mode ===== */
+[data-theme="dark"] .colophon-title {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .colophon-intro {
+    border-bottom-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .colophon-intro p {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .colophon-section h2 {
+    color: rgba(212, 207, 196, 0.6);
+}
+
+[data-theme="dark"] .colophon-section p {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] .colophon-section strong {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .colophon-section a {
+    color: #d4cfc4;
+    border-bottom-color: #d4cfc4;
+}
+
+[data-theme="dark"] .colophon-section a:hover {
+    border-bottom-color: transparent;
+    opacity: 0.8;
+}
+
+[data-theme="dark"] .colophon-note {
+    color: rgba(212, 207, 196, 0.5);
+}
+
+[data-theme="dark"] .colophon-footer {
+    border-top-color: rgba(212, 207, 196, 0.25);
+}
+
+[data-theme="dark"] .colophon-footer p {
+    color: rgba(212, 207, 196, 0.5);
+}

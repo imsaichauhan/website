@@ -1,0 +1,249 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500;700&family=Gelasio:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        /* Use Gelasio as the site body font (only editorial serif) so pages use
+           Gelasio for content and IBM Plex Mono for monospace elements. */
+        font-family: 'Gelasio', Georgia, serif;
+        background-color: #f5f1eb;
+        padding-top: 22px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    header {
+        background-color: #f5f1eb;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #1a1a1a;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        box-sizing: border-box;
+    }
+    .header-name {
+        padding: 0.25rem 2rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.125rem;
+        font-weight: 700;
+        font-family: 'IBM Plex Mono', monospace;
+        color: #1a1a1a;
+        text-decoration: none;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+        pointer-events: auto;
+    }
+    
+    /* When hidden, disable clicks */
+    .header-name[style*="opacity: 0"] {
+        pointer-events: none;
+    }
+    
+    /* Intro name styling */
+    body.homepage .hero h1 {
+        position: relative;
+    }
+    
+    nav {
+        display: flex;
+        align-items: stretch;
+    }
+    nav a {
+        padding: 0 1.75rem;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: 'IBM Plex Mono', monospace;
+        color: #1a1a1a;
+        background-color: #f5f1eb;
+        border-left: 1px solid #1a1a1a;
+        transition: background-color 0.2s ease, color 0.2s ease;
+        min-height: 22px;
+    }
+    nav a:hover {
+        background-color: #1a1a1a;
+        color: #f5f1eb;
+    }
+    nav a.active {
+        background-color: #1a1a1a;
+        color: #f5f1eb;
+    }
+    
+    /* Separator and gap after Photos */
+    .nav-separator {
+        width: 1px;
+        background-color: #1a1a1a;
+        align-self: stretch;
+    }
+    .nav-gap {
+        width: 2rem;
+    }
+    
+    /* Hamburger Menu */
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1.5rem;
+        cursor: pointer;
+        background-color: #f5f1eb;
+        border-left: 1px solid #1a1a1a;
+        transition: background-color 0.2s ease;
+        min-width: 60px;
+    }
+    .hamburger:hover {
+        background-color: #1a1a1a;
+    }
+    .hamburger span {
+        width: 24px;
+        height: 2px;
+        background-color: #1a1a1a;
+        margin: 3px 0;
+        transition: 0.3s;
+    }
+    .hamburger:hover span {
+        background-color: #f5f1eb;
+    }
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    /* Mobile styles */
+    @media (max-width: 768px) {
+        .hamburger {
+            display: flex;
+        }
+        .nav-separator,
+        .nav-gap {
+            display: none;
+        }
+        nav {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            flex-direction: column;
+            background-color: #f5f1eb;
+            border-bottom: 1px solid #1a1a1a;
+            width: 100%;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        nav.active {
+            max-height: 300px;
+        }
+        nav a {
+            border-left: none;
+            border-top: 1px solid #1a1a1a;
+            padding: 1rem 2rem;
+            width: 100%;
+        }
+    }
+</style>
+
+<script>
+    // Hide header name immediately on homepage (before page renders)
+    (function() {
+        const path = window.location.pathname;
+        const isHomepage = path === '/' || path === '/index.html' || path === '/index';
+        if (isHomepage) {
+            document.documentElement.style.setProperty('--header-name-opacity', '0');
+        }
+    })();
+</script>
+
+<header>
+    <a href="/" class="header-name" style="opacity: var(--header-name-opacity, 1)">Sai Prakash</a>
+    <nav id="nav">
+        <a href="/projects/" data-page="projects">Projects</a>
+        <a href="/bookmarks" data-page="bookmarks">Bookmarks</a>
+        <a href="/now" data-page="now">Now</a>
+        <a href="/photos" data-page="photos">Photos</a>
+        <div class="nav-separator"></div>
+        <div class="nav-gap"></div>
+    </nav>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+    
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        nav.classList.toggle('active');
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!hamburger.contains(e.target) && !nav.contains(e.target)) {
+            hamburger.classList.remove('active');
+            nav.classList.remove('active');
+        }
+    });
+    
+    // Close menu when a nav link is clicked
+    const navLinks = nav.querySelectorAll('a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            nav.classList.remove('active');
+        });
+    });
+    
+    // Set active page based on current URL
+    document.addEventListener('DOMContentLoaded', function() {
+        const currentPath = window.location.pathname;
+        
+        console.log('Current path:', currentPath); // Debug
+        
+        // Extract the section name from the path
+        // Examples: /projects/ -> projects, /bookmarks/index.html -> bookmarks, /now/ -> now
+        let activePage = '';
+        if (currentPath.includes('/projects')) {
+            activePage = 'projects';
+        } else if (currentPath.includes('/bookmarks')) {
+            activePage = 'bookmarks';
+        } else if (currentPath.includes('/now')) {
+            activePage = 'now';
+        } else if (currentPath.includes('/photos')) {
+            activePage = 'photos';
+        }
+        
+        console.log('Active page:', activePage); // Debug
+        
+        // Set active class on matching nav link
+        if (activePage) {
+            document.querySelectorAll('nav a').forEach(link => {
+                const linkPage = link.getAttribute('data-page');
+                if (linkPage === activePage) {
+                    link.classList.add('active');
+                }
+            });
+        }
+    });
+</script>

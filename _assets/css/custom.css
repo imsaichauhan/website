@@ -1,0 +1,1893 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font Declarations */
+/* Fonts are loaded via Google Fonts in _quarto.yml and header.html */
+
+:root {
+    --font-gt-america-mono-bold: 'IBM Plex Mono', monospace;
+    --font-gt-america-mono-light: 'IBM Plex Mono', monospace;
+    --font-editor-bold: 'Gelasio', Georgia, serif;
+    --font-editor-regular: 'Gelasio', Georgia, serif;
+    /* Bookmark grid sizing variables */
+    --bookmarks-grid-width: 880px; /* container width for bookmarks grid on desktop */
+    --bookmarks-grid-gap: 2.5rem;  /* gap between bookmark columns */
+    --bookmarks-column-width: calc((var(--bookmarks-grid-width) - var(--bookmarks-grid-gap)) / 2);
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    /* Use Gelasio (editorial) as the canonical body font */
+    font-family: var(--font-editor-regular);
+    background-color: #f5f1eb;
+    color: #000000;
+    margin: 0;
+    padding: 2.5rem;
+    padding-top: 45px;
+    font-variant-numeric: lining-nums; /* Use lining numerals globally */
+}
+
+/* Hide Quarto's default navbar */
+#quarto-header {
+    display: none !important;
+}
+
+/* Quarto's title block header */
+#title-block-header {
+    position: relative;
+    z-index: 1;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-top: none;
+    border-bottom: 1px solid #1a1a1a;
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+#title-block-header .title {
+    margin-bottom: 0.25rem;
+    padding-right: 0; /* Remove right padding to allow full width */
+}
+
+#title-block-header .date {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0;
+    font-size: 0.8rem;
+    color: #999;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/* Main Content Container */
+#quarto-content {
+    max-width: 1600px; /* Increased to accommodate sidenotes */
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 2.5rem;
+    padding-right: 350px; /* Space for sidenotes on the right */
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: visible;
+}
+
+/* Project article content: constrained width for readability, centered */
+body:not(.homepage) #title-block-header,
+body:not(.homepage) > p,
+body:not(.homepage) > h1,
+body:not(.homepage) > h2,
+body:not(.homepage) > h3,
+body:not(.homepage) > h4,
+body:not(.homepage) > ul,
+body:not(.homepage) > ol,
+body:not(.homepage) > blockquote,
+body:not(.homepage) .figure,
+body:not(.homepage) .quarto-float {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* Allow sidenotes to extend into margin without causing scroll */
+body {
+    overflow-x: clip; /* Prevent horizontal scrollbar */
+    overflow-y: auto;
+}
+
+/* Only hide overflow on homepage */
+body.homepage {
+    overflow-x: hidden;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    font-family: var(--font-editor-bold);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    color: #000000;
+    font-family: var(--font-editor-bold);
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+    color: #000000;
+    font-family: var(--font-editor-bold);
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+    position: relative; /* Required for absolute positioning of sidenotes */
+    font-variant-numeric: lining-nums; /* Use lining numerals instead of old-style */
+}
+
+/* Article / Page specific markdown styling (previously in bookmarks.css).
+   Keep page/article typography centralized here so all content types
+   render consistently site-wide. */
+/* Targets standard Markdown: h1, h2, h3, em, hr, p */
+
+article.page-layout-article h1:first-of-type {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    color: #1a1a1a;
+    font-family: var(--font-editor-bold);
+}
+
+article.page-layout-article h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: var(--font-gt-america-mono-light);
+}
+
+article.page-layout-article h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-editor-regular);
+}
+
+article.page-layout-article h3 a {
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 1px solid #d0cdc6;
+}
+
+article.page-layout-article h3 a:hover {
+    border-bottom-color: #1a1a1a;
+}
+
+article.page-layout-article h3 + p em {
+    font-size: 0.85rem;
+    color: #666;
+    font-family: var(--font-gt-america-mono-light);
+    font-weight: 300;
+    font-style: normal;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+article.page-layout-article p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #333;
+    font-family: var(--font-editor-regular);
+    margin-bottom: 0;
+}
+
+article.page-layout-article hr {
+    border: none;
+    border-bottom: 1px solid #e0ddd6;
+    margin: 2rem 0;
+}
+
+article.page-layout-article h2 ~ hr:last-of-type,
+article.page-layout-article hr:last-child {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    article.page-layout-article h1:first-of-type {
+        font-size: 2rem;
+    }
+}
+
+/* Make lists in article/project content match paragraph font and size, but
+   use a smaller gap between list items so lists don't feel too airy. */
+article.page-layout-article ul,
+article.page-layout-article ol,
+body:not(.homepage) ul,
+body:not(.homepage) ol {
+    font-family: var(--font-editor-regular);
+    /* Paragraphs use 1.125rem (18px at 16px root); make lists match */
+    font-size: 1.125rem;
+    line-height: 1.7;
+    /* Keep spacing after the entire list consistent with paragraphs */
+    margin-bottom: 1.5rem;
+}
+
+/* Tighten spacing between list items so they don't appear larger than paragraph lines */
+article.page-layout-article li,
+body:not(.homepage) li {
+    font-family: var(--font-editor-regular);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    /* smaller gap between items */
+    margin-bottom: 0.6rem;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: text-decoration 0.2s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Override global link styles for header nav */
+header nav a {
+    opacity: 1 !important;
+}
+
+header nav a:hover {
+    opacity: 1 !important;
+    background-color: #1a1a1a !important;
+    color: #f5f1eb !important;
+}
+
+/* Hero Section */
+.hero {
+    padding: 4rem 0;
+    border-bottom: 1px solid #1a1a1a;
+    margin-bottom: 3rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-editor-bold);
+    font-weight: 700;
+    transition: opacity 0.3s ease;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+}
+
+/* Footer text styling moved to footer.css */
+
+/* Grid Layouts */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.grid-item {
+    border: 1px solid #1a1a1a;
+    padding: 1.5rem;
+    background-color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0 #1a1a1a;
+}
+
+.grid-item h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-family: var(--font-editor-bold);
+    font-weight: 700;
+}
+
+.grid-item p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+}
+
+/* Projects-specific rules moved to `_assets/css/projects.css` to keep
+   project layout isolated and avoid duplication. See projects.css. */
+
+.featured-tag p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+/* Project Grid - Right Column (Scrollable) */
+.projects-grid {
+    display: grid;
+    /* Projects grid: single-column cards for better readability (one card per row). */
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* Bookmarks-specific styling: two columns on desktop and increased spacing for readability.
+   The Lua filter emits a `bookmarks-grid` class on bookmark index pages, so we target
+   `.projects-grid.bookmarks-grid` to avoid changing Projects pages. */
+.projects-grid.bookmarks-grid {
+    /* Constrain bookmarks grid to the page content width and center it so columns align
+       with the horizontal rule under the page title. Two columns inside this container. */
+    max-width: var(--bookmarks-grid-width); /* matches typical content width */
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--bookmarks-grid-gap);
+}
+
+/* Bookmarks: increase card vertical size and adjust internal spacing without affecting Projects */
+.projects-grid.bookmarks-grid {
+    align-items: stretch; /* make grid items stretch to match the tallest in the row */
+}
+
+/* Title / horizontal-rule alignment for bookmark index pages
+   Uses the relational :has() selector so the title block will follow
+   the bookmarks grid container width when a bookmarks grid is present
+   anywhere inside `#quarto-content`. This centralizes the styling so
+   the Lua filter no longer needs to emit inline CSS. */
+body:has(.projects-grid.bookmarks-grid) #title-block-header {
+    /* Use the same container width as the bookmarks grid so the title/hr align
+       exactly with the grid edges on desktop. The title block lives outside
+       of #quarto-content in the rendered HTML, so we target the body when a
+       bookmarks grid is present anywhere in the document. */
+    max-width: var(--bookmarks-grid-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    /* When the bookmarks grid collapses to a single column on narrow
+       viewports, let the title block expand to the available width so
+       the title and horizontal rule remain aligned with the grid. */
+    body:has(.projects-grid.bookmarks-grid) #title-block-header {
+        max-width: 100%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.projects-grid.bookmarks-grid .project-grid-card {
+    /* Use flex column layout and allow height to be determined by the tallest item in the row.
+       Do not force a fixed min-height so cards stay dynamic to content. */
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.projects-grid.bookmarks-grid .project-grid-description {
+    /* Slightly larger vertical padding and allow the description to grow so both cards
+       in the row match heights (shorter descriptions will expand to match taller ones). */
+    padding: 1rem 1.1rem;
+    flex: 1 1 auto;
+}
+
+.projects-grid.bookmarks-grid .project-grid-title {
+    padding-top: 1.0rem;
+    padding-bottom: 0.5rem;
+}
+
+.project-grid-card {
+    border: 1px solid #1a1a1a;
+    background-color: #fff;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-grid-card > :last-child {
+    margin-bottom: 0;
+    padding-bottom: 0.18rem;
+}
+
+.project-grid-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 0;
+    padding: 0.9rem 1.1rem 0.35rem 1.1rem;
+    font-family: var(--font-editor-bold);
+}
+
+.project-grid-title p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.project-grid-title a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.project-grid-title a:hover {
+    text-decoration: none;
+}
+
+/* --- Bookmarks: highlight project/grid titles to suggest a link ---
+   Applied only on bookmark index pages via the `bookmarks-grid` class
+   emitted by the Pandoc Lua filter. The highlight is visible by default
+   and removed when the user hovers the card or the link (so hover hides
+   the highlight as requested). */
+.projects-grid.bookmarks-grid .project-grid-title a {
+    /* subtle warm highlight behind the title text
+       Use inline so wrapped lines get per-line background only (no full-line block box). */
+    /* stronger golden highlight for improved contrast while remaining subtle */
+    background-color: rgba(255, 215, 64, 0.42); /* warmer/darker gold */
+    padding: 0 0.14rem; /* horizontal padding only; keep vertical metrics unchanged */
+    border-radius: 2px;
+    transition: background-color 0.18s ease, opacity 0.18s ease;
+    display: inline; /* ensure background follows the inline text fragments only */
+    line-height: 1.15; /* tighten slightly so highlight hugs text */
+    /* avoid accidental full-width boxes from any layout quirks */
+    max-width: none;
+}
+
+/* Hide the highlight when the user hovers the link itself (not the whole card) */
+.projects-grid.bookmarks-grid .project-grid-title a:hover {
+    background-color: transparent;
+}
+
+/* Keep keyboard focus visible for accessibility (show outline on focus) */
+.projects-grid.bookmarks-grid .project-grid-title a:focus {
+    /* Use the shared dark focus treatment for keyboard users */
+    outline: 2px solid rgba(0,0,0,0.6);
+    outline-offset: 3px;
+}
+
+/* Hide the dotted outline for mouse-initiated focus while keeping it for
+   keyboard users. Some browsers apply :focus on click; use :focus:not(:focus-visible)
+   to suppress that visual only when not keyboard-driven. */
+.projects-grid.bookmarks-grid .project-grid-title a:focus:not(:focus-visible) {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Shared focus utility: solid dark outline used site-wide for keyboard focus
+     (keeps visual language consistent across pages and components). */
+.focus-ring-dark:focus-visible {
+    outline: 2px solid rgba(0,0,0,0.6);
+    outline-offset: 3px;
+}
+
+/* Global focus-visible fallback: ensure default focus-visible uses the
+     same solid dark outline unless a component overrides it. */
+:focus-visible {
+    outline: 2px solid rgba(0,0,0,0.6);
+    outline-offset: 3px;
+}
+
+.project-grid-author {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0;
+    padding: 0 1.1rem 0.6rem 1.1rem;
+}
+
+.project-grid-separator {
+    height: 1px;
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+.project-grid-description {
+    font-size: 1rem; /* increased from 0.95rem to 1rem to render ~16px */
+    line-height: 1.55;
+    color: #2a2a2a;
+    margin-bottom: 0;
+    padding: 0.55rem 1.1rem;
+    flex-grow: 1;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+}
+
+.project-grid-description p {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.project-grid-read-more {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* reduce bottom gap under the "Read more" link */
+    padding: 0.35rem 1.1rem;
+}
+
+.project-grid-read-more a {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-family: var(--font-gt-america-mono-bold);
+}
+
+.project-grid-read-more a:hover {
+    text-decoration: none;
+}
+
+.project-grid-tag {
+    display: block;
+    padding: 0.18rem 1.1rem;
+    border: none;
+    font-size: 0.85rem;
+    background-color: #fff;
+    margin: 0;
+    line-height: 1;
+    font-family: var(--font-gt-america-mono-light);
+    font-weight: 300;
+}
+
+.project-grid-tag p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+/* Mobile optimizations for project grid cards */
+@media (max-width: 768px) {
+    .project-grid-card {
+        /* Slightly thinner border on mobile */
+        border-width: 1px;
+    }
+
+    .project-grid-title {
+        font-size: 1.15rem;
+        line-height: 1.35;
+        padding: 0.8rem 0.95rem 0.3rem 0.95rem;
+    }
+
+    .project-grid-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        padding: 0.5rem 0.95rem;
+    }
+
+    .project-grid-read-more {
+        padding: 0.3rem 0.95rem;
+    }
+
+    .project-grid-read-more a {
+        font-size: 0.82rem;
+    }
+
+    .project-grid-tag {
+        font-size: 0.82rem;
+        padding: 0.16rem 0.95rem;
+    }
+
+    /* For bookmarks grid on mobile */
+    .projects-grid.bookmarks-grid .project-grid-title {
+        padding-top: 0.9rem;
+        padding-bottom: 0.4rem;
+    }
+
+    .projects-grid.bookmarks-grid .project-grid-description {
+        padding: 0.9rem 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-grid-title {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        padding: 0.75rem 0.85rem 0.25rem 0.85rem;
+    }
+
+    .project-grid-description {
+        font-size: 0.9rem;
+        line-height: 1.55;
+        padding: 0.45rem 0.85rem;
+    }
+
+    .project-grid-read-more {
+        padding: 0.25rem 0.85rem;
+    }
+
+    .project-grid-read-more a {
+        font-size: 0.8rem;
+    }
+
+    .project-grid-tag {
+        font-size: 0.8rem;
+        padding: 0.15rem 0.85rem;
+    }
+
+    /* Ensure adequate touch targets on very small screens */
+    .project-grid-card {
+        /* Comfortable tap area */
+        min-height: 140px;
+    }
+
+    .projects-grid.bookmarks-grid .project-grid-description {
+        padding: 0.85rem 0.85rem;
+    }
+}
+
+/* Old Project Cards (for backward compatibility) */
+.project-card {
+    border: 1px solid #1a1a1a;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+.project-card:hover {
+    box-shadow: 6px 6px 0 #1a1a1a;
+    transform: translate(-2px, -2px);
+}
+
+.project-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-editor-bold);
+}
+
+.project-meta {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1rem;
+    font-family: var(--font-gt-america-mono-light);
+    font-weight: 300;
+}
+
+.project-description {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tag {
+    padding: 0.25rem 0.75rem;
+    border: none;
+    font-size: 0.875rem;
+    background-color: #f5f1eb;
+    font-family: var(--font-gt-america-mono-light);
+    font-weight: 300;
+}
+
+/* Bookmark List */
+.bookmark-section {
+    margin-bottom: 3rem;
+}
+
+.bookmark-item {
+    border-left: 1px solid #1a1a1a;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.bookmark-item h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-family: var(--font-editor-bold);
+    font-weight: 700;
+}
+
+.bookmark-item p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+}
+
+.bookmark-link {
+    font-size: 0.95rem;
+    color: #666;
+    font-family: var(--font-gt-america-mono-light);
+    font-weight: 300;
+}
+
+/* Photo Gallery */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.photo-item {
+    border: 1px solid #1a1a1a;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    background-color: #fff;
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.photo-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Now Page Styles */
+.now-section {
+    border: 1px solid #1a1a1a;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+}
+
+.now-section h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #1a1a1a;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.now-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.now-list li {
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+
+.now-list li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+}
+
+/* Footer */
+#quarto-footer {
+    border-top: 1px solid #1a1a1a;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: #f5f1eb;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .projects-layout {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .featured-project {
+        position: static;
+    }
+    
+    .projects-grid {
+        /* On medium / small screens, collapse to a single column for readability. */
+        grid-template-columns: 1fr;
+    }
+
+/* (Removed global 4-column rule so Projects keep their original layout; bookmarks are scoped separately.) */
+}
+
+@media (max-width: 768px) {
+    html,
+    body {
+        overflow-x: hidden;
+        max-width: 100vw;
+    }
+    
+    body {
+        padding: 0 2.5rem;
+    }
+    
+    /* Remove negative margins for projects-layout on mobile to prevent horizontal scroll
+       The projects.css file handles this more specifically */
+    .projects-layout {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        max-width: 100%;
+    }
+    
+    body > *:not(.projects-layout) {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    
+    body > header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #quarto-content {
+        padding: 2rem 2.5rem;
+        max-width: 100%;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .hero h1 {
+        font-size: 2.25rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Ensure bookmark grids collapse to a single column on small screens (mobile).
+       This targets pages where the Pandoc filter adds `bookmarks-grid` so Projects
+       pages keep their desktop layout while bookmark indexes become one column. */
+    .projects-grid.bookmarks-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        max-width: 100%; /* allow the container to use available narrow screen width */
+        margin: 0 auto;
+    }
+
+    /* On bookmark pages, many elements receive extra site-level padding (body > *).
+       That padding can make the title/hr and grid container misalign. For pages that
+       include a bookmarks grid, normalize the direct-child padding so the title and
+       grid share the same horizontal inset on small screens. */
+    body:has(.projects-grid.bookmarks-grid) > * {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    html,
+    body {
+        overflow-x: hidden;
+        max-width: 100vw;
+    }
+    
+    body {
+        padding: 0 2rem;
+    }
+    
+    /* Remove negative margins for projects-layout on small mobile to prevent horizontal scroll
+       The projects.css file handles this more specifically */
+    .projects-layout {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        max-width: 100%;
+    }
+    
+    body > *:not(.projects-layout) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    body > header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #quarto-content {
+        padding: 1.5rem 2rem;
+        max-width: 100%;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* ============================================
+   ACADEMIC ARTICLE STYLES
+   ============================================ */
+
+/* Article Metadata Section */
+.article-metadata {
+    padding: 1rem 1.5rem;
+    background-color: #fff;
+    border-left: 1px solid #1a1a1a;
+    margin-bottom: 2rem;
+    font-family: var(--font-gt-america-mono-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.article-metadata p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Abstract Box */
+.abstract {
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #1a1a1a;
+    margin: 2rem 0;
+}
+
+.abstract h2,
+.abstract h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+    font-family: var(--font-gt-america-mono-bold);
+}
+
+.abstract p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* Keywords */
+.keywords {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    background-color: #fff;
+    border-left: 1px solid #1a1a1a;
+}
+
+.keywords strong {
+    font-family: var(--font-gt-america-mono-bold);
+    font-size: 0.9rem;
+}
+
+.keywords p {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.95rem;
+}
+
+/* Callout Boxes */
+.callout {
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+    border-left: 4px solid #1a1a1a;
+    background-color: #f4d06f;
+}
+
+.callout-note {
+    background-color: #e8f4f8;
+    border-left-color: #0066cc;
+}
+
+.callout-warning {
+    background-color: #fff3cd;
+    border-left-color: #ff9800;
+}
+
+.callout-important {
+    background-color: #ffe8e8;
+    border-left-color: #dc3545;
+}
+
+.callout-tip {
+    background-color: #e8f5e9;
+    border-left-color: #28a745;
+}
+
+.callout h3,
+.callout h4 {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-gt-america-mono-bold);
+}
+
+.callout p:last-child {
+    margin-bottom: 0;
+}
+
+/* Pull Quotes */
+.pullquote {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 2.5rem 0;
+    padding: 2rem;
+    border-top: 2px solid #1a1a1a;
+    border-bottom: 2px solid #1a1a1a;
+    font-family: var(--font-editor-bold);
+    text-align: center;
+}
+
+.pullquote p {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+/* Sidebar Boxes */
+.sidebar {
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #1a1a1a;
+    margin: 2rem 0;
+    float: right;
+    width: 45%;
+    margin-left: 2rem;
+}
+
+.sidebar h3,
+.sidebar h4 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.sidebar p,
+.sidebar ul,
+.sidebar ol {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Figures with Captions */
+.figure {
+    margin: 2.5rem 0;
+    border: 1px solid #1a1a1a;
+    background-color: #fff;
+}
+
+.figure img {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.figure-caption {
+    padding: 1rem 1.25rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #2a2a2a;
+    font-family: var(--font-editor-regular);
+}
+
+.figure-caption strong {
+    font-weight: 700;
+    font-family: var(--font-gt-america-mono-bold);
+}
+
+/* Data Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: #fff;
+    border: 1px solid #1a1a1a;
+}
+
+thead {
+    /* Remove site-wide golden header background so section-specific
+       styles (like the photos table) can control header appearance. */
+    background-color: transparent;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 700;
+    font-family: var(--font-gt-america-mono-bold);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+td {
+    padding: 0.75rem 1rem;
+    border-top: 1px solid #ddd;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Table Caption */
+.table-caption {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #2a2a2a;
+    font-style: italic;
+}
+
+/* Citations and References */
+#refs.references,
+.references {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body:not(.homepage) h2#references {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.references h2 {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #1a1a1a;
+    margin-bottom: 2.5rem;
+}
+
+h2#references {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #1a1a1a;
+    margin-bottom: 2.5rem;
+}
+
+.references ol,
+.references ul {
+    padding-left: 1.5rem;
+}
+
+.references li {
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.references li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Target the actual CSL bibliography entries */
+.references .csl-entry {
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.references .csl-entry:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Highlight targeted reference entry when jumping from citation */
+.references .csl-entry:target,
+div[id^="ref-"]:target {
+    position: relative;
+    animation: quickHighlight 3s ease-out forwards;
+}
+
+@keyframes quickHighlight {
+    0%, 90% {
+        background-color: #fffacd;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        border-radius: 2px;
+    }
+    100% {
+        background-color: transparent;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+/* Inline citations - academic research paper style */
+.citation {
+    font-size: inherit;
+    color: #000;
+    font-family: inherit;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    cursor: pointer;
+    transition: text-decoration 0.2s ease;
+}
+
+.citation:hover {
+    text-decoration: none;
+}
+
+/* If citations have links inside, style them too */
+.citation a {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    font-style: italic;
+    transition: text-decoration 0.2s ease;
+}
+
+/* Remove underline on hover, matching global link behavior */
+.citation a:hover {
+    text-decoration: none;
+}
+
+/* Footnotes as Sidenotes (Margin Notes) - Works in Progress Style */
+/* Hide the default footnotes section at bottom */
+.footnotes {
+    display: none;
+}
+
+/* Remove default Quarto tooltip behavior */
+a.footnote-ref[role="doc-noteref"] {
+    pointer-events: auto;
+}
+
+/* Style for footnote references in text */
+a.footnote-ref {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.75em;
+    vertical-align: super;
+    margin-left: 0.1em;
+}
+
+/* Style for the sidenote element created by JavaScript */
+.sidenote {
+    position: absolute !important;
+    left: calc(100% + 2rem) !important; /* Position to the right of the paragraph */
+    width: 260px;
+    max-width: 260px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-right: 1.5rem; /* Space from right edge of screen */
+    font-size: 13px !important; /* Fixed 13px size */
+    line-height: 1.5;
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-weight: 300;
+    color: #555;
+    background-color: #f5f1eb; /* Match page background to cover any text behind */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    pointer-events: auto; /* Allow clicking links in sidenotes */
+    z-index: 100;
+    display: block !important;
+}
+
+/* Add horizontal line at the line level of the superscript */
+.sidenote::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5em; /* Align with middle of the text line containing superscript */
+    width: calc(100% - 1.5rem); /* Full width minus right padding */
+    height: 1px;
+    background-color: #1a1a1a;
+    display: block;
+}
+
+/* Container for sidenote content (below the line) */
+.sidenote-content {
+    display: block;
+    padding-top: 0.75rem; /* Space below the horizontal line */
+    font-size: inherit; /* inherit the adjusted 0.65rem */
+    font-family: inherit !important; /* Inherit IBM Plex Mono from .sidenote */
+}
+
+/* Ensure paragraph elements inside sidenotes inherit the smaller font-size */
+.sidenote-content p {
+    font-size: inherit !important;
+    font-family: inherit !important;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Style the footnote number that appears below the line */
+.sidenote-number {
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+    font-size: 0.85em;
+    margin-bottom: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+/* Make sure sidenote links are styled */
+.sidenote a {
+    color: #555;
+    text-decoration: underline;
+}
+
+.sidenote a:hover {
+    text-decoration: none;
+}
+
+/* Responsive: For screens too narrow for margin notes, show below */
+@media (max-width: 900px) {
+    #quarto-content {
+        padding-right: 2.5rem; /* Remove extra padding on smaller screens */
+        max-width: 1200px;
+    }
+    
+    .sidenote {
+        position: relative !important;
+        display: block !important;
+        left: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0.75rem;
+        padding-top: 1rem;
+        border-top: 1px solid #ccc;
+        background-color: #fafaf8;
+        font-size: 13px !important; /* Fixed 13px size on narrow screens */
+    }
+    
+    .sidenote::before {
+        display: none;
+    }
+}
+
+/* Table of Contents - Minimal, Collapsible */
+nav#TOC {
+    position: fixed !important;
+    display: block !important;
+    top: 8rem !important;
+    right: 2.5rem !important;
+    width: 200px !important;
+    max-height: calc(100vh - 10rem) !important;
+    overflow-y: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'IBM Plex Mono', monospace !important;
+    z-index: 100 !important;
+    background-color: transparent !important;
+    transition: opacity 0.3s ease !important;
+    border-left: none !important;
+}
+
+nav#TOC h2#toc-title {
+    font-size: 0.7rem !important;
+    font-weight: 300 !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    color: #666 !important;
+    margin: 0 !important;
+    margin-bottom: 0.9rem !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    border: none !important;
+    font-family: 'IBM Plex Mono', monospace !important;
+    user-select: none !important;
+    cursor: pointer !important;
+    transition: color 0.2s ease !important;
+}
+
+nav#TOC h2#toc-title:hover {
+    color: #444 !important;
+}
+
+nav#TOC h2#toc-title:hover .toc-indicator {
+    color: #666 !important;
+}
+
+nav#TOC ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+nav#TOC > ul > li {
+    margin-bottom: 0.05rem !important;
+}
+
+nav#TOC li {
+    margin-bottom: 0.05rem !important;
+}
+
+nav#TOC a {
+    color: #888 !important;
+    text-decoration: none !important;
+    font-size: 0.75rem !important;
+    line-height: 1.2 !important;
+    display: block !important;
+    font-weight: 300 !important;
+    border: none !important;
+    padding: 0 !important;
+    background: none !important;
+    cursor: pointer !important;
+}
+
+/* No hover effects */
+nav#TOC a:hover {
+    color: #888 !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+/* Only active/current section is underlined */
+nav#TOC a.active {
+    color: #555 !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 3px !important;
+    font-weight: 300 !important;
+}
+
+/* Hide nested items */
+nav#TOC ul ul {
+    display: none !important;
+}
+
+/* Remove any default Quarto styling */
+nav#TOC * {
+    border-left: none !important;
+    padding-left: 0 !important;
+}
+
+/* Hide TOC on smaller screens */
+@media (max-width: 1400px) {
+    nav#TOC {
+        display: none;
+    }
+}
+
+/* Legacy TOC class for backward compatibility */
+.toc {
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #1a1a1a;
+    margin: 2rem 0;
+}
+
+.toc h2,
+.toc h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+    font-family: var(--font-gt-america-mono-bold);
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.toc li {
+    margin-bottom: 0.5rem;
+}
+
+.toc a {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+.toc ul ul {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+/* Article Hero Image */
+.article-hero {
+    width: calc(100% + 5rem);
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.article-hero img {
+    width: 100%;
+    display: block;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.article-hero-caption {
+    padding: 1rem 2.5rem;
+    background-color: #f9f9f9;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #2a2a2a;
+}
+
+/* Section Dividers */
+.section-divider {
+    height: 2px;
+    background-color: #1a1a1a;
+    margin: 3rem 0;
+    border: none;
+}
+
+/* Responsive adjustments for articles */
+@media (max-width: 768px) {
+    .article-hero {
+        width: calc(100% + 4rem);
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+    
+    .article-hero-caption {
+        padding: 1rem 2rem;
+    }
+    
+    .pullquote {
+        font-size: 1.25rem;
+        padding: 1.5rem;
+    }
+}
+
+/* Mobile-only overrides: affect only small viewports, do NOT change desktop layout */
+@media (max-width: 1024px) {
+    /* Hide the floating table of contents on tablets and smaller devices */
+    nav#TOC {
+        display: none !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+    }
+    /* Ensure any dynamically-inserted sidenotes (Quarto JS) stack below text
+       and do not float or overlap content on tablet widths. */
+    .sidenote {
+        position: relative !important;
+        left: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block !important;
+        clear: both !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+        padding: 0.75rem !important;
+        border-top: 1px solid #ccc !important;
+        background-color: #fafaf8 !important;
+        font-size: 13px !important;
+    }
+    .sidenote::before { display: none !important; }
+}
+
+@media (max-width: 900px) {
+    /* Stack sidenotes below content to avoid overlap on narrow screens */
+    .sidenote {
+        position: relative !important;
+        left: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+        padding: 0.75rem !important;
+        padding-top: 1rem !important;
+        border-top: 1px solid #ccc !important;
+        background-color: #fafaf8 !important;
+        font-size: 13px !important;
+    }
+    .sidenote::before { display: none !important; }
+}
+
+@media (max-width: 768px) {
+    /* Let references use full width on small screens so entries wrap naturally */
+    #refs.references,
+    .references {
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Hide the footnotes horizontal rule to reduce clutter */
+    section.footnotes hr { display: none !important; }
+
+    /* Add gentle right padding to each bibliography entry so long URLs/text
+       don't touch the viewport edge on small screens. */
+    #refs .csl-entry,
+    .references .csl-entry {
+        padding-right: 1rem !important;
+    }
+}
+
+/* ===== Footer styles moved to footer.css ===== */
+
+/* Narrow centered column used by contact and thanks pages */
+.narrow-center {
+    max-width: 600px; /* within 540-620px requirement */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact form styles */
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: var(--font-editor-regular);
+    color: rgba(0,0,0,0.85);
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #1a1a1a;
+    padding: 10px 12px;
+    font-family: var(--font-editor-regular);
+    font-size: 1rem;
+    resize: vertical;
+    background: transparent;
+}
+.contact-form .field-row {
+    margin-bottom: 22px; /* 20-28px spacing between fields */
+}
+.contact-form textarea {
+    min-height: 160px;
+}
+.contact-form .submit-wrap {
+    margin-top: 36px; /* 32-40px above submit button */
+}
+.contact-form input[type="submit"] {
+    border: 1px solid #1a1a1a;
+    background: transparent;
+    padding: 10px 16px;
+    font-family: var(--font-editor-regular);
+    cursor: pointer;
+}
+
+/* Thanks page spacing */
+.thanks-top-space {
+    padding-top: 100px; /* within 80-120px */
+}
+.thanks-lines {
+    color: rgba(0,0,0,0.8);
+}
+
+/* Page-specific footer alignment removed - now using global footer layout */
+
+/* ===== Now Page Styles ===== */
+.now-content {
+    max-width: 640px;
+    margin: 0 auto;
+    padding-top: 6rem;
+}
+
+.now-updated {
+    font-family: var(--font-gt-america-mono-light);
+    font-size: 0.8125rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    padding-top: 0;
+    padding-bottom: 0.375rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    line-height: 1;
+}
+
+.now-updated p {
+    font-family: var(--font-gt-america-mono-light) !important;
+    font-size: 0.8125rem !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+/* Add spacing around the separator and credit link in now-updated */
+.now-updated .now-separator {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.now-content p {
+    font-family: var(--font-editor-regular);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.now-content p:last-of-type {
+    margin-bottom: 3rem;
+}
+
+.now-archive {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.now-archive a {
+    font-family: var(--font-gt-america-mono-light);
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    transition: color 0.2s ease;
+}
+
+.now-archive a:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.now-archive p {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: var(--font-gt-america-mono-light);
+    font-size: 0.875rem;
+}
+
+/* Only add spacing when there are 2 links (archived pages) */
+.now-archive a:first-child:not(:last-child)::after {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+}
+
+.now-archive a:last-child:not(:first-child)::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+}
+
+/* Dark mode support for Now page */
+[data-theme="dark"] .now-updated {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="dark"] .now-updated p {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+[data-theme="dark"] .now-separator {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+[data-theme="dark"] .now-archive a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+[data-theme="dark"] .now-archive a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] .now-archive p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+[data-theme="dark"] .now-content p {
+    color: rgba(255, 255, 255, 0.88);
+}
+
+[data-theme="dark"] .now-archive {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Now page credit - subtle inline */
+.now-credit-link {
+    color: rgba(0, 0, 0, 0.3) !important;
+    font-size: 0.8125rem;
+}
+
+.now-credit-link:hover {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+[data-theme="dark"] .now-credit-link {
+    color: rgba(255, 255, 255, 0.35) !important;
+}
+
+[data-theme="dark"] .now-credit-link:hover {
+    color: rgba(255, 255, 255, 0.55) !important;
+}
+
+#Auto hide header on scroll down, show on scroll up */
+/* Make navbar sticky and ready for auto-hide */
+.navbar-container,
+#quarto-header,
+.quarto-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}

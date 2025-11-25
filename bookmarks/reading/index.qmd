@@ -1,0 +1,11 @@
+---
+title: "Reading"
+bookmarks_grid: true
+---
+
+*Articles, essays, research papers, quotes, books.*
+
+Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
+
+- [Example reading item](https://example.org) | Short description of the reading item | Reading
+

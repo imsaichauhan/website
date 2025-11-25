@@ -1,0 +1,125 @@
+/* ===== Footer styles (site-wide) ===== */
+/* Global footer layout based on the projects page design */
+
+.site-footer {
+    color: rgba(0,0,0,0.85); /* muted serif tone at ~85% */
+    font-family: var(--font-editor-regular);
+    margin-top: 50px; /* ensure space above footer */
+    margin-bottom: 2px; /* no spacing after footer */
+}
+
+.site-footer .footer-inner {
+    /* Default: Match the projects layout - allow footer rules to reach to the page gutters */
+    width: calc(100% + 5rem);
+    max-width: none;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+    padding: 12px 2.5rem; /* reduced vertical padding while preserving inner gutter */
+    box-sizing: border-box;
+}
+
+/* Bookmarks page has a different layout - container doesn't extend to gutters,
+   so footer should match the normal width without negative margins */
+body:has(.bookmarks-container) .site-footer .footer-inner {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 12px 2.5rem;
+    box-sizing: border-box;
+}
+
+.site-footer .footer-text {
+    margin: 0;
+    display: flex;
+    gap: 0; /* remove flex gap so the pseudo-element controls exact separator spacing */
+    align-items: center;
+    justify-content: flex-start; /* left-align across the site */
+    color: rgba(0,0,0,0.85);
+    font-size: 0.95rem;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+}
+
+/* Use pseudo-element to render a middle dot between items so HTML remains clean */
+.site-footer .footer-text .footer-item {
+    display: inline-flex; /* use inline-flex so items and pseudo-element align consistently */
+    align-items: center;
+}
+
+.site-footer .footer-text .footer-item + .footer-item::before {
+    content: '·';
+    color: #999;
+    display: inline-block;
+    margin: 0 1.25rem; /* symmetric spacing so the dot is centered between items */
+    font-weight: 400;
+    font-size: inherit; /* match surrounding text size */
+    line-height: 1; /* prevent vertical misalignment */
+    vertical-align: middle;
+}
+
+/* Slightly increase the gap between the year and the name inside the © text */
+.site-footer .footer-text .footer-item .footer-year {
+    margin-right: 0.4rem; /* small extra space between '2025' and 'Sai' */
+}
+
+.site-footer .footer-text a {
+    /* Make links match the © text exactly */
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.95;
+}
+
+.site-footer .footer-text a:hover {
+    opacity: 1;
+}
+
+.site-footer .footer-rule {
+    border: none;
+    height: 1px;
+    background-color: rgba(0,0,0,0.55); /* ~55% opacity */
+    margin: 0;
+}
+
+.site-footer .footer-rule.top {
+    margin-bottom: 3px; /* reduced gap between top rule and text */
+}
+
+.site-footer .footer-rule.bottom {
+    margin-top: 3px; /* reduced gap between text and bottom rule */
+}
+
+/* Dark mode toggle button styles */
+.dark-mode-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: var(--font-editor-regular);
+    font-size: inherit;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem; /* tight spacing between [Light] and Dark */
+    opacity: 0.95;
+}
+
+.dark-mode-toggle:hover {
+    opacity: 1;
+}
+
+/* Inactive mode word can be slightly muted */
+.dark-mode-toggle .mode-dark {
+    color: #8b8680;
+}
+
+/* When dark mode is active, light word becomes muted */
+[data-theme="dark"] .dark-mode-toggle .mode-light {
+    color: #8b8680;
+}
+
+[data-theme="dark"] .dark-mode-toggle .mode-dark {
+    color: inherit; /* no muting when active */
+}

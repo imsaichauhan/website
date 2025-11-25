@@ -1,0 +1,11 @@
+---
+title: "System"
+bookmarks_grid: true
+---
+
+*Software, extensions, workflows, online projects, blogs.*
+
+Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
+
+- [Example system item](https://example.com) | Short description of the system item | System
+

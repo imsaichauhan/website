@@ -1,0 +1,27 @@
+---
+title: ""
+description: "What I was focused on in October 2025"
+---
+
+::: {.now-content}
+
+::: {.now-updated}
+Published: October 15, 2025 [·]{.now-separator} [Inspired by Derek Sivers](https://nownownow.com/about){.now-credit-link}
+:::
+
+
+I'm in a season of [what you were experiencing]. After [event or realization from that time], I've been spending most of my energy on [primary focus area]. The work is [description of how it felt], and I'm learning that [insight from that period].
+
+Right now, I'm working on [project description]. It started as [how it began], but it's evolved into [what it became]. On the side, I'm also [secondary work], which gives me space to think about [related concept].
+
+I'm also spending time with [book or resource] by [author], which has shifted how I think about [topic]. There's this idea in it about [key concept] that keeps surfacing in my work. Between the two, I'm thinking a lot about [overarching theme or question from that time].
+
+Day to day, I'm based in [location], working from [where]. My routine is [description], and I'm trying to [habit or practice]. I've been saying no to [what you were avoiding] because I need the mental space for what I'm building.
+
+I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate focus], and seeing what emerges from consistent attention.
+
+::: {.now-archive}
+[Back to current Now page](/now) · [See archives](/now/archive/)
+:::
+
+:::

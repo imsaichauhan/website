@@ -1,0 +1,295 @@
+/* ========================================
+   HOME PAGE SPECIFIC STYLES
+   ======================================== */
+
+/* Only apply these styles to the home page */
+body.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    transition: background-color 150ms ease, color 150ms ease;
+    padding: 2rem 1.5rem;
+}
+
+/* Override Quarto's centering for home page */
+body.home #quarto-content,
+body.home main {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+/* Ensure all home page containers are not auto-centered */
+body.home > * {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Main container for all home content - ensures consistent left alignment */
+.home-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 !important; /* Override body > * padding from custom.css */
+}
+
+/* Hide header and footer on home page */
+body.home #quarto-header,
+body.home header,
+body.home footer,
+body.home .quarto-title-banner {
+    display: none !important;
+}
+
+/* ========================================
+   MINIMAL HERO SECTION
+   ======================================== */
+
+.hero-minimal {
+    text-align: left;
+    margin: 0 0 1.5rem 0;
+    margin-left: 0 !important;
+    margin-right: auto;
+    max-width: 600px;
+    padding: 0;
+}
+
+.hero-minimal p {
+    font-family: var(--font-editor-regular);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    transition: color 150ms ease;
+}
+
+.hero-minimal em {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-minimal strong {
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ========================================
+   BIO SECTION
+   ======================================== */
+
+.bio-section {
+    max-width: 600px;
+    margin: 0 0 5rem 0;
+    margin-left: 0 !important;
+    margin-right: auto;
+    text-align: left;
+    padding: 0;
+    /* gap confirmed, border removed */
+}
+
+.bio-section p {
+    font-family: var(--font-editor-regular);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 0;
+    transition: color 150ms ease;
+}
+
+/* ========================================
+   HOME NAVIGATION - RESPONSIVE LAYOUT
+   ======================================== */
+
+.home-nav {
+    max-width: 600px;
+    margin: 0;
+    margin-left: 0 !important;
+    margin-right: auto;
+    padding: 0;
+}
+
+/* Mobile: Vertical Stack */
+.home-nav-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav-section {
+    text-align: left;
+}
+
+.nav-section h2 {
+    font-family: var(--font-editor-regular);
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: 0 0 0.75rem 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.4;
+    transition: color 150ms ease;
+}
+
+.nav-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-section li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.nav-section a {
+    font-family: var(--font-editor-regular);
+    font-size: 1.125rem;
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.2s ease, color 150ms ease;
+    display: inline-block;
+}
+
+.nav-section a:hover {
+    opacity: 0.6;
+}
+
+/* ========================================
+   DARK MODE TOGGLE
+   ======================================== */
+
+.dark-mode-container {
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.home-dark-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: var(--font-editor-regular);
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: opacity 0.2s ease, color 150ms ease;
+    color: #000000;
+    display: inline;
+}
+
+.home-dark-toggle:hover {
+    opacity: 0.6;
+}
+
+/* Show/hide appropriate mode text */
+[data-theme="light"] .home-dark-toggle .mode-dark {
+    opacity: 0.6;
+}
+
+[data-theme="dark"] .home-dark-toggle .mode-light {
+    opacity: 0.6;
+}
+
+/* ========================================
+   DESKTOP: TWO-COLUMN LAYOUT
+   ======================================== */
+
+@media (min-width: 768px) {
+    .home-nav-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 4rem;
+        align-items: start;
+    }
+
+    /* Make dark mode span both columns */
+    .dark-mode-container {
+        grid-column: 1 / -1;
+    }
+}
+
+/* ========================================
+   DARK MODE OVERRIDES
+   ======================================== */
+
+/* Match the site's dark mode color scheme */
+[data-theme="dark"] body.home {
+    background-color: #2a2520;
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .hero-minimal p {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .bio-section p {
+    color: rgba(212, 207, 196, 0.7);
+}
+
+[data-theme="dark"] .nav-section h2 {
+    color: rgba(212, 207, 196, 0.5);
+}
+
+[data-theme="dark"] .nav-section a {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .nav-section a:hover {
+    opacity: 0.7;
+}
+
+[data-theme="dark"] .home-dark-toggle {
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] .home-dark-toggle:hover {
+    opacity: 0.7;
+}
+
+/* ========================================
+   MOBILE OPTIMIZATIONS
+   ======================================== */
+
+@media (max-width: 767px) {
+    body.home {
+        padding: 1.5rem 1rem;
+        overflow-y: auto;
+        max-height: none;
+    }
+    
+    .hero-minimal p {
+        font-size: 1rem;
+    }
+    
+    .bio-section p {
+        font-size: 0.9375rem;
+    }
+    
+    .nav-section h2 {
+        font-size: 1rem;
+    }
+    
+    .nav-section a {
+        font-size: 1rem;
+    }
+    
+    .home-dark-toggle {
+        font-size: 1rem;
+    }
+}
+
+/* Desktop: Add back no-scroll constraint and larger spacing */
+@media (min-width: 768px) {
+    body.home {
+        max-height: 100vh;
+        overflow: hidden;
+        padding: 2rem 2.5rem;
+    }
+    
+    .bio-section {
+        margin: 0 0 10rem 0;
+    }
+}

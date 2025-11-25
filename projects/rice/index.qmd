@@ -1,0 +1,346 @@
+---
+title: "Regional Climate Cooperation: A RICE Model Analysis"
+description: "How global giants can curb warming together and why fairness, not just carbon pricing, decides if cooperation survives."
+tag: "Climate Change"
+image: "../../_assets/images/projects/rice.jpg"
+date: "2024-02-10"
+bibliography: references.bib
+nocite: '@*'
+toc: true
+---
+
+## Abstract
+
+Effective climate change mitigation requires coordinated action among major emitting regions. 
+Using the Regional Integrated Climate-Economy (RICE) model, this paper analyzes the 
+economic and environmental impacts of climate cooperation among the United States, the 
+European Union, China, and India from 2005 to 2125. The results show that cooperation 
+significantly improves global welfare by harmonizing carbon prices, reducing cumulative 
+emissions, and slowing the pace of global warming. However, benefits are unevenly distributed, 
+with developing regions facing higher mitigation costs despite gaining more from avoided 
+damages and technology transfers. The study highlights the importance of equitable mechanisms, 
+such as financial side payments and technology sharing, to sustain cooperation. Partial 
+agreements improve outcomes but fall short of global targets, underscoring the need for inclusive 
+participation. The paper concludes with policy recommendations emphasizing harmonized 
+pricing, equity, and adaptive governance to foster effective and fair climate cooperation.
+
+## Introduction
+
+Climate change represents one of the most urgent and complex challenges facing humanity in the
+21st century. The scientific consensus is unequivocal: without substantial and sustained
+reductions in greenhouse gas emissions, global temperatures are projected to rise well beyond the
+thresholds set by the Paris Agreement, with severe consequences for ecosystems, economies, and
+societies worldwide. According to the United Nations Environment Programme (UNEP)
+Emissions Gap Report 2024, even if all current national climate pledges (known as Nationally
+Determined Contributions, NDCs) are fully implemented, the world is still on track for a
+2.6-3.1°C temperature increase by the end of the century. The report highlights that global
+greenhouse gas emissions must be reduced by 42 percent by 2030 and 57 percent by 2035 to
+remain on track with the Paris Agreement’s 1.5°C target, underscoring the urgent need for
+enhanced and more effective climate action.
+
+At the heart of this challenge lies a fundamental tension between the global nature of
+climate change and the regional and national frameworks through which climate policies are
+formulated and implemented. Greenhouse gas emissions and their impacts transcend borders, yet
+the incentives and capacities to mitigate emissions vary dramatically across countries and
+regions. This disparity often leads to a classic collective action problem: while all benefit from
+global mitigation efforts, individual regions may have incentives to free-ride on the efforts of
+others, undermining the prospects for effective cooperation.
+
+The United States, the European Union, China, and India are among the largest[^1] emitters
+globally, collectively accounting for over half of total anthropogenic greenhouse gas emissions.
+These regions differ substantially in their economic structures, development trajectories, energy
+mixes, and climate vulnerabilities. For example, the European Union has pursued ambitious
+decarbonization policies, including the European Green Deal, aiming for climate neutrality by
+2050. The United States has experienced fluctuating political commitment but recently
+recommitted to aggressive emissions reduction targets. China, the world’s largest emitter, has
+pledged to peak emissions before 2030 and achieve carbon neutrality by 2060, while India
+balances rapid economic growth with increasing energy demand and climate concerns. These
+divergent priorities and capacities complicate the design and implementation of coordinated
+climate policies.
+
+[^1]: Source: Climate Watch data: Climate Watch. 2024. GHG Emissions. Washington, DC: World Resources
+Institute. Available at: [https://www.climatewatchdata.org/ghg-emissions](https://www.climatewatchdata.org/ghg-emissions)
+
+Despite these challenges, regional cooperation holds significant promise for enhancing
+global climate outcomes. Coordinated policies can reduce overall mitigation costs, avoid
+emissions leakage, and foster technology diffusion, thereby increasing the efficiency and
+effectiveness of climate action. However, the benefits of cooperation are not distributed evenly.
+Regions with higher abatement costs or greater climate vulnerabilities may require compensation
+or tailored policy mechanisms to participate fully and sustain cooperation over time.
+
+Integrated assessment models (IAMs) provide a powerful tool for exploring these
+dynamics by combining economic, energy, and climate systems into a unified analytical
+framework. Among these, the Regional Integrated Climate-Economy (RICE) model, developed
+by William Nordhaus and colleagues, is particularly suited for analyzing interactions among
+multiple regions with heterogeneous characteristics. The RICE model explicitly incorporates
+regional differences in economic growth, emissions, climate damages, and abatement costs,
+enabling a nuanced assessment of cooperative and non-cooperative climate policies.  
+
+This paper aims to analyze the economic and environmental outcomes of regional climate
+cooperation among the United States, European Union, China, and India. Specifically, it
+investigates how cooperative climate policies compare to non-cooperative, Nash equilibrium
+outcomes in terms of aggregate welfare, emissions reductions, and temperature pathways. The
+central thesis of this study is that regional climate cooperation can yield substantial aggregate
+welfare benefits, potentially increasing collective discounted welfare compared to
+non-cooperative scenarios. However, these benefits are unevenly distributed, reflecting
+differences in mitigation costs, climate vulnerabilities, and economic development. Without
+appropriate policy instruments, such disparities may undermine the stability of cooperative
+agreements. By simulating multiple scenarios within the RICE framework, this paper provides
+insights into the design of effective and equitable regional climate policies that can contribute
+meaningfully to global mitigation efforts.
+
+The remainder of the paper is structured as follows. The next section reviews relevant
+literature on climate cooperation, integrated assessment modeling, and policy mechanisms. This
+is followed by a detailed description of the RICE model, scenario design, and methodological
+approach. The results section presents the simulation outcomes, highlighting differences between
+cooperative and non-cooperative policies and analyzing the distribution of cooperation benefits.
+The discussion section contextualizes the findings, addresses limitations, and explores policy
+implications. The paper concludes with a summary of key insights and suggestions for future
+research.
+
+## Literature Review
+
+Regional climate cooperation demands integrated insights from climate economics, game theory,
+and policy analysis. This review synthesizes key literature on integrated assessment modeling,
+game-theoretic approaches to cooperation, equity in burden-sharing, and the impact of diverse
+policy instruments.
+
+Integrated Assessment Models (IAMs), especially the Regional Integrated
+Climate-Economy (RICE) model (@nordhaus1996regional, @nordhaus2009efficient), are crucial for analyzing the economic
+and climate interactions across different regions. RICE stands out for its explicit modeling of
+regional heterogeneity, enabling exploration of how varied mitigation efforts affect global
+outcomes. Early RICE studies revealed a significant gap: non-cooperative policies lead to lower
+carbon prices and higher emissions, exceeding international targets. Further work showed that
+regional differences in vulnerability and abatement costs are key to shaping cooperation
+(@nordhaus1996regional). Recent studies have improved damage functions, estimates of economic losses
+from climate change. Research shows that tropical and developing regions face much higher
+damages (@anthoff2013uncertainty), suggesting uniform policies could be inefficient and unfair.
+
+Game theory sheds light on regional cooperation incentives. Research indicates that
+stable climate coalitions tend to be small without strong enforcement (@barrett2003participation).
+Studies show that stable coalitions are either small or, if they are large, the potential gains from
+cooperation are small (@finus2021efficacy). While game theory highlights solutions like
+enforcement and fairness, the specific mechanisms need further exploration.
+Climate change exacerbates inequality due to the uneven geographic distribution and
+enduring nature of its economic impacts (@gazzotti2021inequality). Regions that are already
+economically vulnerable tend to suffer the most, intensifying existing disparities. While
+mitigation efforts can alleviate some of these inequalities, they are not sufficient on their own.
+Even under optimistic scenarios involving strong international cooperation and a global
+commitment to equity, the regressive effects of climate change remain persistent and challenging
+to fully overcome.
+
+## Methodology
+
+This study examines the economic and environmental implications of regional climate
+cooperation using the Regional Integrated Climate-Economy (RICE) model. The RICE model,
+specifically version 2013, developed by William Nordhaus, is an integrated assessment model
+linking regional economic activity and climate dynamics. It extends the global DICE model by
+disaggregating the world into multiple regions, enabling analysis of heterogeneous economic
+growth, emissions trajectories, climate damages, and abatement costs. The Python
+implementation used in this study is based on the *RICE13_pyomo* repository[^2], which solves the
+non-linear programming problem by adopting the same algorithm proposed by Nordhaus. The
+regions considered in this analysis are the United States (US), European Union (EU), China
+(CHI), and India (IND).
+
+[^2]: GitHub repository: [https://github.com/white-heomoi/RICE13_pyomo](https://github.com/white-heomoi/RICE13_pyomo)
+
+### RICE Model Framework
+
+The RICE model comprises several core modules:
+
+- **Economic Module**: Each region's output is modeled using a Cobb-Douglas production
+function dependent on capital, labor, and total factor productivity. Economic growth is
+driven by population and productivity projections, consistent with the RICE-2013
+version.​
+
+- **Emissions Module**: Regional emissions are linked to economic output through carbon
+intensity parameters and emissions mitigation rate.​
+
+- **Climate Module**: A simplified climate box model translates emissions into atmospheric
+concentrations, radiative forcing, and temperature changes.​
+
+- **Damage Function**: Climate damages reduce regional economic output through a
+nonlinear function of temperature increase. Damage parameters vary by region.​
+
+- **Abatement Cost Function**: Mitigation costs are represented as a convex function of
+emissions reductions, capturing increasing marginal costs of abatement.​
+
+- **Utility and Welfare**: Regional social welfare is defined as the discounted sum of utility
+derived from per capita consumption, incorporating a pure rate of time preference and
+intertemporal elasticity of substitution.​
+
+A key feature of the RICE model is its ability to represent regional heterogeneity in
+economic parameters. This heterogeneity is crucial for understanding how cooperation incentives
+and outcomes differ across regions.
+
+### Scenario Design
+
+To evaluate the effects of regional climate cooperation, this study constructs a set of
+policy scenarios:
+
+- **Non-Cooperative** (Nash Equilibrium): Each region independently maximizes its
+welfare without coordination, resulting in a Nash equilibrium.​
+
+- **Fully Cooperative** (Global Optimum): Regions jointly maximize the sum of their
+discounted welfare, internalizing the global externality of emissions and optimizing
+carbon prices collectively.​
+
+These scenarios are simulated over the period 2005 to 2125 in 10-year time steps. The
+*RICE13_pyomo* implementation facilitates the computation of both non-cooperative and
+cooperative solutions.
+
+### Optimization and Solution Approach
+
+The model solves for optimal carbon prices and emissions pathways by maximizing
+regional or global welfare subject to economic and climate constraints. The optimization is
+performed using nonlinear programming techniques implemented in Python with the Pyomo
+optimization framework. It solves the optimization problem for each country at a time, fixing the
+values of the variables of all other countries as the results of the last optimization. At every
+round, the difference of the control variables for all countries is checked with the ones obtained
+in the previous round: if such a difference is sufficiently small, the algorithm is terminated since
+convergence has been reached, otherwise, it is continued. The IPOPT solver, version 3.9.1, is
+used to solve the nonlinear programming problems.
+
+## Results and Analysis
+
+This section presents a comprehensive analysis of the simulation outcomes derived from the
+RICE model, focusing on the comparative evaluation of cooperative and non-cooperative climate
+policy scenarios among the United States, European Union, China, and India. The results
+elucidate the dynamics of carbon pricing, emissions trajectories, welfare impacts, temperature
+projections, and the distributional consequences of cooperation. Through this detailed
+examination, the study highlights the substantial benefits of coordinated climate action, the
+heterogeneity of regional incentives, and the critical policy considerations necessary to sustain
+cooperation.
+
+### Carbon Price Trajectories
+
+Under full cooperation, carbon prices, proxied here by abatement costs as a share of gross
+output, rise steadily across all regions, reflecting the increasing urgency of mitigation.
+
+![Abatement Costs by Country: Non-cooperative vs Cooperative](abatement_costs_comparison.png){#fig-abatement}
+
+For instance, in @fig-abatement, the United States’ abatement cost increases from approximately
+0.08% in 2005 to a peak near 0.37% around 2070. The European Union follows a similar pattern,
+though with generally lower costs, while China and India experience more moderate increases
+aligned with their developmental priorities. In contrast, the non-cooperative scenario features
+negligible abatement costs throughout, indicating minimal mitigation efforts and substantial
+free-riding behavior. These divergent trajectories underscore the critical role of cooperation in
+achieving harmonized and effective carbon pricing.
+
+### Emissions and Temperature Outcomes
+
+Cooperative climate action results in notable emissions reductions across all major
+regions, demonstrating the effectiveness of coordinated policy efforts. @fig-count_emiss illustrates the
+industrial emissions pathways for each country, highlighting the contrast between cooperative
+and non-cooperative scenarios.
+
+![Country Emissions: Non-cooperative vs Cooperative](country_emissions_comparison.png){#fig-count_emiss}
+
+In the case of the United States, industrial emissions decline significantly, with
+projections indicating a nearly 50% reduction by 2085 compared to 2005 levels. This reflects the
+strong impact of harmonized carbon pricing and supportive policy measures under a cooperative
+framework.
+
+China and India also exhibit a meaningful shift in their emissions trajectories. Although
+their absolute emissions continue to grow in the near term due to ongoing economic
+development, the rate of increase slows considerably under cooperation. Both countries manage
+to balance their development priorities with the need for climate mitigation, aided by
+mechanisms such as technology transfer and financial support.
+
+At the global scale, the cumulative effect of these regional efforts becomes clear (see
+@fig-globe_emiss). Total industrial emissions increase at a much slower pace in the cooperative scenario,
+reaching approximately 13.61 GtCO2 by 2085. This is in stark contrast to the non-cooperative
+pathway, where emissions rise more steeply and reach around 17.09 GtCO2 by the same year.
+The difference underscores the substantial climate benefits of sustained international
+collaboration.
+
+![Global Total Emissions: Non-cooperative vs Cooperative](global_emissions_comparison.png){#fig-globe_emiss}
+
+These emissions trajectories lead to significantly different climate outcomes (see @fig-globe_temp).
+Under the cooperative scenario, global temperatures rise to approximately 2.96°C by 2085 and
+reach around 3.78°C by 2125. In contrast, the non-cooperative path results in faster warming,
+with temperatures exceeding 3.23°C by 2085 and nearing 4.18°C by 2125.
+
+![Global Temperature Change: Non-cooperative vs Cooperative](global_temperature_comparison.png){#fig-globe_temp}
+
+This contrast highlights the substantial climate benefits of coordinated action, as cooperation slows the
+pace of warming and reduces the risk of crossing dangerous climate thresholds.
+
+## Discussion
+
+The results from the RICE model simulations underscore the transformative potential of
+international cooperation in addressing climate change. The contrast between cooperative and
+non-cooperative scenarios is stark: only through harmonized action do we observe substantial
+rises in carbon prices, meaningful reductions in emissions growth, and a significant slowdown in
+global temperature increases. These findings are consistent with a growing body of research and
+policy analysis emphasizing the necessity of coordinated approaches to climate mitigation.
+
+### The Role of Cooperation in Effective Carbon Pricing
+
+A central insight from this study is the critical role of cooperation in establishing
+effective and harmonized carbon pricing. In the cooperative scenario, all major economies
+implement steadily rising carbon prices, reflecting the true social cost of emissions. This aligns
+with international proposals that aim to scale up mitigation ambition and close the policy gap left
+by fragmented national efforts. In contrast, the non-cooperative scenario is characterized by
+minimal abatement costs and widespread free-riding, illustrating how a lack of coordination
+undermines the effectiveness of climate policy and perpetuates the risk of carbon leakage and
+competitive distortions.
+
+### Emissions Reductions and Temperature Outcomes
+
+The emissions and temperature results further highlight the environmental benefits of
+cooperation. Coordinated action leads to much slower growth in total industrial emissions and
+limits global warming by approximately 0.4°C by 2125 compared to the non-cooperative
+pathway. This difference is not only statistically significant but also highly relevant for global
+climate goals, as even small reductions in peak warming can greatly reduce the risk of crossing
+dangerous climate thresholds. The results reinforce the consensus that international agreements
+and mechanisms, such as those under the Paris Agreement, are essential for keeping temperature
+increases within safe limits.
+
+### Distributional and Developmental Implications
+
+The study also reveals important distributional dynamics. While all regions benefit from
+cooperation, the magnitude and timing of these gains vary. Developed economies like the US and
+EU bear higher abatement costs initially but benefit from reduced long-term damages and greater
+policy certainty. Emerging economies such as China and India are able to moderate their
+emissions growth without sacrificing development, especially when supported by mechanisms
+like technology transfer and climate finance. This supports the view that cooperation is not
+simply about sharing burdens, but about enabling all countries to realize the benefits of a
+low-carbon transition and climate-resilient development.
+
+## Conclusion
+
+This study has explored the economic and environmental impacts of regional climate cooperation
+among the United States, European Union, China, and India using the RICE integrated
+assessment model. The results demonstrate that coordinated climate action delivers substantial
+welfare gains and significantly curbs global greenhouse gas emissions compared to
+non-cooperative approaches. By internalizing the global externality of carbon emissions,
+cooperation leads to higher and more consistent carbon prices, deeper emissions reductions, and
+a more effective limitation of global temperature rise.
+
+While partial cooperation offers improvements over unilateral action, it remains
+insufficient to achieve ambitious climate targets. This underscores the importance of inclusive
+agreements that engage all major emitters. Trade-related mechanisms, such as Carbon Border
+Adjustment Mechanisms, present promising avenues for addressing competitiveness concerns
+and incentivizing broader participation, but must be carefully designed to ensure fairness and
+avoid unintended trade disputes.
+
+It is important to acknowledge the limitations of the RICE model, including simplified
+representations of climate damages, static technology assumptions, and the exclusion of political
+and behavioral dynamics that shape real-world negotiations. Addressing these limitations
+through future research, such as incorporating more detailed damage functions, adaptive
+technologies, and political economy factors, will enhance the model’s policy relevance and
+realism.
+
+In light of these findings, policymakers should prioritize harmonized carbon pricing,
+equitable financial and technological transfers, and the development of inclusive international
+cooperation frameworks. Adaptive and robust policy designs that account for uncertainty and
+political realities will be essential for effective global climate governance. Ultimately, this
+analysis reinforces that regional climate cooperation is both an economic necessity and a
+practical foundation for meaningful climate action. By balancing efficiency with equity and
+fostering trust through transparent and accountable institutions, the international community can
+build a resilient and inclusive climate regime capable of meeting the urgent challenge of climate
+change.
+
+
+## References

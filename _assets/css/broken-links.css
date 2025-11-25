@@ -1,0 +1,79 @@
+/* Broken link handling styles */
+
+/* Style for links that are detected as broken */
+a.broken-link {
+  color: #d9534f;
+  text-decoration-style: wavy;
+  text-decoration-color: #d9534f;
+  opacity: 0.8;
+}
+
+a.broken-link:hover {
+  opacity: 1;
+  text-decoration: underline wavy #d9534f;
+}
+
+/* Visual indicator icon next to broken links */
+.broken-link-indicator {
+  display: inline-block;
+  margin-left: 0.25rem;
+  color: #d9534f;
+  vertical-align: middle;
+  cursor: help;
+}
+
+.broken-link-indicator svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Style for broken images */
+img.broken-image {
+  opacity: 0.3;
+  border: 1px dashed #ccc;
+  background: #f5f5f5;
+}
+
+/* Placeholder for broken images */
+.broken-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  color: #999;
+  padding: 2rem;
+  text-align: center;
+  min-height: 200px;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+}
+
+.broken-image-placeholder svg {
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.broken-image-placeholder span {
+  font-size: 0.9rem;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Accessibility: ensure indicators are visible but not distracting */
+@media (prefers-reduced-motion: reduce) {
+  a.broken-link {
+    text-decoration: underline;
+  }
+}
+
+/* Print styles: hide broken link indicators when printing */
+@media print {
+  .broken-link-indicator {
+    display: none;
+  }
+  
+  a.broken-link {
+    color: inherit;
+    text-decoration: none;
+  }
+}

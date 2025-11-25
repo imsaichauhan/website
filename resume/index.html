@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Prakash - Resume</title>
+    <style>
+        /* ========================================
+           FONT SIZE SETTINGS - Adjust all sizes here
+           ======================================== */
+        :root {
+            /* Desktop/Laptop sizes */
+            --font-name: 28pt;
+            --font-contact: 12pt;
+            --font-section-title: 15pt;      /* Education, Projects, etc. */
+            --font-entry-title: 12pt;        /* IIT Madras, Credit Risk Modeling, etc. */
+            --font-degree-name: 12pt;        /* BS in Data Science, MA in Finance, etc. */
+            --font-location: 11pt;           /* Remote, Chennai, Thiruvarur */
+            --font-date-range: 11pt;         /* 2024 – Present, 2023 – 2025, etc. */
+            --font-body: 12pt;               /* Bullet points text */
+            --font-list: 12pt;               /* List items */
+            --font-nav-home: 12pt;
+            --font-nav-download: 11pt;
+        }
+        
+        /* Mobile sizes - automatically smaller */
+        @media (max-width: 768px) {
+            :root {
+                --font-name: 24pt;
+                --font-contact: 10pt;
+                --font-section-title: 13pt;
+                --font-entry-title: 11pt;
+                --font-degree-name: 11pt;
+                --font-location: 9pt;
+                --font-date-range: 10pt;
+                --font-body: 11pt;
+                --font-list: 11pt;
+                --font-nav-home: 11pt;
+                --font-nav-download: 10pt;
+            }
+        }
+        /* ======================================== */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Computer Modern', 'Latin Modern Roman', serif;
+            font-size: var(--font-body);
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        .nav-header {
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+            padding: 0.8em 1em;
+            margin-bottom: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
+        
+        .nav-header a.home-link {
+            font-size: var(--font-nav-home);
+            color: #000;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .nav-header a.home-link:hover {
+            color: #0066cc;
+        }
+        
+        .download-btn {
+            color: #0066cc;
+            padding: 0.4em 0.8em;
+            border: 1px solid #0066cc;
+            border-radius: 3px;
+            text-decoration: none;
+            font-size: var(--font-nav-download);
+            transition: all 0.2s;
+            background: transparent;
+        }
+        
+        .download-btn:hover {
+            background: #0066cc;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-header {
+                flex-direction: column;
+                gap: 0.5em;
+                text-align: center;
+            }
+        }
+        
+        .content {
+            padding: 0.5in;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                padding: 1em;
+            }
+        }
+        
+        a {
+            color: #0000EE;
+            text-decoration: underline;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        
+        .header h1 {
+            font-size: var(--font-name);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.3em;
+        }
+        
+        .header .contact {
+            font-size: var(--font-contact);
+        }
+        
+        .section-title {
+            font-size: var(--font-section-title);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.8em;
+            margin-bottom: 0.3em;
+            border-bottom: 1px solid #000;
+            padding-bottom: 0.2em;
+        }
+        
+        .entry {
+            margin-bottom: 0.5em;
+        }
+        
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.1em;
+        }
+        
+        .entry-title {
+            font-size: var(--font-entry-title);
+            font-weight: bold;
+        }
+        
+        .entry-subtitle {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            margin-bottom: 0.3em;
+        }
+        
+        .entry-subtitle span:first-child {
+            font-size: var(--font-degree-name);
+        }
+        
+        .entry-subtitle span:last-child {
+            font-size: var(--font-date-range);
+        }
+        
+        .entry-date {
+            font-style: italic;
+            font-size: var(--font-location);
+        }
+        
+        ul {
+            margin-left: 1.5em;
+            margin-top: 0.3em;
+        }
+        
+        li {
+            margin-bottom: 0.2em;
+            font-size: var(--font-list);
+        }
+        
+        .skills-section {
+            font-size: var(--font-list);
+        }
+        
+        .skills-section .skill-category {
+            margin-bottom: 0.3em;
+        }
+        
+        .skills-section strong {
+            font-weight: bold;
+        }
+        
+        em {
+            font-style: italic;
+            font-weight: normal;
+        }
+
+
+        @media print {
+            .nav-header {
+                display: none;
+            }
+            
+            body {
+                padding: 0.5in;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-header">
+        <a href="../" class="home-link">Home</a>
+        <a href="SaiPrakash_resume.pdf" class="download-btn" download>Download PDF <span style="opacity: 0.8;">(116 KB)</span></a>
+    </div>
+    
+    <div class="content">
+    <div class="header">
+        <h1>Sai Prakash</h1>
+        <div class="contact">
+            8757511504 | <a href="mailto:imsaichauhan@gmail.com">imsaichauhan@gmail.com</a> | 
+            <a href="https://linkedin.com/in/imsaichauhan">linkedin.com/in/imsaichauhan</a>
+        </div>
+    </div>
+
+    <div class="section-title">Education</div>
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title">Indian Institute of Technology Madras</span>
+            <span class="entry-date">Remote</span>
+        </div>
+        <div class="entry-subtitle">
+            <span>BS in Data Science and Applications</span>
+            <span>2024 – Present</span>
+        </div>
+    </div>
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title">Madras School of Economics</span>
+            <span class="entry-date">Chennai</span>
+        </div>
+        <div class="entry-subtitle">
+            <span>Master of Arts in Applied Quantitative Finance</span>
+            <span>2023 – 2025</span>
+        </div>
+    </div>
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title">Central University of Tamil Nadu</span>
+            <span class="entry-date">Thiruvarur</span>
+        </div>
+        <div class="entry-subtitle">
+            <span>Bachelor of Arts in Economics</span>
+            <span>2020 – 2023</span>
+        </div>
+    </div>
+
+    <div class="section-title">Projects</div>
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title">Credit Risk Modeling | <em>Python, Machine Learning, Pandas, Jupyter</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Built end-to-end credit risk models using loan data, including probability of default (PD), loss given default (LGD), and exposure at default (EAD), following Basel II guidelines</li>
+            <li>Engineered features and built scorecards via logistic and linear regression; validated with ROC-AUC and stability index</li>
+            <li>Automated preprocessing, evaluation, and reporting in Jupyter notebook for scalable, interpretable risk assessment</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title">Regional Climate Cooperation Analysis | <em>Climate Policy, Integrated Assessment Models</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Analyzed US–EU–China–India cooperation using RICE-2013 IAM under cooperative vs. Nash scenarios</li>
+            <li>Showed cooperation aligns carbon pricing, lowers emissions, and slows warming with uneven welfare</li>
+            <li>Proposed equity mechanisms—technology transfer and climate finance—to sustain global cooperation</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title">Time Series Forecast | <em>R, ARIMA, Forecasting, Data Visualization</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Built a stock price forecasting model leveraging historical SpiceJet data for time series analysis</li>
+            <li>Automated preprocessing, stationarity checks (ADF test), and model selection with relevant R packages</li>
+            <li>Achieved high forecast accuracy (RMSE Rs. 3.25, MAPE 7.12%) and visualized actual vs. predicted prices</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title">Portfolio Optimization and Risk Analysis | <em>Julia, JuMP.jl, QuantLib.jl</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Developed mean-variance portfolio optimization models in Julia, maximizing returns for target risk levels</li>
+            <li>Computed and analyzed risk metrics (volatility, VaR, Expected Shortfall) to assess portfolio robustness</li>
+            <li>Visualized efficient frontier and optimal asset allocations, enabling data-driven investment decisions</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title">Sentiment-Based Stock Prediction | <em>Python, Web Scraping, NLP, Machine Learning</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Scraped and analyzed financial news articles for sentiment using BeautifulSoup, Requests, and NLP techniques</li>
+            <li>Engineered sentiment-based features and combined them with historical stock data to train classification models</li>
+            <li>Achieved up to 53% prediction accuracy; documented insights and visualizations in a comprehensive term paper</li>
+        </ul>
+    </div>
+
+    <div class="section-title">Certifications</div>
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title"><a href="https://drive.google.com/file/d/1ackN0qQMTAkRQbNqLqOMADJbu5pXOUXj/view?usp=sharing">Open Course in Public Policy</a> | <em>Takshashila Institution</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Acquired knowledge of public policy, including evaluation, trade-offs, and economic reasoning in India</li>
+            <li>Applied analytical frameworks to assess policy outcomes across political, economic, and societal dimensions</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title"><a href="https://courses.cognitiveclass.ai/certificates/0749ad855d864644b59aedaea42128d8">Python 101 for Data Science</a> | <em>Cognitive Class, IBM</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Gained proficiency in Python for data science, covering data structures, functions, and control flow</li>
+            <li>Applied NumPy and Pandas for data analysis, enhancing analytical and problem-solving skills</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title"><a href="https://courses.cognitiveclass.ai/certificates/db0fba5160f440349054dfd5c37dd755">R for Data Science</a> | <em>Cognitive Class, IBM</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Developed practical skills in R, including data frames, vectors, and control structures</li>
+            <li>Utilized R for data manipulation and visualization to derive insights from datasets</li>
+        </ul>
+    </div>
+
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-title"><a href="https://drive.google.com/file/d/10mJbPPvulPDU-LS6XZnBmGI6pd5vKiI7/view?usp=sharing">Advanced SQL</a> | <em>Kaggle</em></span>
+            <span class="entry-date">2025</span>
+        </div>
+        <ul>
+            <li>Mastered filtering, grouping, and sorting SQL queries, including JOINs, subqueries, and window functions</li>
+            <li>Analyzed large datasets and improved query performance for business case studies</li>
+        </ul>
+    </div>
+
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-section">
+        <div class="skill-category">
+            <strong>Languages:</strong> Python, R, Julia, SQL, LaTeX
+        </div>
+        <div class="skill-category">
+            <strong>Machine Learning:</strong> Regression, Classification, Clustering, NLP algorithms
+        </div>
+        <div class="skill-category">
+            <strong>Data Analysis & Visualization Tools:</strong> Power BI, Google Looker/Data Studio, Stata, MS Excel
+        </div>
+    </div>
+    </div>
+</body>
+</html>

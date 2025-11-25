@@ -1,0 +1,664 @@
+collections:
+- title: Banaras
+  date: November 2025
+  location: Varanasi
+  description: Auto-generated placeholder collection from workspace
+  preview_images:
+  - photo0013.jpg
+  - photo0015.jpg
+  - photo0016.jpg
+  cover_image: photo0013.jpg
+  slug: banaras
+  month_year: November 2025
+  images:
+  - file: photo0013.jpg
+    caption: Banaras — Photo 1
+    alt: Banaras — Photo 1
+  - file: photo0015.jpg
+    caption: Banaras — Photo 2
+    alt: Banaras — Photo 2
+  - file: photo0016.jpg
+    caption: Banaras — Photo 3
+    alt: Banaras — Photo 3
+  - file: photo0018.jpg
+    caption: Banaras — Photo 4
+    alt: Banaras — Photo 4
+  - file: photo0020.jpg
+    caption: Banaras — Photo 5
+    alt: Banaras — Photo 5
+  - file: photo0021.jpg
+    caption: Banaras — Photo 6
+    alt: Banaras — Photo 6
+  - file: photo0023.jpg
+    caption: Banaras — Photo 7
+    alt: Banaras — Photo 7
+  - file: photo0024.jpg
+    caption: Banaras — Photo 8
+    alt: Banaras — Photo 8
+  - file: photo0025.jpg
+    caption: Banaras — Photo 9
+    alt: Banaras — Photo 9
+  - file: photo0026.jpg
+    caption: Banaras — Photo 10
+    alt: Banaras — Photo 10
+  - file: photo0027.jpg
+    caption: Banaras — Photo 11
+    alt: Banaras — Photo 11
+  - file: photo0028.jpg
+    caption: Banaras — Photo 12
+    alt: Banaras — Photo 12
+  - file: photo0029.jpg
+    caption: Banaras — Photo 13
+    alt: Banaras — Photo 13
+  - file: photo0031.jpg
+    caption: Banaras — Photo 14
+    alt: Banaras — Photo 14
+  - file: photo0032.jpg
+    caption: Banaras — Photo 15
+    alt: Banaras — Photo 15
+  - file: photo0033.jpg
+    caption: Banaras — Photo 16
+    alt: Banaras — Photo 16
+  - file: photo0034.jpg
+    caption: Banaras — Photo 17
+    alt: Banaras — Photo 17
+  - file: photo0037.jpg
+    caption: Banaras — Photo 18
+    alt: Banaras — Photo 18
+  - file: photo0040.jpg
+    caption: Banaras — Photo 19
+    alt: Banaras — Photo 19
+  - file: photo0041.jpg
+    caption: Banaras — Photo 20
+    alt: Banaras — Photo 20
+  - file: photo0042.jpg
+    caption: Banaras — Photo 21
+    alt: Banaras — Photo 21
+  - file: photo0044.jpg
+    caption: Banaras — Photo 22
+    alt: Banaras — Photo 22
+  - file: photo0046.jpg
+    caption: Banaras — Photo 23
+    alt: Banaras — Photo 23
+  - file: photo0047.jpg
+    caption: Banaras — Photo 24
+    alt: Banaras — Photo 24
+  - file: photo0048.jpg
+    caption: Banaras — Photo 25
+    alt: Banaras — Photo 25
+  - file: photo0049.jpg
+    caption: Banaras — Photo 26
+    alt: Banaras — Photo 26
+  - file: photo0051.jpg
+    caption: Banaras — Photo 27
+    alt: Banaras — Photo 27
+  - file: photo0053.jpg
+    caption: Banaras — Photo 28
+    alt: Banaras — Photo 28
+  - file: photo0056.jpg
+    caption: Banaras — Photo 29
+    alt: Banaras — Photo 29
+  - file: photo0057.jpg
+    caption: Banaras — Photo 30
+    alt: Banaras — Photo 30
+  - file: photo0058.jpg
+    caption: Banaras — Photo 31
+    alt: Banaras — Photo 31
+  - file: photo0059.jpg
+    caption: Banaras — Photo 32
+    alt: Banaras — Photo 32
+  - file: photo0060.jpg
+    caption: Banaras — Photo 33
+    alt: Banaras — Photo 33
+  - file: photo0065.jpg
+    caption: Banaras — Photo 34
+    alt: Banaras — Photo 34
+  - file: photo0067.jpg
+    caption: Banaras — Photo 35
+    alt: Banaras — Photo 35
+  - file: photo0068.jpg
+    caption: Banaras — Photo 36
+    alt: Banaras — Photo 36
+  - file: photo0069.jpg
+    caption: Banaras — Photo 37
+    alt: Banaras — Photo 37
+  - file: photo0071.jpg
+    caption: Banaras — Photo 38
+    alt: Banaras — Photo 38
+  - file: photo0076.jpg
+    caption: Banaras — Photo 39
+    alt: Banaras — Photo 39
+  - file: photo0077.jpg
+    caption: Banaras — Photo 40
+    alt: Banaras — Photo 40
+  - file: photo0078.jpg
+    caption: Banaras — Photo 41
+    alt: Banaras — Photo 41
+  - file: photo0080.jpg
+    caption: Banaras — Photo 42
+    alt: Banaras — Photo 42
+  - file: photo0081.jpg
+    caption: Banaras — Photo 43
+    alt: Banaras — Photo 43
+  - file: photo0083.jpg
+    caption: Banaras — Photo 44
+    alt: Banaras — Photo 44
+  - file: photo0085.jpg
+    caption: Banaras — Photo 45
+    alt: Banaras — Photo 45
+  - file: photo0086.jpg
+    caption: Banaras — Photo 46
+    alt: Banaras — Photo 46
+  - file: photo0087.jpg
+    caption: Banaras — Photo 47
+    alt: Banaras — Photo 47
+  - file: photo0088.jpg
+    caption: Banaras — Photo 48
+    alt: Banaras — Photo 48
+  - file: photo0096.jpg
+    caption: Banaras — Photo 49
+    alt: Banaras — Photo 49
+  - file: photo0097.jpg
+    caption: Banaras — Photo 50
+    alt: Banaras — Photo 50
+  - file: photo0098.jpg
+    caption: Banaras — Photo 51
+    alt: Banaras — Photo 51
+  - file: photo0099.jpg
+    caption: Banaras — Photo 52
+    alt: Banaras — Photo 52
+  - file: photo0102.jpg
+    caption: Banaras — Photo 53
+    alt: Banaras — Photo 53
+  - file: photo0103.jpg
+    caption: Banaras — Photo 54
+    alt: Banaras — Photo 54
+  - file: photo0108.jpg
+    caption: Banaras — Photo 55
+    alt: Banaras — Photo 55
+  - file: photo0109.jpg
+    caption: Banaras — Photo 56
+    alt: Banaras — Photo 56
+  - file: photo0110.jpg
+    caption: Banaras — Photo 57
+    alt: Banaras — Photo 57
+  - file: photo0111.jpg
+    caption: Banaras — Photo 58
+    alt: Banaras — Photo 58
+  - file: photo0112.jpg
+    caption: Banaras — Photo 59
+    alt: Banaras — Photo 59
+  - file: photo0113.jpg
+    caption: Banaras — Photo 60
+    alt: Banaras — Photo 60
+  - file: photo0114.jpg
+    caption: Banaras — Photo 61
+    alt: Banaras — Photo 61
+  - file: photo0116.jpg
+    caption: Banaras — Photo 62
+    alt: Banaras — Photo 62
+  - file: photo0117.jpg
+    caption: Banaras — Photo 63
+    alt: Banaras — Photo 63
+  - file: photo0118.jpg
+    caption: Banaras — Photo 64
+    alt: Banaras — Photo 64
+  - file: photo0119.jpg
+    caption: Banaras — Photo 65
+    alt: Banaras — Photo 65
+  - file: photo0120.jpg
+    caption: Banaras — Photo 66
+    alt: Banaras — Photo 66
+  - file: photo0123.jpg
+    caption: Banaras — Photo 67
+    alt: Banaras — Photo 67
+  - file: photo0125.jpg
+    caption: Banaras — Photo 68
+    alt: Banaras — Photo 68
+  - file: photo0126.jpg
+    caption: Banaras — Photo 69
+    alt: Banaras — Photo 69
+  - file: photo0127.jpg
+    caption: Banaras — Photo 70
+    alt: Banaras — Photo 70
+  - file: photo0129.jpg
+    caption: Banaras — Photo 71
+    alt: Banaras — Photo 71
+  - file: photo0130.jpg
+    caption: Banaras — Photo 72
+    alt: Banaras — Photo 72
+  - file: photo0132.jpg
+    caption: Banaras — Photo 73
+    alt: Banaras — Photo 73
+  - file: photo0133.jpg
+    caption: Banaras — Photo 74
+    alt: Banaras — Photo 74
+  - file: photo0135.jpg
+    caption: Banaras — Photo 75
+    alt: Banaras — Photo 75
+  - file: photo0136.jpg
+    caption: Banaras — Photo 76
+    alt: Banaras — Photo 76
+  - file: photo0140.jpg
+    caption: Banaras — Photo 77
+    alt: Banaras — Photo 77
+  - file: photo0141.jpg
+    caption: Banaras — Photo 78
+    alt: Banaras — Photo 78
+  - file: photo0142.jpg
+    caption: Banaras — Photo 79
+    alt: Banaras — Photo 79
+  - file: photo0143.jpg
+    caption: Banaras — Photo 80
+    alt: Banaras — Photo 80
+  - file: photo0145.jpg
+    caption: Banaras — Photo 81
+    alt: Banaras — Photo 81
+  - file: photo0146.jpg
+    caption: Banaras — Photo 82
+    alt: Banaras — Photo 82
+  - file: photo0147.jpg
+    caption: Banaras — Photo 83
+    alt: Banaras — Photo 83
+  - file: photo0151.jpg
+    caption: Banaras — Photo 84
+    alt: Banaras — Photo 84
+  - file: photo0152.jpg
+    caption: Banaras — Photo 85
+    alt: Banaras — Photo 85
+  - file: photo0153.jpg
+    caption: Banaras — Photo 86
+    alt: Banaras — Photo 86
+  - file: photo0154.jpg
+    caption: Banaras — Photo 87
+    alt: Banaras — Photo 87
+  - file: photo0155.jpg
+    caption: Banaras — Photo 88
+    alt: Banaras — Photo 88
+  - file: photo0156.jpg
+    caption: Banaras — Photo 89
+    alt: Banaras — Photo 89
+  - file: photo0157.jpg
+    caption: Banaras — Photo 90
+    alt: Banaras — Photo 90
+  - file: photo0158.jpg
+    caption: Banaras — Photo 91
+    alt: Banaras — Photo 91
+  - file: photo0159.jpg
+    caption: Banaras — Photo 92
+    alt: Banaras — Photo 92
+  - file: photo0160.jpg
+    caption: Banaras — Photo 93
+    alt: Banaras — Photo 93
+  - file: photo0161.jpg
+    caption: Banaras — Photo 94
+    alt: Banaras — Photo 94
+  - file: photo0162.jpg
+    caption: Banaras — Photo 95
+    alt: Banaras — Photo 95
+  - file: photo0163.jpg
+    caption: Banaras — Photo 96
+    alt: Banaras — Photo 96
+  - file: photo0164.jpg
+    caption: Banaras — Photo 97
+    alt: Banaras — Photo 97
+  - file: photo0165.jpg
+    caption: Banaras — Photo 98
+    alt: Banaras — Photo 98
+  - file: photo0166.jpg
+    caption: Banaras — Photo 99
+    alt: Banaras — Photo 99
+  - file: photo0167.jpg
+    caption: Banaras — Photo 100
+    alt: Banaras — Photo 100
+  - file: photo0168.jpg
+    caption: Banaras — Photo 101
+    alt: Banaras — Photo 101
+  - file: photo0169.jpg
+    caption: Banaras — Photo 102
+    alt: Banaras — Photo 102
+  - file: photo0171.jpg
+    caption: Banaras — Photo 103
+    alt: Banaras — Photo 103
+  - file: photo0173.jpg
+    caption: Banaras — Photo 104
+    alt: Banaras — Photo 104
+  - file: photo0174.jpg
+    caption: Banaras — Photo 105
+    alt: Banaras — Photo 105
+  - file: photo0175.jpg
+    caption: Banaras — Photo 106
+    alt: Banaras — Photo 106
+  - file: photo0176.jpg
+    caption: Banaras — Photo 107
+    alt: Banaras — Photo 107
+  - file: photo0177.jpg
+    caption: Banaras — Photo 108
+    alt: Banaras — Photo 108
+  - file: test.jpg
+    caption: Test image
+    alt: Test image
+  
+- title: Chennai
+  date: November 2025
+  location: Chennai
+  description: Auto-generated placeholder collection from workspace
+  preview_images:
+  - photo0267.jpg
+  - photo0268.jpg
+  - photo0270.jpg
+  cover_image: photo0267.jpg
+  slug: chennai
+  month_year: November 2025
+  images:
+  - file: photo0267.jpg
+    caption: Chennai — Photo 1
+    alt: Chennai — Photo 1
+  - file: photo0268.jpg
+    caption: Chennai — Photo 2
+    alt: Chennai — Photo 2
+  - file: photo0270.jpg
+    caption: Chennai — Photo 3
+    alt: Chennai — Photo 3
+  - file: photo0271.jpg
+    caption: Chennai — Photo 4
+    alt: Chennai — Photo 4
+  - file: photo0273.jpg
+    caption: Chennai — Photo 5
+    alt: Chennai — Photo 5
+  - file: photo0279.jpg
+    caption: Chennai — Photo 6
+    alt: Chennai — Photo 6
+  - file: photo0280.jpg
+    caption: Chennai — Photo 7
+    alt: Chennai — Photo 7
+  - file: photo0282.jpg
+    caption: Chennai — Photo 8
+    alt: Chennai — Photo 8
+  - file: photo0284.jpg
+    caption: Chennai — Photo 9
+    alt: Chennai — Photo 9
+  - file: photo0285.jpg
+    caption: Chennai — Photo 10
+    alt: Chennai — Photo 10
+  - file: photo0286.jpg
+    caption: Chennai — Photo 11
+    alt: Chennai — Photo 11
+  - file: photo0287.jpg
+    caption: Chennai — Photo 12
+    alt: Chennai — Photo 12
+  - file: photo0289.jpg
+    caption: Chennai — Photo 13
+    alt: Chennai — Photo 13
+  - file: photo0290.jpg
+    caption: Chennai — Photo 14
+    alt: Chennai — Photo 14
+  - file: photo0292.jpg
+    caption: Chennai — Photo 15
+    alt: Chennai — Photo 15
+  - file: photo0298.jpg
+    caption: Chennai — Photo 16
+    alt: Chennai — Photo 16
+  - file: photo0299.jpg
+    caption: Chennai — Photo 17
+    alt: Chennai — Photo 17
+  - file: photo0300.jpg
+    caption: Chennai — Photo 18
+    alt: Chennai — Photo 18
+  - file: photo0301.jpg
+    caption: Chennai — Photo 19
+    alt: Chennai — Photo 19
+  - file: photo0302.jpg
+    caption: Chennai — Photo 20
+    alt: Chennai — Photo 20
+  - file: photo0303.jpg
+    caption: Chennai — Photo 21
+    alt: Chennai — Photo 21
+  - file: photo0304.jpg
+    caption: Chennai — Photo 22
+    alt: Chennai — Photo 22
+  - file: photo0305.jpg
+    caption: Chennai — Photo 23
+    alt: Chennai — Photo 23
+  - file: photo0306.jpg
+    caption: Chennai — Photo 24
+    alt: Chennai — Photo 24
+  - file: photo0308.jpg
+    caption: Chennai — Photo 25
+    alt: Chennai — Photo 25
+  - file: photo0310.jpg
+    caption: Chennai — Photo 26
+    alt: Chennai — Photo 26
+  - file: photo0311.jpg
+    caption: Chennai — Photo 27
+    alt: Chennai — Photo 27
+  - file: photo0312.jpg
+    caption: Chennai — Photo 28
+    alt: Chennai — Photo 28
+  - file: photo0313.jpg
+    caption: Chennai — Photo 29
+    alt: Chennai — Photo 29
+  - file: photo0315.jpg
+    caption: Chennai — Photo 30
+    alt: Chennai — Photo 30
+  - file: photo0316.jpg
+    caption: Chennai — Photo 31
+    alt: Chennai — Photo 31
+  - file: photo0317.jpg
+    caption: Chennai — Photo 32
+    alt: Chennai — Photo 32
+  - file: photo0318.jpg
+    caption: Chennai — Photo 33
+    alt: Chennai — Photo 33
+  - file: photo0319.jpg
+    caption: Chennai — Photo 34
+    alt: Chennai — Photo 34
+  - file: photo0320.jpg
+    caption: Chennai — Photo 35
+    alt: Chennai — Photo 35
+  - file: photo0322.jpg
+    caption: Chennai — Photo 36
+    alt: Chennai — Photo 36
+  - file: photo0323.jpg
+    caption: Chennai — Photo 37
+    alt: Chennai — Photo 37
+  - file: photo0324.jpg
+    caption: Chennai — Photo 38
+    alt: Chennai — Photo 38
+  - file: photo0325.jpg
+    caption: Chennai — Photo 39
+    alt: Chennai — Photo 39
+  - file: photo0326.jpg
+    caption: Chennai — Photo 40
+    alt: Chennai — Photo 40
+  - file: photo0327.jpg
+    caption: Chennai — Photo 41
+    alt: Chennai — Photo 41
+  - file: photo0328.jpg
+    caption: Chennai — Photo 42
+    alt: Chennai — Photo 42
+  - file: photo0329.jpg
+    caption: Chennai — Photo 43
+    alt: Chennai — Photo 43
+  - file: photo0331.jpg
+    caption: Chennai — Photo 44
+    alt: Chennai — Photo 44
+  - file: photo0332.jpg
+    caption: Chennai — Photo 45
+    alt: Chennai — Photo 45
+  
+- title: Patna
+  date: November 2025
+  location: Patna
+  description: Some fun photos from Patna.
+  preview_images:
+  - photo0178.jpg
+  - photo0180.jpg
+  - photo0181.jpg
+  cover_image: photo0178.jpg
+  slug: patna
+  month_year: November 2025
+  images:
+  - file: photo0178.jpg
+    caption: Patna — Photo 1
+    alt: Patna — Photo 1
+  - file: photo0180.jpg
+    caption: Patna — Photo 2
+    alt: Patna — Photo 2
+  - file: photo0181.jpg
+    caption: Patna — Photo 3
+    alt: Patna — Photo 3
+  - file: photo0186.jpg
+    caption: Patna — Photo 4
+    alt: Patna — Photo 4
+  - file: photo0188.jpg
+    caption: Patna — Photo 5
+    alt: Patna — Photo 5
+  - file: photo0190.jpg
+    caption: Patna — Photo 6
+    alt: Patna — Photo 6
+  - file: photo0191.jpg
+    caption: Patna — Photo 7
+    alt: Patna — Photo 7
+  - file: photo0192.jpg
+    caption: Patna — Photo 8
+    alt: Patna — Photo 8
+  - file: photo0199.jpg
+    caption: Patna — Photo 9
+    alt: Patna — Photo 9
+  - file: photo0200.jpg
+    caption: Patna — Photo 10
+    alt: Patna — Photo 10
+  - file: photo0202.jpg
+    caption: Patna — Photo 11
+    alt: Patna — Photo 11
+  - file: photo0204.jpg
+    caption: Patna — Photo 12
+    alt: Patna — Photo 12
+  - file: photo0205.jpg
+    caption: Patna — Photo 13
+    alt: Patna — Photo 13
+  - file: photo0206.jpg
+    caption: Patna — Photo 14
+    alt: Patna — Photo 14
+  - file: photo0209.jpg
+    caption: Patna — Photo 15
+    alt: Patna — Photo 15
+  - file: photo0210.jpg
+    caption: Patna — Photo 16
+    alt: Patna — Photo 16
+  - file: photo0211.jpg
+    caption: Patna — Photo 17
+    alt: Patna — Photo 17
+  - file: photo0212.jpg
+    caption: Patna — Photo 18
+    alt: Patna — Photo 18
+  - file: photo0214.jpg
+    caption: Patna — Photo 19
+    alt: Patna — Photo 19
+  - file: photo0215.jpg
+    caption: Patna — Photo 20
+    alt: Patna — Photo 20
+  - file: photo0217.jpg
+    caption: Patna — Photo 21
+    alt: Patna — Photo 21
+  - file: photo0218.jpg
+    caption: Patna — Photo 22
+    alt: Patna — Photo 22
+  - file: photo0219.jpg
+    caption: Patna — Photo 23
+    alt: Patna — Photo 23
+  - file: photo0220.jpg
+    caption: Patna — Photo 24
+    alt: Patna — Photo 24
+  - file: photo0221.jpg
+    caption: Patna — Photo 25
+    alt: Patna — Photo 25
+  - file: photo0222.jpg
+    caption: Patna — Photo 26
+    alt: Patna — Photo 26
+  - file: photo0223.jpg
+    caption: Patna — Photo 27
+    alt: Patna — Photo 27
+  - file: photo0224.jpg
+    caption: Patna — Photo 28
+    alt: Patna — Photo 28
+  - file: photo0226.jpg
+    caption: Patna — Photo 29
+    alt: Patna — Photo 29
+  - file: photo0227.jpg
+    caption: Patna — Photo 30
+    alt: Patna — Photo 30
+  - file: photo0228.jpg
+    caption: Patna — Photo 31
+    alt: Patna — Photo 31
+  - file: photo0229.jpg
+    caption: Patna — Photo 32
+    alt: Patna — Photo 32
+  - file: photo0230.jpg
+    caption: Patna — Photo 33
+    alt: Patna — Photo 33
+  - file: photo0231.jpg
+    caption: Patna — Photo 34
+    alt: Patna — Photo 34
+  - file: photo0233.jpg
+    caption: Patna — Photo 35
+    alt: Patna — Photo 35
+  - file: photo0234.jpg
+    caption: Patna — Photo 36
+    alt: Patna — Photo 36
+  - file: photo0235.jpg
+    caption: Patna — Photo 37
+    alt: Patna — Photo 37
+  - file: photo0240.jpg
+    caption: Patna — Photo 38
+    alt: Patna — Photo 38
+  - file: photo0242.jpg
+    caption: Patna — Photo 39
+    alt: Patna — Photo 39
+  - file: photo0244.jpg
+    caption: Patna — Photo 40
+    alt: Patna — Photo 40
+  - file: photo0245.jpg
+    caption: Patna — Photo 41
+    alt: Patna — Photo 41
+  - file: photo0247.jpg
+    caption: Patna — Photo 42
+    alt: Patna — Photo 42
+  - file: photo0248.jpg
+    caption: Patna — Photo 43
+    alt: Patna — Photo 43
+  - file: photo0249.jpg
+    caption: Patna — Photo 44
+    alt: Patna — Photo 44
+  - file: photo0250.jpg
+    caption: Patna — Photo 45
+    alt: Patna — Photo 45
+  - file: photo0251.jpg
+    caption: Patna — Photo 46
+    alt: Patna — Photo 46
+  - file: photo0254.jpg
+    caption: Patna — Photo 47
+    alt: Patna — Photo 47
+  - file: photo0255.jpg
+    caption: Patna — Photo 48
+    alt: Patna — Photo 48
+  - file: photo0257.jpg
+    caption: Patna — Photo 49
+    alt: Patna — Photo 49
+  - file: photo0261.jpg
+    caption: Patna — Photo 50
+    alt: Patna — Photo 50
+  - file: photo0263.jpg
+    caption: Patna — Photo 51
+    alt: Patna — Photo 51
+  - file: photo0264.jpg
+    caption: Patna — Photo 52
+    alt: Patna — Photo 52
+  - file: photo0265.jpg
+    caption: Patna — Photo 53
+    alt: Patna — Photo 53
+  - file: photo0266.jpg
+    caption: Patna — Photo 54
+    alt: Patna — Photo 54
+  

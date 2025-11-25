@@ -1,0 +1,135 @@
+---
+title: ""
+format: html
+---
+
+```{=html}
+<div class="thanks-container">
+  <div class="postcard">
+    <div class="postcard-image">
+      <img src="../_assets/images/thanks/cats.jpg" alt="Cats">
+    </div>
+    <div class="postcard-content">
+      <div class="postcard-message-area">
+        <p class="postcard-greeting">Thank you!</p>
+        <div class="postcard-divider"></div>
+        <p class="postcard-message">Your message has been delivered. Thanks for reaching out!</p>
+        <p class="postcard-closing">Best,</p>
+        <p class="postcard-signature">Sai</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.thanks-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 4rem 2rem;
+}
+
+.postcard {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fafaf8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.postcard-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin-bottom: -1px;
+}
+
+.postcard-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.postcard-content {
+  border: 0.5px solid #d0d0d0;
+  border-top: none;
+  padding: 2rem 2.5rem;
+}
+
+.postcard-message-area {
+  max-width: 450px;
+}
+
+.postcard-greeting {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.postcard-divider {
+  width: 40px;
+  height: 1px;
+  background-color: #d0d0d0;
+  margin-bottom: 1rem;
+}
+
+.postcard-message {
+  font-size: 1.0625rem;
+  color: #4a4a4a;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+.postcard-closing {
+  font-size: 1.0625rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+
+.postcard-signature {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .thanks-container {
+    min-height: 50vh;
+    padding: 2rem 1rem;
+  }
+  
+  .postcard-content {
+    padding: 1.75rem 1.5rem;
+  }
+  
+  .postcard-greeting {
+    font-size: 1.375rem;
+    margin-bottom: 0.875rem;
+  }
+  
+  .postcard-divider {
+    width: 30px;
+    margin-bottom: 0.875rem;
+  }
+  
+  .postcard-message {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .postcard-closing {
+    font-size: 1rem;
+  }
+  
+  .postcard-signature {
+    font-size: 1.0625rem;
+  }
+}
+</style>
+```

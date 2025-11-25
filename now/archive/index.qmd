@@ -1,0 +1,14 @@
+---
+title: ""
+---
+::: {.now-content}
+::: {.now-updated}
+Now page archive 
+:::
+::: {.now-archive-list}
+[October 2025](/now/archive/2025-10-15/)
+:::
+::: {.now-archive}
+[Back to current Now page](/now)
+:::
+:::

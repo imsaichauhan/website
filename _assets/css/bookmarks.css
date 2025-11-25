@@ -1,0 +1,300 @@
+/* Bookmarks Index Page - Card Layout */
+
+/* Remove default body and content padding for bookmarks page */
+body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 32px !important;
+  /* Keep padding-top for header, but ensure bookmarks container starts right after */
+}
+
+/* -------------------------------------------------------------------------
+   bookmarks.css — Bookmarks page specific styles
+   - Card layout, overlays, palette, and small components used only by bookmarks
+   - Article/page typography is maintained in `custom.css`.
+ ------------------------------------------------------------------------- */
+
+#quarto-content {
+  padding: 0 !important;
+  padding-right: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Bookmarks-specific body styling for card layout pages */
+body[class*="page-custom"] {
+  background: #f5f1eb;
+  overflow-x: hidden;
+}
+
+.bookmarks-container {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.bookmarks-container::-webkit-scrollbar {
+  display: none;
+}
+
+.bookmarks-scroll {
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin-left: 2.5rem;
+  width: max-content;
+}
+
+.bookmark-card {
+  position: relative;
+  width: 520px;
+  height: 582px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+}
+
+.card-main-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  flex-shrink: 0;
+}
+
+.card-main {
+  height: 449px;
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.category-sidebar {
+  width: 65px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 3rem;
+  border-left: 1px solid;
+}
+
+.category-sidebar.blue-light {
+  background: #e8edf5;
+  border-left-color: #1a2642;
+}
+
+.category-sidebar.teal-light {
+  background: #e8f2f5;
+  border-left-color: #1a3a42;
+}
+
+.category-sidebar.purple-light {
+  background: #f0e8f5;
+  border-left-color: #2a1a42;
+}
+
+.category-sidebar.navy-light {
+  background: #e8ecf2;
+  border-left-color: #1a2535;
+}
+
+/* green and brown sidebar color families removed (unused) */
+
+.category-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  font-family: 'Gelasio', serif;
+}
+
+.category-text.blue-dark { color: #1a2642; }
+.category-text.teal-dark { color: #1a3a42; }
+.category-text.purple-dark { color: #2a1a42; }
+.category-text.navy-dark { color: #1a2535; }
+/* .category-text.green-dark and .category-text.brown-dark removed (unused) */
+
+.card-image-wrapper {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.view-link-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.85rem;
+  padding: 0.6rem 1.2rem;
+  z-index: 10;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500 !important;
+  pointer-events: none;
+}
+
+.view-link-overlay.blue {
+  background: #e8edf5;
+  color: #1a2642;
+}
+
+.view-link-overlay.teal {
+  background: #e8f2f5;
+  color: #1a3a42;
+}
+
+.view-link-overlay.purple {
+  background: #f0e8f5;
+  color: #2a1a42;
+}
+
+.view-link-overlay.navy {
+  background: #e8ecf2;
+  color: #1a2535;
+}
+
+
+
+.card-footer {
+  height: 133px;
+  padding: 1.5rem;
+  z-index: 10;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.card-footer.blue-dark {
+  background: #1a2642;
+}
+
+.card-footer.teal-dark {
+  background: #1a3a42;
+}
+
+.card-footer.purple-dark {
+  background: #2a1a42;
+}
+
+.card-footer.navy-dark {
+  background: #1a2535;
+}
+
+/* green and brown card-footer styles removed (unused) */
+
+.featuring-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: -0.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+  padding-top: 0.75rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+}
+
+/* Mobile: vertical stack */
+@media (max-width: 768px) {
+  body {
+    padding-top: 32px !important;
+  }
+  
+  .bookmarks-container {
+    overflow-x: visible;
+    padding: 1rem 0;
+    margin-top: 0;
+  }
+  
+  .bookmarks-scroll {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .bookmark-card {
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+  }
+  
+  .card-main {
+    height: 350px;
+    flex-direction: column;
+  }
+  
+  .category-sidebar {
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1rem;
+    border-left: none;
+    border-bottom: 1px solid;
+  }
+  
+  .category-text {
+    writing-mode: horizontal-tb;
+    transform: none;
+    font-size: 1.1rem;
+  }
+  
+  .card-image-wrapper {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .card-footer {
+    height: 150px;
+    padding: 1rem;
+  }
+}
+
+/* Remove the dotted/outlined focus ring for mouse clicks on bookmarks subpages
+   while preserving keyboard focus outlines for accessibility. Pages that use
+   the bookmarks layout emit page-level classes (e.g. `page-custom`) so we
+   scope this rule to those pages. */
+body[class*="page-custom"] a:focus:not(:focus-visible),
+body[class*="page-custom"] button:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Specifically suppress the dotted outline on bookmark-grid links when focus
+   is mouse-initiated while preserving keyboard focus-visible outlines. This
+   targets the project-grid-title anchors emitted by the bookmarks generator. */
+.projects-grid.bookmarks-grid .project-grid-title a:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Bookmarks Detail Pages - moved article/page typography into global stylesheet
+   (so article/page styles are defined site-wide in `custom.css`). */

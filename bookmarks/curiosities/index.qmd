@@ -1,0 +1,18 @@
+---
+title: "Curiosities"
+bookmarks_grid: true
+---
+
+
+- [The Library of Babel Made Real](https://libraryofbabel.info) | Every possible page of text already exists in this algorithmic library. Your thoughts, written exactly as you're thinking them right now, are already there—you just need to find the right address. | Library
+- [The Anthropocene's Golden Spike](https://example.com/golden-spike) | Geologists are trying to pinpoint the exact moment humanity became a geological force; plutonium isotopes from 1950s tests are a strong candidate. | Geology
+- [Gödel's Lost Letter to von Neumann](https://example.com/godel-letter) | In 1956 Gödel hinted at complexity ideas that resemble P vs NP; a fascinating historical what-if. | CS
+- [The Voynich Manuscript's Statistical Signature](https://example.com/voynich) | Follows Zipf's law like natural language but resists decipherment; a statistical mystery. | Manuscript
+- [Quantum Immortality and the Anthropic Shadow](https://example.com/quantum-immortality) | If many-worlds is true, observers experience only branches where they survive — with interesting anthropic implications. | Physics
+- [The Longest Poem in the World](https://example.com/longest-poem) | A generative poem built from every tweet; an extreme example of algorithmic literature. | Art
+- [Roko's Basilisk and Decision Theory](https://example.com/rokos-basilisk) | An information hazard thought experiment mixing acausal trade and Pascal-like reasoning. | Decision Theory
+- [The Tamagotchi Effect in Digital Spaces](https://example.com/tamagotchi-effect) | Why we empathize with virtual entities and what that says about moral psychology. | Psychology
+- [Normcore and the Death of Subcultures](https://example.com/normcore) | How mainstreaming and irony changed subcultural meaning. | Culture
+- [The Fermi Paradox's Dark Forest Solution](https://example.com/dark-forest) | A game-theoretic explanation for cosmic silence: silence as survival. | Astrobiology
+- [Borges's Tlön, Uqbar, Orbis Tertius](https://example.com/tlon) | Fictional worlds described so convincingly they start to affect reality. | Literature
+- [The Phantom Time Hypothesis](https://example.com/phantom-time) | A fringe claim that certain medieval years were fabricated — notable as an epistemic puzzle. | History

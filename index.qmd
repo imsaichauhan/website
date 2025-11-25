@@ -1,0 +1,53 @@
+---
+title: ""
+page-layout: custom
+body-classes: home
+css: _assets/css/home.css
+---
+
+<script>
+// Add 'home' class to body for CSS targeting
+document.body.classList.add('home');
+</script>
+
+::: {.home-container}
+::: {.hero-minimal}
+*Welcome to the website of*  
+**Sai Prakash**
+:::
+
+::: {.bio-section}
+I’m someone who drifts through varied interests 
+
+and the rabbit holes they open.
+:::
+
+::: {.home-nav}
+::: {.home-nav-grid}
+::: {.nav-section}
+## Indexes
+
+- [Projects](projects/)
+- [Bookmarks](bookmarks/)
+- [Now](now/)
+- [Photos](photos/)
+:::
+
+::: {.nav-section .secondary}
+## Information
+
+- [Resume](resume/)
+- [Contact](contact/)
+- [Colophon](colophon/)
+- [RSS](rss.xml)
+:::
+
+::: {.dark-mode-container}
+<button class="dark-mode-toggle home-dark-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+  <span class="mode-light">[Light]</span>
+  <span class="mode-dark">Dark</span>
+</button>
+:::
+:::
+:::
+:::

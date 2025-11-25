@@ -1,0 +1,18 @@
+---
+title: ""
+toc: false
+page-layout: article
+---
+
+```{=html}
+<div class="error-page">
+  <div class="error-container">
+    <div class="error-code">404</div>
+    <h1 class="error-heading">This page doesn't exist.</h1>
+    <p class="error-message">
+      Maybe it never did, or maybe it moved on. Either way, you're welcome to start over.
+    </p>
+    <a href="/" class="error-home-link">Home</a>
+  </div>
+</div>
+```

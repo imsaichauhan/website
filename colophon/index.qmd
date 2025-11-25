@@ -1,0 +1,196 @@
+---
+title: ""
+format: html
+---
+
+```{=html}
+<div class="colophon-container">
+  <h1 class="colophon-title">Colophon</h1>
+  
+  <div class="colophon-intro">
+    <p>This site is a digital garden of ideas, projects, and photographs. Here's how it's made.</p>
+  </div>
+
+  <div class="colophon-grid">
+    <div class="colophon-section">
+      <h2>Typography</h2>
+      <p><strong>IBM Plex Mono</strong> for headings and interface elements</p>
+      <p><strong>Gelasio</strong> for body text</p>
+      <p class="colophon-note">Currently served via Google Fonts. Self-hosting planned for improved privacy.</p>
+    </div>
+
+    <div class="colophon-section">
+      <h2>Technology</h2>
+      <p><strong>Built with</strong> <a href="https://quarto.org" target="_blank" rel="noopener">Quarto</a></p>
+      <p><strong>Hosted on</strong> <a href="https://pages.cloudflare.com" target="_blank" rel="noopener">Cloudflare Pages</a></p>
+      <p><strong>Contact form</strong> powered by <a href="https://formsubmit.co" target="_blank" rel="noopener">FormSubmit</a></p>
+    </div>
+
+    <div class="colophon-section" id="privacy">
+      <h2>Privacy</h2>
+      <p>This site uses no analytics, tracking, or cookies beyond what Google Fonts requires (temporary). Contact form messages are sent directly to my email via FormSubmit and not stored elsewhere.</p>
+    </div>
+
+    <div class="colophon-section">
+      <h2>Design</h2>
+      <p>Inspired by editorial layouts, vintage postcards, and clean magazine design. Built with an emphasis on readability, minimal distractions, and personal expression.</p>
+    </div>
+  </div>
+
+  <div class="colophon-footer">
+    <p>Last updated: November 2025</p>
+  </div>
+</div>
+
+<style>
+.colophon-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem 3rem 2rem;
+}
+
+.colophon-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.colophon-intro {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.colophon-intro p {
+  font-size: 1.25rem;
+  color: #4a4a4a;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.colophon-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 2.5rem 4rem;
+  margin-bottom: 3rem;
+}
+
+.colophon-section {
+  margin-bottom: 0;
+}
+
+.colophon-section:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.colophon-section:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.colophon-section:nth-child(3) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.colophon-section:nth-child(4) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.colophon-section h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #666;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.colophon-section p {
+  font-size: 1.0625rem;
+  color: #4a4a4a;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.colophon-section p:last-child {
+  margin-bottom: 0;
+}
+
+.colophon-section strong {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.colophon-section a {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid #1a1a1a;
+  transition: border-bottom 0.2s ease;
+}
+
+.colophon-section a:hover {
+  border-bottom: 1px solid transparent;
+}
+
+.colophon-note {
+  font-size: 0.8125rem;
+  color: #999;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.colophon-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.colophon-footer p {
+  font-size: 0.875rem;
+  color: #999;
+  margin: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .colophon-container {
+    padding: 3rem 1.5rem 2rem 1.5rem;
+  }
+  
+  .colophon-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .colophon-intro {
+    margin-bottom: 2.5rem;
+  }
+  
+  .colophon-intro p {
+    font-size: 1.125rem;
+  }
+  
+  .colophon-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .colophon-section {
+    margin-bottom: 2rem;
+  }
+  
+  .colophon-section p {
+    font-size: 1rem;
+  }
+}
+</style>
+```

@@ -1,0 +1,84 @@
+project:
+  type: website
+  output-dir: _site
+  post-render:
+    - _scripts/create-404-redirect.sh
+
+website:
+  title: "Sai Prakash"
+  site-url: "https://yourdomain.com"
+  repo-url: "https://github.com/imsaichauhan/progress"
+  page-navigation: true
+  navbar:
+    background: "#f5f1eb"
+    foreground: "#1a1a1a"
+    left:
+      - text: "Sai Prakash"
+        href: index.qmd
+    right:
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Bookmarks"
+        href: bookmarks/index.qmd
+      - text: "Now"
+        href: now/index.qmd
+      - text: "Photos"
+        href: photos/index.qmd
+  page-footer:
+    border: true
+    background: "#f5f1eb"
+    foreground: "#1a1a1a"
+    left: "© 2025 Sai Prakash"
+    right: 
+      - text: "Email"
+        href: "mailto:imsaichauhan@gmail.com"
+      - text: "GitHub"
+        href: "https://github.com/imsaichauhan"
+
+format:
+  html:
+    theme: none
+    css: 
+      - _assets/css/custom.css
+      - _assets/css/footer.css
+      - _assets/css/dark.css
+      - _assets/css/projects.css
+      - _assets/css/broken-links.css
+      - _assets/css/404.css
+    # Ensure the photos folder is treated as a resource so it is copied to the
+    # rendered site output. This helps include original-resolution images.
+    resources:
+      - _assets/images/photos
+      - resume/*.html
+      - resume/*.pdf
+    toc: false
+    toc-location: right
+    toc-depth: 3
+    anchor-sections: false
+    smooth-scroll: true
+    date-format: "MMMM YYYY"
+    csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500;700&family=Gelasio:wght@400;700&display=swap" rel="stylesheet">
+      - text: |
+          <link rel="alternate" type="application/rss+xml" href="/rss.xml">
+    include-before-body:
+      - file: _includes/header.html
+      - text: |
+          <script src="/_assets/js/dark-mode.js"></script>
+    include-after-body:
+      - file: _includes/footer.html
+      - text: |
+          <script src="/_assets/js/footnotes.js"></script>
+          <script src="/_assets/js/citations.js"></script>
+          <script src="/_assets/js/figures.js"></script>
+          <script src="/_assets/js/toc.js"></script>
+          <script src="/_assets/js/external-links.js"></script>
+          <script src="/_assets/js/broken-links.js"></script>
+          <script src="/_assets/js/auto-hide-header.js"></script>
+    filters:
+      - _filters/bookmarks-grid.lua
+      - _filters/photos-listing-cleanup.lua

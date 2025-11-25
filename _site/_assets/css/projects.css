@@ -1,0 +1,394 @@
+/* Projects-specific styles
+   Moved from `custom.css` to keep project layout isolated.
+*/
+
+/* Projects Layout - Two Column */
+.projects-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+     box-sizing: border-box;
+     /* Compensate for the negative left/right margins used for the
+         full-bleed effect. Using 100% here caused the element to be shifted
+         left by 2.5rem but kept the same width, producing horizontal
+         overflow on the right. Use calc(100% + 5rem) so the outer width
+         includes the two 2.5rem negative margins and doesn't overflow.
+         Note: media queries reset margins for smaller screens already. */
+     width: calc(100% + 5rem);
+     max-width: calc(100% + 5rem);
+}
+
+/* Featured Project - Left Column (Fixed) */
+.featured-project {
+    background-color: #fff;
+    position: sticky;
+    top: calc(22px + 2rem);
+    height: fit-content;
+    align-self: start;
+}
+
+.featured-image {
+    width: 100%;
+    aspect-ratio: 3/2;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    /* removed the bottom border so the black horizontal line under the featured image disappears */
+    border-bottom: none;
+}
+
+.featured-image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    opacity: 1 !important;
+}
+
+.featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Image helpers for projects */
+.project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.featured-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.featured-content {
+    padding: 1.25rem;
+    background-color: #f4d06f;
+}
+
+.featured-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-editor-bold);
+}
+
+.featured-title p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.featured-title a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.featured-title a:hover {
+    text-decoration: none;
+}
+
+.featured-author {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.featured-separator {
+    height: 1px;
+    background-color: #1a1a1a;
+    margin: 0.2rem 0;
+}
+
+.featured-description-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+
+.featured-description {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: #000000;
+    margin-bottom: 0;
+    flex: 1;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+}
+
+.featured-read-more {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.featured-read-more a {
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-family: var(--font-gt-america-mono-bold);
+}
+
+.featured-read-more a:hover {
+    text-decoration: none;
+}
+
+.featured-tag {
+    display: block;
+    padding: 0.2rem 0;
+    border: none;
+    font-size: 0.95rem;
+    background-color: transparent;
+    font-family: var(--font-gt-america-mono-light);
+    font-weight: 300;
+}
+
+/* Ensure Projects stack vertically on smaller screens: single-column layout
+   Force sensible padding/inset and stack featured content to avoid horizontal
+   overflow from the read-more button. This complements the existing
+   site-wide media queries and keeps the projects page one-column on tablets
+   and phones. */
+@media (max-width: 1024px) {
+    .projects-layout {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        /* Remove negative margins that were used for full-bleed on desktop */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .featured-project {
+        position: static !important;
+        top: auto !important;
+    }
+
+    /* Stack featured description and the read-more link vertically */
+    .featured-description-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0.75rem !important;
+    }
+
+    .featured-read-more {
+        white-space: normal !important; /* allow wrapping */
+        text-align: left !important;
+    }
+}
+
+/* Mobile optimizations for better readability and usability on phones */
+@media (max-width: 768px) {
+    .projects-layout {
+        margin-top: 1.5rem !important;
+        gap: 1.25rem !important;
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+    
+    .featured-project {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Featured project mobile adjustments */
+    .featured-image {
+        /* Remove fixed aspect ratio - let image determine the height */
+        aspect-ratio: unset;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block;
+        line-height: 0;
+        font-size: 0;
+        width: 100%;
+    }
+    
+    .featured-image p {
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0;
+        font-size: 0;
+        display: block;
+    }
+    
+    .featured-image a {
+        display: block !important;
+        line-height: 0;
+        font-size: 0;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .featured-image img {
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 4/3 !important;
+        object-fit: cover !important;
+    }
+    
+    .featured-content {
+        margin-top: 0 !important;
+        padding-top: 1rem;
+    }
+    
+    /* Ensure featured content doesn't overflow */
+    .featured-content,
+    .featured-title,
+    .featured-description,
+    .featured-read-more {
+        max-width: 100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .featured-content {
+        padding: 1rem;
+    }
+
+    .featured-title {
+        font-size: 1.2rem;
+        line-height: 1.35;
+        margin-bottom: 0.4rem;
+    }
+
+    .featured-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .featured-read-more a {
+        font-size: 0.9rem;
+    }
+
+    .featured-tag {
+        font-size: 0.9rem;
+        padding: 0.25rem 0;
+    }
+
+    /* Project grid cards mobile adjustments */
+    .projects-grid {
+        gap: 1rem;
+    }
+}
+
+/* Extra small mobile devices (phones in portrait) */
+@media (max-width: 480px) {
+    .projects-layout {
+        margin-top: 1rem !important;
+        gap: 1rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .featured-project {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Featured project on small mobile */
+    .featured-image {
+        /* Remove fixed aspect ratio - let image determine the height */
+        aspect-ratio: unset;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0;
+        font-size: 0;
+        width: 100%;
+    }
+    
+    .featured-image p {
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0;
+        font-size: 0;
+    }
+    
+    .featured-image a {
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 0;
+        font-size: 0;
+    }
+    
+    .featured-image img {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 4/3 !important;
+        object-fit: cover !important;
+    }
+
+    .featured-content {
+        padding: 0.875rem;
+        max-width: 100%;
+        margin-top: 0 !important;
+    }
+
+    .featured-title {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+    .featured-description {
+        font-size: 0.9rem;
+        line-height: 1.55;
+    }
+
+    .featured-description-wrapper {
+        gap: 0.6rem !important;
+    }
+
+    .featured-read-more a {
+        font-size: 0.85rem;
+    }
+
+    .featured-tag {
+        font-size: 0.85rem;
+    }
+
+    .featured-separator {
+        margin: 0.15rem 0;
+    }
+
+    /* Project grid cards on small mobile */
+    .projects-grid {
+        gap: 0.875rem;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    /* Ensure all grid card content wraps properly */
+    .project-grid-card,
+    .project-grid-title,
+    .project-grid-description,
+    .project-grid-read-more {
+        max-width: 100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+}
