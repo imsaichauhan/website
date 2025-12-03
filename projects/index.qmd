@@ -10,7 +10,7 @@ title: ""
 ::: {.projects-layout}
 ::: {.featured-project}
 ::: {.featured-image}
-[![](../../_assets/images/projects/rice.jpg)](/projects/rice/)
+[![](../_assets/images/projects/rice.jpg)](/projects/rice/)
 :::
 ::: {.featured-content}
 ::: {.featured-title}
