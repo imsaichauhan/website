@@ -4,9 +4,6 @@ __pycache__/
 /.quarto/
 **/*.quarto_ipynb
 
-# Don't commit the built site - Cloudflare will build it
-_site/
-
 # OS files
 .DS_Store
 Thumbs.db
