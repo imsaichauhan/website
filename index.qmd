@@ -1,5 +1,7 @@
 ---
 title: ""
+pagetitle: "Sai Prakash"
+description: "Sai Prakash – Writer and researcher exploring economics, climate, science, and ideas that shape the future."
 page-layout: custom
 body-classes: home
 ---

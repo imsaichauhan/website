@@ -1,5 +1,6 @@
 ---
 title: ""
+pagetitle: "Now - October 2025"
 description: "What I was focused on in October 2025"
 ---
 

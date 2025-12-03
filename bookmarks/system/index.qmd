@@ -1,5 +1,6 @@
 ---
 title: "System"
+description: "Software, extensions, workflows, and online tools I use."
 bookmarks_grid: true
 ---
 

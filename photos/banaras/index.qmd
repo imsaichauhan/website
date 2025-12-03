@@ -1,5 +1,6 @@
 ---
 title: "Banaras"
+description: "Photos from Banaras (Varanasi), India."
 page-layout: full
 listing: false
 ---

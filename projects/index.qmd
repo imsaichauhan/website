@@ -1,5 +1,7 @@
 ---
 title: ""
+pagetitle: "Projects"
+description: "Long-form writing on climate policy, science, and global challenges."
 ---
 
 ```{=html}

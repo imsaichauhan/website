@@ -1,5 +1,6 @@
 ---
 title: "Patna"
+description: "Photos from Patna, India."
 page-layout: full
 listing: false
 ---

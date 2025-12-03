@@ -1,5 +1,6 @@
 ---
 title: "Reading"
+description: "Articles, essays, research papers, quotes, and books worth reading."
 bookmarks_grid: true
 ---
 

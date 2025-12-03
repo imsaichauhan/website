@@ -1,5 +1,6 @@
 ---
 title: "Curiosities"
+description: "Strange, fascinating, and mind-bending corners of the internet."
 bookmarks_grid: true
 ---
 

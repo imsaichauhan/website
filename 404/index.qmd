@@ -1,5 +1,7 @@
 ---
 title: ""
+pagetitle: "Page Not Found"
+description: "Page not found."
 toc: false
 page-layout: article
 ---

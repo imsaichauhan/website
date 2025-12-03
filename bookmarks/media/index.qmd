@@ -1,5 +1,6 @@
 ---
 title: "Media"
+description: "Videos, films, podcasts, and music albums worth watching or listening to."
 bookmarks_grid: true
 ---
 

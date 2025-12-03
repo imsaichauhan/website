@@ -1,5 +1,7 @@
 ---
 title: ""
+pagetitle: "Now Archive"
+description: "Archive of past Now page updates."
 ---
 ::: {.now-content}
 ::: {.now-updated}

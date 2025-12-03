@@ -1,5 +1,7 @@
 ---
 title: ""
+pagetitle: "Thanks"
+description: "Thank you for reaching out!"
 format: html
 ---
 

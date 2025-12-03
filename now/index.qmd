@@ -1,5 +1,6 @@
 ---
 title: ""
+pagetitle: "Now"
 description: "What I'm focused on right now"
 ---
 

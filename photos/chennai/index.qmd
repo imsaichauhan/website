@@ -1,5 +1,6 @@
 ---
 title: "Chennai"
+description: "Photos from Chennai, India."
 page-layout: full
 listing: false
 ---
