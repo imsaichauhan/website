@@ -110,7 +110,8 @@ def main():
                     continue
                 path = os.path.join(root_dir, fn)
                 fm, body = read_front_matter(path)
-                title = fm.get('title') or fm.get('name') or os.path.splitext(fn)[0]
+                # Use pagetitle if title is empty, then fallback to filename
+                title = fm.get('title') or fm.get('pagetitle') or fm.get('name') or os.path.splitext(fn)[0]
                 dt = guess_date(fm, path)
                 url = make_url(path)
                 content = clean_content(body)

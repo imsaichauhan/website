@@ -4,33 +4,12 @@
 <title>Sai Prakash</title>
 <link>https://imsaichauhan.pages.dev</link>
 <description>Recent content from Sai Prakash</description>
-<lastBuildDate>Wed, 03 Dec 2025 20:59:14 +0000</lastBuildDate>
+<lastBuildDate>Wed, 03 Dec 2025 21:06:30 +0000</lastBuildDate>
 <item>
-<title>index</title>
-<link>https://imsaichauhan.pages.dev/now/archive/2025-10-15/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/now/archive/2025-10-15/</guid>
-<pubDate>Thu, 04 Dec 2025 02:28:35 -0000</pubDate>
-<description><![CDATA[
-Published: October 15, 2025 [·]{.now-separator} [Inspired by Derek Sivers](https://nownownow.com/about){.now-credit-link}
-
-I'm in a season of [what you were experiencing]. After [event or realization from that time], I've been spending most of my energy on [primary focus area]. The work is [description of how it felt], and I'm learning that [insight from that period].
-
-Right now, I'm working on [project description]. It started as [how it began], but it's evolved into [what it became]. On the side, I'm also [secondary work], which gives me space to think about [related concept].
-
-I'm also spending time with [book or resource] by [author], which has shifted how I think about [topic]. There's this idea in it about [key concept] that keeps surfacing in my work. Between the two, I'm thinking a lot about [overarching theme or question from that time].
-
-Day to day, I'm based in [location], working from [where]. My routine is [description], and I'm trying to [habit or practice]. I've been saying no to [what you were avoiding] because I need the mental space for what I'm building.
-
-I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate focus], and seeing what emerges from consistent attention.
-
-[Back to current Now page](/now) · [See archives](/now/archive/)
-]]></description>
-</item>
-<item>
-<title>index</title>
+<title>Now</title>
 <link>https://imsaichauhan.pages.dev/now/</link>
 <guid isPermaLink="true">https://imsaichauhan.pages.dev/now/</guid>
-<pubDate>Thu, 04 Dec 2025 02:28:35 -0000</pubDate>
+<pubDate>Thu, 04 Dec 2025 02:29:19 -0000</pubDate>
 <description><![CDATA[
 Last updated: November 22, 2025 [·]{.now-separator} [Inspired by Derek Sivers](https://nownownow.com/about){.now-credit-link}
 
@@ -45,6 +24,27 @@ Day to day, I'm based in [location], working from [where you work—home, office
 I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate next step or ongoing commitment], and seeing what emerges from consistent attention. If you want to talk about [topic you'd welcome conversation about], reach out—I'd love to hear from you.
 
 [See archives](/now/archive/)
+]]></description>
+</item>
+<item>
+<title>Now - October 2025</title>
+<link>https://imsaichauhan.pages.dev/now/archive/2025-10-15/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/now/archive/2025-10-15/</guid>
+<pubDate>Thu, 04 Dec 2025 02:29:19 -0000</pubDate>
+<description><![CDATA[
+Published: October 15, 2025 [·]{.now-separator} [Inspired by Derek Sivers](https://nownownow.com/about){.now-credit-link}
+
+I'm in a season of [what you were experiencing]. After [event or realization from that time], I've been spending most of my energy on [primary focus area]. The work is [description of how it felt], and I'm learning that [insight from that period].
+
+Right now, I'm working on [project description]. It started as [how it began], but it's evolved into [what it became]. On the side, I'm also [secondary work], which gives me space to think about [related concept].
+
+I'm also spending time with [book or resource] by [author], which has shifted how I think about [topic]. There's this idea in it about [key concept] that keeps surfacing in my work. Between the two, I'm thinking a lot about [overarching theme or question from that time].
+
+Day to day, I'm based in [location], working from [where]. My routine is [description], and I'm trying to [habit or practice]. I've been saying no to [what you were avoiding] because I need the mental space for what I'm building.
+
+I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate focus], and seeing what emerges from consistent attention.
+
+[Back to current Now page](/now) · [See archives](/now/archive/)
 ]]></description>
 </item>
 <item>
@@ -1267,7 +1267,7 @@ Here's a simple list format — one item per bullet. The Pandoc filter `_filters
 ]]></description>
 </item>
 <item>
-<title>index</title>
+<title>Now Archive</title>
 <link>https://imsaichauhan.pages.dev/now/archive/</link>
 <guid isPermaLink="true">https://imsaichauhan.pages.dev/now/archive/</guid>
 <pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
@@ -1280,7 +1280,7 @@ Now page archive
 ]]></description>
 </item>
 <item>
-<title>index</title>
+<title>Bookmarks</title>
 <link>https://imsaichauhan.pages.dev/bookmarks/</link>
 <guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/</guid>
 <pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
@@ -1303,7 +1303,7 @@ Now page archive
 ]]></description>
 </item>
 <item>
-<title>index</title>
+<title>Projects</title>
 <link>https://imsaichauhan.pages.dev/projects/</link>
 <guid isPermaLink="true">https://imsaichauhan.pages.dev/projects/</guid>
 <pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
