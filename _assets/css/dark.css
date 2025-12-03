@@ -635,6 +635,21 @@ body {
     stroke: #d4cfc4;
 }
 
+[data-theme="dark"] #prev-btn-mobile,
+[data-theme="dark"] #next-btn-mobile {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+[data-theme="dark"] #prev-btn-mobile {
+    border-right-color: rgba(212, 207, 196, 0.2);
+}
+
+[data-theme="dark"] #prev-btn-mobile:active,
+[data-theme="dark"] #next-btn-mobile:active {
+    background: rgba(212, 207, 196, 0.1);
+    color: #d4cfc4;
+}
+
 /* Photo grid */
 [data-theme="dark"] .photo-item {
     border-color: rgba(212, 207, 196, 0.25);
@@ -727,19 +742,19 @@ body {
 
 /* TOC */
 [data-theme="dark"] nav#TOC h2#toc-title {
-    color: rgba(212, 207, 196, 0.6);
+    color: rgba(212, 207, 196, 0.65);
 }
 
 [data-theme="dark"] nav#TOC h2#toc-title:hover {
-    color: rgba(212, 207, 196, 0.75);
+    color: rgba(212, 207, 196, 0.8);
 }
 
 [data-theme="dark"] nav#TOC a {
-    color: rgba(212, 207, 196, 0.5);
+    color: rgba(212, 207, 196, 0.6);
 }
 
 [data-theme="dark"] nav#TOC a.active {
-    color: rgba(212, 207, 196, 0.85);
+    color: rgba(212, 207, 196, 0.9);
 }
 
 /* Legacy TOC */

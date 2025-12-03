@@ -13,12 +13,13 @@ parser that supports common title/date keys. It's intentionally minimal.
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, UTC
 from email.utils import format_datetime
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 SCAN_DIRS = ['projects', 'bookmarks', 'photos', 'now']
 OUT_FILE = os.path.join(ROOT, 'rss.xml')
+SITE_URL = 'https://imsaichauhan.pages.dev'
 
 
 def read_front_matter(path):
@@ -83,6 +84,20 @@ def escape_cdata(s):
     return s.replace(']]>', ']]]]><![CDATA[>')
 
 
+def clean_content(text):
+    """Strip Quarto divs and other markup for cleaner RSS content."""
+    # Remove Quarto div syntax
+    text = re.sub(r':::\s*\{[^}]+\}\s*', '', text)
+    text = re.sub(r'^:::$', '', text, flags=re.MULTILINE)
+    # Remove HTML blocks
+    text = re.sub(r'```\{=html\}.*?```', '', text, flags=re.DOTALL)
+    # Remove code blocks
+    text = re.sub(r'```[^`]*```', '', text, flags=re.DOTALL)
+    # Clean up excessive whitespace
+    text = re.sub(r'\n\n\n+', '\n\n', text)
+    return text.strip()
+
+
 def main():
     items = []
     for d in SCAN_DIRS:
@@ -98,7 +113,8 @@ def main():
                 title = fm.get('title') or fm.get('name') or os.path.splitext(fn)[0]
                 dt = guess_date(fm, path)
                 url = make_url(path)
-                items.append({'title': title, 'date': dt, 'url': url, 'content': body})
+                content = clean_content(body)
+                items.append({'title': title, 'date': dt, 'url': url, 'content': content})
 
     # sort descending by date
     items.sort(key=lambda x: x['date'], reverse=True)
@@ -106,7 +122,7 @@ def main():
     items = items[:30]
 
     channel_title = 'Sai Prakash'
-    channel_link = '/'
+    channel_link = SITE_URL
     channel_desc = 'Recent content from Sai Prakash'
 
     parts = []
@@ -116,12 +132,12 @@ def main():
     parts.append(f'<title>{channel_title}</title>')
     parts.append(f'<link>{channel_link}</link>')
     parts.append(f'<description>{channel_desc}</description>')
-    parts.append(f'<lastBuildDate>{format_datetime(datetime.utcnow())}</lastBuildDate>')
+    parts.append(f'<lastBuildDate>{format_datetime(datetime.now(UTC))}</lastBuildDate>')
 
     for it in items:
         pub = format_datetime(it['date'])
         title = it['title']
-        link = it['url']
+        link = SITE_URL + it['url']
         guid = link
         content = escape_cdata(it['content'])
         parts.append('<item>')

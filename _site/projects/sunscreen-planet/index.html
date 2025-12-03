@@ -46,6 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../_assets/css/projects.css">
 <link rel="stylesheet" href="../../_assets/css/broken-links.css">
 <link rel="stylesheet" href="../../_assets/css/404.css">
+<link rel="stylesheet" href="../../_assets/css/home.css">
 </head>
 
 <body>
@@ -95,6 +96,21 @@ ul.task-list li input[type="checkbox"] {
         opacity: 1;
         transition: opacity 0.3s ease;
         pointer-events: auto;
+    }
+    
+    /* Mobile: Reduce header name padding */
+    @media (max-width: 768px) {
+        .header-name {
+            padding: 0.25rem 1rem;
+            font-size: 1rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .header-name {
+            padding: 0.25rem 0.75rem;
+            font-size: 0.9rem;
+        }
     }
     
     /* When hidden, disable clicks */
@@ -182,6 +198,10 @@ ul.task-list li input[type="checkbox"] {
     
     /* Mobile styles */
     @media (max-width: 768px) {
+        header {
+            flex-wrap: nowrap;
+        }
+        
         .hamburger {
             display: flex;
         }
@@ -193,6 +213,7 @@ ul.task-list li input[type="checkbox"] {
             position: absolute;
             top: 100%;
             right: 0;
+            left: 0;
             flex-direction: column;
             background-color: #f5f1eb;
             border-bottom: 1px solid #1a1a1a;
@@ -202,14 +223,82 @@ ul.task-list li input[type="checkbox"] {
             transition: max-height 0.3s ease;
         }
         nav.active {
-            max-height: 300px;
+            max-height: 400px;
+            overflow-y: auto;
         }
         nav a {
             border-left: none;
             border-top: 1px solid #1a1a1a;
             padding: 1rem 2rem;
             width: 100%;
+            font-size: 1rem;
         }
+    }
+    
+    @media (max-width: 480px) {
+        nav a {
+            padding: 0.875rem 1rem;
+            font-size: 0.95rem;
+        }
+        
+        .hamburger {
+            padding: 0 1rem;
+            min-width: 50px;
+        }
+        
+        .hamburger span {
+            width: 20px;
+        }
+    }
+    
+    /* Dark mode support for header */
+    [data-theme="dark"] header {
+        background-color: #2a2520;
+        border-top-color: rgba(212, 207, 196, 0.25);
+        border-bottom-color: rgba(212, 207, 196, 0.25);
+    }
+    
+    [data-theme="dark"] .header-name {
+        color: #d4cfc4;
+    }
+    
+    [data-theme="dark"] nav a {
+        color: #d4cfc4;
+        background-color: #2a2520;
+        border-left-color: rgba(212, 207, 196, 0.25);
+        border-top-color: rgba(212, 207, 196, 0.25);
+    }
+    
+    [data-theme="dark"] nav a:hover,
+    [data-theme="dark"] nav a.active {
+        background-color: #d4cfc4;
+        color: #2a2520;
+    }
+    
+    [data-theme="dark"] .hamburger {
+        background-color: #2a2520;
+        border-left-color: rgba(212, 207, 196, 0.25);
+    }
+    
+    [data-theme="dark"] .hamburger:hover {
+        background-color: #d4cfc4;
+    }
+    
+    [data-theme="dark"] .hamburger span {
+        background-color: #d4cfc4;
+    }
+    
+    [data-theme="dark"] .hamburger:hover span {
+        background-color: #2a2520;
+    }
+    
+    [data-theme="dark"] nav {
+        background-color: #2a2520;
+        border-bottom-color: rgba(212, 207, 196, 0.25);
+    }
+    
+    [data-theme="dark"] .nav-separator {
+        background-color: rgba(212, 207, 196, 0.25);
     }
 </style>
 
@@ -228,9 +317,9 @@ ul.task-list li input[type="checkbox"] {
     <a href="../../" class="header-name" style="opacity: var(--header-name-opacity, 1)">Sai Prakash</a>
     <nav id="nav">
         <a href="../../projects/" data-page="projects">Projects</a>
-        <a href="../../bookmarks" data-page="bookmarks">Bookmarks</a>
-        <a href="../../now" data-page="now">Now</a>
-        <a href="../../photos" data-page="photos">Photos</a>
+        <a href="../../bookmarks/" data-page="bookmarks">Bookmarks</a>
+        <a href="../../now/" data-page="now">Now</a>
+        <a href="../../photos/" data-page="photos">Photos</a>
         <div class="nav-separator"></div>
         <div class="nav-gap"></div>
     </nav>
@@ -399,7 +488,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/yourdomain\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

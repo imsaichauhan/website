@@ -138,6 +138,13 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   background: transparent; /* rows sit on page background */
 }
 
+/* Remove border from last row - use !important to override both CSS and Tailwind classes */
+.collections-table tbody tr:last-child,
+.collections-table tbody tr:last-child.border-b {
+  border-bottom-width: 0 !important;
+  border-bottom: none !important;
+}
+
 .collections-table tbody tr:hover {
   /* Darken the hover a bit so row highlighting is clearer. Keep this
      scoped to the photos table to avoid changing other hover uses. */
@@ -461,13 +468,37 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 @media (max-width: 639px) {
   /* Mobile specific
      - Hide count column (expected to be implemented via utility classes in markup)
-     - Ensure previews show only first thumbnail via markup classes
+     - Show 2 thumbnails instead of 3 in preview
   */
   .collections-table td.hidden { display: none !important; }
+  
+  /* Show 2 preview thumbnails on mobile - override hidden class */
+  .preview-thumbnails .thumb-4-3:nth-child(2) {
+    display: inline-block !important;
+  }
+  
+  .preview-thumbnails .thumb-4-3:nth-child(3) {
+    display: none !important;
+  }
+  
+  /* Make photo grid 2 columns on mobile */
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
   .viewer-nav-left, .viewer-nav-right { display: none; }
-  /* Mobile sticky bottom navigation: two half-width buttons with icon + label */
+  /* Mobile sticky bottom navigation: minimal Prev/Next text buttons */
   .viewer-nav-mobile {
     display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(245, 241, 235, 0.95);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1000;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -507,12 +538,35 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   .viewer-nav-mobile .text-lg { font-size: 1.125rem; font-weight:400; }
   /* hide SVG arrows on mobile bottom nav - only show text */
   .viewer-nav-mobile svg { display: none !important; }
-  #prev-btn-mobile, #next-btn-mobile { flex:1; padding: 1.25rem; background: transparent; border: none; color: #000; font-size: 1rem; cursor: pointer; transition: background 0.2s; }
-  /* Subtle black divider between the two halves */
-  #prev-btn-mobile { border-right: 1px solid rgba(0,0,0,0.12); }
-  /* Active/tap state: light black overlay */
-  #prev-btn-mobile:active, #next-btn-mobile:active { background: rgba(0,0,0,0.04); }
-  .viewer-content { padding-bottom: 5rem; }
+  #prev-btn-mobile, #next-btn-mobile { 
+    flex: 1; 
+    padding: 1rem; 
+    background: transparent; 
+    border: none; 
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.9rem;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer; 
+    transition: all 0.2s;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+  }
+  /* Subtle divider between the two halves */
+  #prev-btn-mobile { 
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+  #next-btn-mobile {
+    text-align: right;
+    padding-right: 1.5rem;
+  }
+  /* Active/tap state */
+  #prev-btn-mobile:active, #next-btn-mobile:active { 
+    background: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .viewer-content { padding-bottom: 4rem; }
 }
 
 /* -----------------------------

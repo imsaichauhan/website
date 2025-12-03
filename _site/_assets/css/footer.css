@@ -39,6 +39,106 @@ body:has(.bookmarks-container) .site-footer .footer-inner {
     font-size: 0.95rem;
     font-family: var(--font-editor-regular);
     font-weight: 400;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+}
+
+/* Mobile: Adjust footer text size */
+@media (max-width: 768px) {
+    .site-footer {
+        margin-top: 40px;
+    }
+    
+    .site-footer .footer-text {
+        font-size: 0.85rem;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: center;
+    }
+    
+    .site-footer .footer-inner {
+        padding: 12px 1rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    body:has(.bookmarks-container) .site-footer .footer-inner {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* Hide all dot separators on mobile */
+    .site-footer .footer-text .footer-item + .footer-item::before {
+        display: none !important;
+    }
+    
+    /* Copyright and dark mode toggle on line 1 */
+    .site-footer .footer-text .footer-item:first-child {
+        order: 1;
+        flex-basis: auto;
+    }
+    
+    .site-footer .footer-text .dark-mode-toggle {
+        order: 1;
+        flex-basis: auto;
+    }
+    
+    /* Add separator between copyright and dark mode toggle */
+    .site-footer .footer-text .dark-mode-toggle::before {
+        content: ' | ';
+        color: #999;
+        margin: 0 0.5rem;
+        display: inline;
+    }
+    
+    /* Links (items 2, 3, 4) on line 2 with inline pipe separators */
+    .site-footer .footer-text .footer-item:nth-child(2),
+    .site-footer .footer-text .footer-item:nth-child(3),
+    .site-footer .footer-text .footer-item:nth-child(4) {
+        order: 2;
+        flex-basis: auto;
+    }
+    
+    /* Force line break before first link */
+    .site-footer .footer-text .footer-item:nth-child(2)::before {
+        content: '';
+        flex-basis: 100%;
+        height: 0;
+        order: 2;
+    }
+    
+    .site-footer .footer-text .footer-item:nth-child(2)::after {
+        content: ' | ';
+        color: #999;
+    }
+    
+    .site-footer .footer-text .footer-item:nth-child(3)::after {
+        content: ' | ';
+        color: #999;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-footer {
+        margin-top: 30px;
+    }
+    
+    .site-footer .footer-text {
+        font-size: 0.8rem;
+        gap: 0.65rem;
+    }
+    
+    .site-footer .footer-inner {
+        padding: 10px 0.75rem;
+    }
+    
+    .site-footer .footer-text .footer-item:nth-child(2)::after,
+    .site-footer .footer-text .footer-item:nth-child(3)::after {
+        margin: 0 0.4rem;
+    }
 }
 
 /* Use pseudo-element to render a middle dot between items so HTML remains clean */

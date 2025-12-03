@@ -106,6 +106,13 @@ document.addEventListener('DOMContentLoaded', function() {
   margin: -2rem 0 -2rem calc(-1 * ((100vw - 1200px) / 2 - 2.5rem));
 }
 
+@media (max-width: 768px) {
+  .contact-left {
+    margin: 0;
+    padding: 1.5rem;
+  }
+}
+
 .contact-right {
   display: flex;
   flex-direction: column;
@@ -147,6 +154,29 @@ document.addEventListener('DOMContentLoaded', function() {
   color: #666;
   font-size: 0.9375rem;
   margin-left: 0.25rem;
+}
+
+@media (max-width: 480px) {
+  .social-links {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .social-links a {
+    font-size: 0.9375rem;
+  }
+  
+  .social-separator {
+    margin: 0 0.35rem;
+  }
+  
+  .social-username {
+    font-size: 0.875rem;
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1.25rem;
+  }
 }
 
 .social-note {
@@ -333,25 +363,85 @@ document.addEventListener('DOMContentLoaded', function() {
 @media (max-width: 768px) {
   .contact-container {
     grid-template-columns: 1fr;
-    gap: 3rem;
-    padding: 1rem 0;
+    gap: 2.5rem;
+    padding: 2rem 0;
+    max-width: 100%;
   }
   
   .contact-method-email {
     margin-bottom: 2rem;
   }
   
+  .contact-method-social {
+    margin-bottom: 2rem;
+  }
+  
   .contact-tagline {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
   }
   
   .contact-description {
-    font-size: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .email-display {
+    font-size: 1.1rem;
+  }
+  
+  .social-links {
+    font-size: 0.95rem;
+  }
+  
+  .social-note {
+    font-size: 0.8rem;
   }
   
   .contact-footer-note {
     padding-top: 2rem;
     margin-top: 2rem;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    font-size: 1rem;
+    padding: 0.75rem 0.875rem;
+  }
+  
+  .contact-form textarea {
+    min-height: 8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    gap: 2rem;
+    padding: 1.5rem 0;
+  }
+  
+  .contact-tagline {
+    font-size: 1.125rem;
+  }
+  
+  .contact-description {
+    font-size: 0.9rem;
+  }
+  
+  .email-display {
+    font-size: 1rem;
+  }
+  
+  .social-links {
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+  }
+  
+  .method-label {
+    font-size: 0.7rem;
+  }
+  
+  .contact-left {
+    padding: 1.25rem;
   }
 }
 </style>

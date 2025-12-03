@@ -223,6 +223,8 @@ body[class*="page-custom"] {
 @media (max-width: 768px) {
   body {
     padding-top: 32px !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
   
   .bookmarks-container {
@@ -234,7 +236,7 @@ body[class*="page-custom"] {
   .bookmarks-scroll {
     flex-direction: column;
     gap: 1.5rem;
-    padding: 0 1rem;
+    padding: 0;
     margin-left: 0;
     width: 100%;
   }
@@ -242,11 +244,17 @@ body[class*="page-custom"] {
   .bookmark-card {
     width: 100%;
     max-width: 100%;
-    height: 500px;
+    height: auto;
+    min-height: 450px;
+  }
+  
+  .card-main-link {
+    width: 100%;
   }
   
   .card-main {
-    height: 350px;
+    height: auto;
+    min-height: 350px;
     flex-direction: column;
   }
   
@@ -259,22 +267,81 @@ body[class*="page-custom"] {
     padding: 0 1rem;
     border-left: none;
     border-bottom: 1px solid;
+    flex-shrink: 0;
   }
   
   .category-text {
     writing-mode: horizontal-tb;
     transform: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   
   .card-image-wrapper {
     width: 100%;
-    height: 300px;
+    height: 250px;
+    flex-shrink: 0;
   }
   
   .card-footer {
-    height: 150px;
+    height: auto;
+    min-height: 130px;
     padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-description {
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+  
+  .bookmarks-scroll {
+    gap: 1.25rem;
+  }
+  
+  .bookmark-card {
+    min-height: 400px;
+  }
+  
+  .card-main {
+    min-height: 300px;
+  }
+  
+  .card-image-wrapper {
+    height: 200px;
+  }
+  
+  .card-footer {
+    padding: 0.875rem;
+    min-height: 120px;
+  }
+  
+  .category-sidebar {
+    height: 45px;
+    padding: 0 0.875rem;
+  }
+  
+  .category-text {
+    font-size: 0.95rem;
+  }
+  
+  .card-title {
+    font-size: 0.95rem;
+  }
+  
+  .card-description {
+    font-size: 0.85rem;
   }
 }
 

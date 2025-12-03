@@ -2,11 +2,12 @@ project:
   type: website
   output-dir: _site
   post-render:
+    - python3 _scripts/generate_rss.py
     - _scripts/create-404-redirect.sh
 
 website:
   title: "Sai Prakash"
-  site-url: "https://yourdomain.com"
+  # site-url: "https://imsaichauhan.pages.dev"
   repo-url: "https://github.com/imsaichauhan/progress"
   page-navigation: true
   navbar:
@@ -45,12 +46,14 @@ format:
       - _assets/css/projects.css
       - _assets/css/broken-links.css
       - _assets/css/404.css
+      - _assets/css/home.css
     # Ensure the photos folder is treated as a resource so it is copied to the
     # rendered site output. This helps include original-resolution images.
     resources:
       - _assets/images/photos
       - resume/*.html
       - resume/*.pdf
+      - rss.xml
     toc: false
     toc-location: right
     toc-depth: 3

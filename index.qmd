@@ -2,7 +2,6 @@
 title: ""
 page-layout: custom
 body-classes: home
-css: _assets/css/home.css
 ---
 
 <script>
