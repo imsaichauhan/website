@@ -52,17 +52,10 @@ format:
     # rendered site output. This helps include original-resolution images.
     resources:
       - _assets/images/photos
+      - _assets/favicon
       - resume/*.html
       - resume/*.pdf
       - rss.xml
-      # Favicon files
-      - favicon.ico
-      - favicon-16x16.png
-      - favicon-32x32.png
-      - apple-touch-icon.png
-      - android-chrome-192x192.png
-      - android-chrome-512x512.png
-      - site.webmanifest
     toc: false
     toc-location: right
     toc-depth: 3
