@@ -22,7 +22,7 @@ Day to day, I'm based in [location], working from [where]. My routine is [descri
 I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate focus], and seeing what emerges from consistent attention.
 
 ::: {.now-archive}
-[Back to current Now page](/now) · [See archives](/now/archive/)
+[← Now](/now) [Archives →](/now/archive/)
 :::
 
 :::

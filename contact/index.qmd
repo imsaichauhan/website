@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
 @media (max-width: 768px) {
   .contact-left {
     margin: 0;
-    padding: 1.5rem;
+    padding: 1rem 0 1rem 1rem;
   }
 }
 
@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', function() {
 @media (max-width: 480px) {
   .contact-container {
     gap: 2rem;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0.25rem;
   }
   
   .contact-tagline {
@@ -440,10 +440,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
   .method-label {
     font-size: 0.7rem;
-  }
-  
-  .contact-left {
-    padding: 1.25rem;
   }
 }
 </style>

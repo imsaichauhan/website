@@ -1,8 +1,8 @@
 ---
 title: "Photos"
-description: "Photo collections from Banaras, Chennai, Patna and other places."
 page-layout: full
 listing: false
+
 ---
 
 <link rel="stylesheet" href="/_assets/css/photos.css">

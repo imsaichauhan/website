@@ -53,14 +53,14 @@ body {
 /* Mobile: Reduce body padding for better space usage */
 @media (max-width: 768px) {
     body {
-        padding: 1rem;
+        padding: 0.25rem;
         padding-top: 45px;
     }
 }
 
 @media (max-width: 480px) {
     body {
-        padding: 0.75rem;
+        padding: 0;
         padding-top: 45px;
     }
 }
@@ -137,15 +137,15 @@ body {
 
 @media (max-width: 768px) {
     #quarto-content {
-        padding: 1.5rem 1rem;
-        padding-right: 1rem;
+        padding: 1.5rem 0.5rem;
+        padding-right: 0.5rem;
     }
 }
 
 @media (max-width: 480px) {
     #quarto-content {
-        padding: 1rem 0.75rem;
-        padding-right: 0.75rem;
+        padding: 1rem 0.25rem;
+        padding-right: 0.25rem;
     }
 }
 
@@ -165,6 +165,55 @@ body:not(.homepage) .quarto-float {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+}
+
+/* Mobile: Add minimal horizontal padding to article content */
+@media (max-width: 768px) {
+    body:not(.homepage) #title-block-header,
+    body:not(.homepage) > p,
+    body:not(.homepage) > h1,
+    body:not(.homepage) > h2,
+    body:not(.homepage) > h3,
+    body:not(.homepage) > h4,
+    body:not(.homepage) > ul,
+    body:not(.homepage) > ol,
+    body:not(.homepage) > blockquote,
+    body:not(.homepage) .figure,
+    body:not(.homepage) .quarto-float {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+    
+    /* Exclude custom page containers that handle their own padding */
+    body:not(.homepage) > .contact-container,
+    body:not(.homepage) > .colophon-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body:not(.homepage) #title-block-header,
+    body:not(.homepage) > p,
+    body:not(.homepage) > h1,
+    body:not(.homepage) > h2,
+    body:not(.homepage) > h3,
+    body:not(.homepage) > h4,
+    body:not(.homepage) > ul,
+    body:not(.homepage) > ol,
+    body:not(.homepage) > blockquote,
+    body:not(.homepage) .figure,
+    body:not(.homepage) .quarto-float {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+    
+    /* Exclude custom page containers that handle their own padding */
+    body:not(.homepage) > .contact-container,
+    body:not(.homepage) > .colophon-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 /* Allow sidenotes to extend into margin without causing scroll */
@@ -2071,16 +2120,16 @@ nav#TOC * {
     .now-content {
         max-width: 100%;
         padding-top: 4rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
     }
 }
 
 @media (max-width: 480px) {
     .now-content {
         padding-top: 3rem;
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
     }
 }
 
@@ -2122,6 +2171,9 @@ nav#TOC * {
     line-height: 1.7;
     margin-bottom: 1.5rem;
     color: rgba(0, 0, 0, 0.88);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .now-content p:last-of-type {
@@ -2150,7 +2202,8 @@ nav#TOC * {
 .now-archive p {
     display: flex;
     align-items: center;
-    gap: 0;
+    justify-content: space-between;
+    gap: 1rem;
     color: rgba(0, 0, 0, 0.5);
     font-family: var(--font-gt-america-mono-light);
     font-size: 0.875rem;

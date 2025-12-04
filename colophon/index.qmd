@@ -165,7 +165,7 @@ format: html
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .colophon-container {
-    padding: 2.5rem 1rem 2rem 1rem;
+    padding: 2.5rem 0 2rem 0;
   }
   
   .colophon-title {
@@ -225,7 +225,7 @@ format: html
 
 @media (max-width: 480px) {
   .colophon-container {
-    padding: 2rem 1rem 1.5rem 1rem;
+    padding: 2rem 0.25rem 1.5rem 0.25rem;
   }
   
   .colophon-title {

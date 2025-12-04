@@ -42,82 +42,110 @@ body:has(.bookmarks-container) .site-footer .footer-inner {
     flex-wrap: wrap; /* Allow wrapping on small screens */
 }
 
+.site-footer .footer-links {
+    display: contents;
+}
+
+/* Add separator before footer-links on desktop */
+.site-footer .footer-text .footer-links::before {
+    content: '·';
+    color: #999;
+    display: inline-block;
+    margin: 0 1.25rem;
+    font-weight: 400;
+    font-size: inherit;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+/* Prevent duplicate separator on first link inside footer-links */
+.site-footer .footer-text .footer-links .footer-item:first-child::before {
+    display: none;
+}
+
 /* Mobile: Adjust footer text size */
 @media (max-width: 768px) {
     .site-footer {
         margin-top: 40px;
     }
     
-    .site-footer .footer-text {
-        font-size: 0.85rem;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        align-items: center;
-    }
-    
     .site-footer .footer-inner {
-        padding: 12px 1rem;
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 12px 0.25rem;
+        /* Make footer full width by compensating for body padding (0.25rem) */
+        width: calc(100% + 0.5rem);
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
     }
     
     body:has(.bookmarks-container) .site-footer .footer-inner {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        width: calc(100% + 0.5rem);
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
     }
     
-    /* Hide all dot separators on mobile */
-    .site-footer .footer-text .footer-item + .footer-item::before {
+    /* Match footer width to page content containers */
+    body:has(.contact-container) .site-footer .footer-inner,
+    body:has(.colophon-container) .site-footer .footer-inner {
+        max-width: none;
+        width: calc(100% + 0.5rem);
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+    }
+    
+    body:has(.now-content) .site-footer .footer-inner {
+        max-width: none;
+        width: calc(100% + 0.5rem);
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+    }
+    
+    .site-footer .footer-text {
+        font-size: 0.85rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.6rem;
+        text-align: center;
+    }
+    
+    /* Hide all desktop dot separators on mobile */
+    .site-footer .footer-text .footer-item + .footer-item::before,
+    .site-footer .footer-text .footer-links::before {
         display: none !important;
     }
     
-    /* Copyright and dark mode toggle on line 1 */
+    /* Line 1: Copyright (order 1) left aligned, Dark mode toggle (order 2) right aligned */
     .site-footer .footer-text .footer-item:first-child {
         order: 1;
-        flex-basis: auto;
     }
     
     .site-footer .footer-text .dark-mode-toggle {
-        order: 1;
-        flex-basis: auto;
+        order: 2;
     }
     
-    /* Add separator between copyright and dark mode toggle */
-    .site-footer .footer-text .dark-mode-toggle::before {
-        content: ' | ';
+    /* Line 2: Links container - forces new line */
+    .site-footer .footer-links {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        order: 3;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin-top: 0.3rem;
+    }
+    
+    /* Reset any inherited order on links */
+    .site-footer .footer-links a.footer-item {
+        order: unset;
+    }
+    
+    /* Add pipe separators between links */
+    .site-footer .footer-links a.footer-item:not(:last-child)::after {
+        content: '|';
         color: #999;
         margin: 0 0.5rem;
-        display: inline;
-    }
-    
-    /* Links (items 2, 3, 4) on line 2 with inline pipe separators */
-    .site-footer .footer-text .footer-item:nth-child(2),
-    .site-footer .footer-text .footer-item:nth-child(3),
-    .site-footer .footer-text .footer-item:nth-child(4) {
-        order: 2;
-        flex-basis: auto;
-    }
-    
-    /* Force line break before first link */
-    .site-footer .footer-text .footer-item:nth-child(2)::before {
-        content: '';
-        flex-basis: 100%;
-        height: 0;
-        order: 2;
-    }
-    
-    .site-footer .footer-text .footer-item:nth-child(2)::after {
-        content: ' | ';
-        color: #999;
-    }
-    
-    .site-footer .footer-text .footer-item:nth-child(3)::after {
-        content: ' | ';
-        color: #999;
     }
 }
 
@@ -128,16 +156,32 @@ body:has(.bookmarks-container) .site-footer .footer-inner {
     
     .site-footer .footer-text {
         font-size: 0.8rem;
-        gap: 0.65rem;
+        gap: 0;
+        row-gap: 0.5rem;
+    }
+
+    /* Reduce pipe margins on small screens */
+    .site-footer .footer-links a.footer-item:not(:last-child)::after {
+        margin: 0 0.35rem;
     }
     
     .site-footer .footer-inner {
-        padding: 10px 0.75rem;
+        padding: 10px 0.25rem;
+        /* Reset to normal width since body padding is 0 at this breakpoint */
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
     
-    .site-footer .footer-text .footer-item:nth-child(2)::after,
-    .site-footer .footer-text .footer-item:nth-child(3)::after {
-        margin: 0 0.4rem;
+    /* Reset overrides for specific pages */
+    body:has(.contact-container) .site-footer .footer-inner,
+    body:has(.colophon-container) .site-footer .footer-inner,
+    body:has(.now-content) .site-footer .footer-inner,
+    body:has(.bookmarks-container) .site-footer .footer-inner {
+        max-width: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 

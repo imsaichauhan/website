@@ -252,6 +252,10 @@ def generate_collection_page(collection):
         '    </span>\n'
         '  </div>\n'
         '</div>\n'
+        '<div class="viewer-nav-mobile">\n'
+        '  <button id="prev-btn-mobile" onclick="navigatePrev()">Prev</button>\n'
+        '  <button id="next-btn-mobile" onclick="navigateNext()">Next</button>\n'
+        '</div>\n'
         '</div>\n'
     )
 

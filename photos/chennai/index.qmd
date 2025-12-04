@@ -1,6 +1,5 @@
 ---
 title: "Chennai"
-description: "Photos from Chennai, India."
 page-layout: full
 listing: false
 ---
@@ -274,6 +273,10 @@ listing: false
       </svg>
     </span>
   </div>
+</div>
+<div class="viewer-nav-mobile">
+  <button id="prev-btn-mobile" onclick="navigatePrev()">Prev</button>
+  <button id="next-btn-mobile" onclick="navigateNext()">Next</button>
 </div>
 </div>
 

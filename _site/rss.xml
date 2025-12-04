@@ -4,33 +4,12 @@
 <title>Sai Prakash</title>
 <link>https://imsaichauhan.pages.dev</link>
 <description>Recent content from Sai Prakash</description>
-<lastBuildDate>Wed, 03 Dec 2025 21:48:11 +0000</lastBuildDate>
-<item>
-<title>Now</title>
-<link>https://imsaichauhan.pages.dev/now/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/now/</guid>
-<pubDate>Thu, 04 Dec 2025 02:29:19 -0000</pubDate>
-<description><![CDATA[
-Last updated: November 22, 2025 [·]{.now-separator} [Inspired by Derek Sivers](https://nownownow.com/about){.now-credit-link}
-
-I'm in a season of [deep focus/transition/building/exploration]. After [recent change or realization], I've been spending most of my energy on work that feels both challenging and necessary—the kind where you're not entirely sure you're doing it right, but you know you need to keep going.
-
-Right now, I'm working on [primary project or focus area]. It started as [how it began], but it's evolved into something more interesting: [what it's become and why it matters]. The work is [adjective describing the experience—absorbing, frustrating, illuminating], and I'm learning that [insight about the process or yourself]. On the side, I'm also [secondary project], which gives me space to think about [related concept or application]. It's slower than I'd like, but I'm trying to trust that good work takes time.
-
-I'm also spending time with [book, paper, or body of work] by [author], which has shifted how I think about [topic or approach]. There's this idea in it about [key concept] that keeps surfacing in my work—the sense that [how it connects to what you're doing]. I've also been reading [second book or source], mostly because [reason—curiosity, recommendation, research]. Between the two, I'm thinking a lot about [overarching theme or question].
-
-Day to day, I'm based in [location], working from [where you work—home, office, cafe]. My routine is [description of rhythm—structured, fluid, evolving], and I'm trying to [habit or practice you're cultivating]. I've been saying no to [what you're actively avoiding—social media, certain types of projects, distractions] because I need the mental space for what I'm building. It's not that those things aren't valuable—they're just not for right now.
-
-I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate next step or ongoing commitment], and seeing what emerges from consistent attention. If you want to talk about [topic you'd welcome conversation about], reach out—I'd love to hear from you.
-
-[See archives](/now/archive/)
-]]></description>
-</item>
+<lastBuildDate>Thu, 04 Dec 2025 15:17:41 +0000</lastBuildDate>
 <item>
 <title>Now - October 2025</title>
 <link>https://imsaichauhan.pages.dev/now/archive/2025-10-15/</link>
 <guid isPermaLink="true">https://imsaichauhan.pages.dev/now/archive/2025-10-15/</guid>
-<pubDate>Thu, 04 Dec 2025 02:29:19 -0000</pubDate>
+<pubDate>Thu, 04 Dec 2025 20:46:42 -0000</pubDate>
 <description><![CDATA[
 Published: October 15, 2025 [·]{.now-separator} [Inspired by Derek Sivers](https://nownownow.com/about){.now-credit-link}
 
@@ -44,73 +23,589 @@ Day to day, I'm based in [location], working from [where]. My routine is [descri
 
 I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate focus], and seeing what emerges from consistent attention.
 
-[Back to current Now page](/now) · [See archives](/now/archive/)
+[← Now](/now) [Archives →](/now/archive/)
 ]]></description>
 </item>
 <item>
-<title>Curiosities</title>
-<link>https://imsaichauhan.pages.dev/bookmarks/curiosities/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/curiosities/</guid>
-<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
+<title>Patna</title>
+<link>https://imsaichauhan.pages.dev/photos/patna/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/photos/patna/</guid>
+<pubDate>Thu, 04 Dec 2025 19:30:23 -0000</pubDate>
 <description><![CDATA[
-- [The Library of Babel Made Real](https://libraryofbabel.info) | Every possible page of text already exists in this algorithmic library. Your thoughts, written exactly as you're thinking them right now, are already there—you just need to find the right address. | Library
-- [The Anthropocene's Golden Spike](https://example.com/golden-spike) | Geologists are trying to pinpoint the exact moment humanity became a geological force; plutonium isotopes from 1950s tests are a strong candidate. | Geology
-- [Gödel's Lost Letter to von Neumann](https://example.com/godel-letter) | In 1956 Gödel hinted at complexity ideas that resemble P vs NP; a fascinating historical what-if. | CS
-- [The Voynich Manuscript's Statistical Signature](https://example.com/voynich) | Follows Zipf's law like natural language but resists decipherment; a statistical mystery. | Manuscript
-- [Quantum Immortality and the Anthropic Shadow](https://example.com/quantum-immortality) | If many-worlds is true, observers experience only branches where they survive — with interesting anthropic implications. | Physics
-- [The Longest Poem in the World](https://example.com/longest-poem) | A generative poem built from every tweet; an extreme example of algorithmic literature. | Art
-- [Roko's Basilisk and Decision Theory](https://example.com/rokos-basilisk) | An information hazard thought experiment mixing acausal trade and Pascal-like reasoning. | Decision Theory
-- [The Tamagotchi Effect in Digital Spaces](https://example.com/tamagotchi-effect) | Why we empathize with virtual entities and what that says about moral psychology. | Psychology
-- [Normcore and the Death of Subcultures](https://example.com/normcore) | How mainstreaming and irony changed subcultural meaning. | Culture
-- [The Fermi Paradox's Dark Forest Solution](https://example.com/dark-forest) | A game-theoretic explanation for cosmic silence: silence as survival. | Astrobiology
-- [Borges's Tlön, Uqbar, Orbis Tertius](https://example.com/tlon) | Fictional worlds described so convincingly they start to affect reality. | Literature
-- [The Phantom Time Hypothesis](https://example.com/phantom-time) | A fringe claim that certain medieval years were fabricated — notable as an epistemic puzzle. | History
+<link rel="stylesheet" href="/_assets/css/photos.css">
+<script src="/_assets/js/photos-viewer-fallback.js" defer></script>
+
+<section aria-label="Photo grid" class="photo-grid" id="photo-grid">
+  <a href="#photo-1" data-image-index="1" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0178.jpg" alt="Patna — Photo 1" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-2" data-image-index="2" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0180.jpg" alt="Patna — Photo 2" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-3" data-image-index="3" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0181.jpg" alt="Patna — Photo 3" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-4" data-image-index="4" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0186.jpg" alt="Patna — Photo 4" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-5" data-image-index="5" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0188.jpg" alt="Patna — Photo 5" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-6" data-image-index="6" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0190.jpg" alt="Patna — Photo 6" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-7" data-image-index="7" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0191.jpg" alt="Patna — Photo 7" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-8" data-image-index="8" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0192.jpg" alt="Patna — Photo 8" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-9" data-image-index="9" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0199.jpg" alt="Patna — Photo 9" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-10" data-image-index="10" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0200.jpg" alt="Patna — Photo 10" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-11" data-image-index="11" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0202.jpg" alt="Patna — Photo 11" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-12" data-image-index="12" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0204.jpg" alt="Patna — Photo 12" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-13" data-image-index="13" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0205.jpg" alt="Patna — Photo 13" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-14" data-image-index="14" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0206.jpg" alt="Patna — Photo 14" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-15" data-image-index="15" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0209.jpg" alt="Patna — Photo 15" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-16" data-image-index="16" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0210.jpg" alt="Patna — Photo 16" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-17" data-image-index="17" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0211.jpg" alt="Patna — Photo 17" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-18" data-image-index="18" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0212.jpg" alt="Patna — Photo 18" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-19" data-image-index="19" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0214.jpg" alt="Patna — Photo 19" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-20" data-image-index="20" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0215.jpg" alt="Patna — Photo 20" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-21" data-image-index="21" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0217.jpg" alt="Patna — Photo 21" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-22" data-image-index="22" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0218.jpg" alt="Patna — Photo 22" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-23" data-image-index="23" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0219.jpg" alt="Patna — Photo 23" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-24" data-image-index="24" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0220.jpg" alt="Patna — Photo 24" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-25" data-image-index="25" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0221.jpg" alt="Patna — Photo 25" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-26" data-image-index="26" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0222.jpg" alt="Patna — Photo 26" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-27" data-image-index="27" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0223.jpg" alt="Patna — Photo 27" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-28" data-image-index="28" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0224.jpg" alt="Patna — Photo 28" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-29" data-image-index="29" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0226.jpg" alt="Patna — Photo 29" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-30" data-image-index="30" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0227.jpg" alt="Patna — Photo 30" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-31" data-image-index="31" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0228.jpg" alt="Patna — Photo 31" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-32" data-image-index="32" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0229.jpg" alt="Patna — Photo 32" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-33" data-image-index="33" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0230.jpg" alt="Patna — Photo 33" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-34" data-image-index="34" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0231.jpg" alt="Patna — Photo 34" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-35" data-image-index="35" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0233.jpg" alt="Patna — Photo 35" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-36" data-image-index="36" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0234.jpg" alt="Patna — Photo 36" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-37" data-image-index="37" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0235.jpg" alt="Patna — Photo 37" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-38" data-image-index="38" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0240.jpg" alt="Patna — Photo 38" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-39" data-image-index="39" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0242.jpg" alt="Patna — Photo 39" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-40" data-image-index="40" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0244.jpg" alt="Patna — Photo 40" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-41" data-image-index="41" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0245.jpg" alt="Patna — Photo 41" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-42" data-image-index="42" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0247.jpg" alt="Patna — Photo 42" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-43" data-image-index="43" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0248.jpg" alt="Patna — Photo 43" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-44" data-image-index="44" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0249.jpg" alt="Patna — Photo 44" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-45" data-image-index="45" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0250.jpg" alt="Patna — Photo 45" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-46" data-image-index="46" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0251.jpg" alt="Patna — Photo 46" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-47" data-image-index="47" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0254.jpg" alt="Patna — Photo 47" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-48" data-image-index="48" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0255.jpg" alt="Patna — Photo 48" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-49" data-image-index="49" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0257.jpg" alt="Patna — Photo 49" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-50" data-image-index="50" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0261.jpg" alt="Patna — Photo 50" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-51" data-image-index="51" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0263.jpg" alt="Patna — Photo 51" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-52" data-image-index="52" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0264.jpg" alt="Patna — Photo 52" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-53" data-image-index="53" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0265.jpg" alt="Patna — Photo 53" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-54" data-image-index="54" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/patna/thumbnails/photo0266.jpg" alt="Patna — Photo 54" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+</section>
+
+<script>
+(function(){
+  var images = [{"file": "photo0178.jpg", "caption": "Patna — Photo 1", "alt": "Patna — Photo 1"}, {"file": "photo0180.jpg", "caption": "Patna — Photo 2", "alt": "Patna — Photo 2"}, {"file": "photo0181.jpg", "caption": "Patna — Photo 3", "alt": "Patna — Photo 3"}, {"file": "photo0186.jpg", "caption": "Patna — Photo 4", "alt": "Patna — Photo 4"}, {"file": "photo0188.jpg", "caption": "Patna — Photo 5", "alt": "Patna — Photo 5"}, {"file": "photo0190.jpg", "caption": "Patna — Photo 6", "alt": "Patna — Photo 6"}, {"file": "photo0191.jpg", "caption": "Patna — Photo 7", "alt": "Patna — Photo 7"}, {"file": "photo0192.jpg", "caption": "Patna — Photo 8", "alt": "Patna — Photo 8"}, {"file": "photo0199.jpg", "caption": "Patna — Photo 9", "alt": "Patna — Photo 9"}, {"file": "photo0200.jpg", "caption": "Patna — Photo 10", "alt": "Patna — Photo 10"}, {"file": "photo0202.jpg", "caption": "Patna — Photo 11", "alt": "Patna — Photo 11"}, {"file": "photo0204.jpg", "caption": "Patna — Photo 12", "alt": "Patna — Photo 12"}, {"file": "photo0205.jpg", "caption": "Patna — Photo 13", "alt": "Patna — Photo 13"}, {"file": "photo0206.jpg", "caption": "Patna — Photo 14", "alt": "Patna — Photo 14"}, {"file": "photo0209.jpg", "caption": "Patna — Photo 15", "alt": "Patna — Photo 15"}, {"file": "photo0210.jpg", "caption": "Patna — Photo 16", "alt": "Patna — Photo 16"}, {"file": "photo0211.jpg", "caption": "Patna — Photo 17", "alt": "Patna — Photo 17"}, {"file": "photo0212.jpg", "caption": "Patna — Photo 18", "alt": "Patna — Photo 18"}, {"file": "photo0214.jpg", "caption": "Patna — Photo 19", "alt": "Patna — Photo 19"}, {"file": "photo0215.jpg", "caption": "Patna — Photo 20", "alt": "Patna — Photo 20"}, {"file": "photo0217.jpg", "caption": "Patna — Photo 21", "alt": "Patna — Photo 21"}, {"file": "photo0218.jpg", "caption": "Patna — Photo 22", "alt": "Patna — Photo 22"}, {"file": "photo0219.jpg", "caption": "Patna — Photo 23", "alt": "Patna — Photo 23"}, {"file": "photo0220.jpg", "caption": "Patna — Photo 24", "alt": "Patna — Photo 24"}, {"file": "photo0221.jpg", "caption": "Patna — Photo 25", "alt": "Patna — Photo 25"}, {"file": "photo0222.jpg", "caption": "Patna — Photo 26", "alt": "Patna — Photo 26"}, {"file": "photo0223.jpg", "caption": "Patna — Photo 27", "alt": "Patna — Photo 27"}, {"file": "photo0224.jpg", "caption": "Patna — Photo 28", "alt": "Patna — Photo 28"}, {"file": "photo0226.jpg", "caption": "Patna — Photo 29", "alt": "Patna — Photo 29"}, {"file": "photo0227.jpg", "caption": "Patna — Photo 30", "alt": "Patna — Photo 30"}, {"file": "photo0228.jpg", "caption": "Patna — Photo 31", "alt": "Patna — Photo 31"}, {"file": "photo0229.jpg", "caption": "Patna — Photo 32", "alt": "Patna — Photo 32"}, {"file": "photo0230.jpg", "caption": "Patna — Photo 33", "alt": "Patna — Photo 33"}, {"file": "photo0231.jpg", "caption": "Patna — Photo 34", "alt": "Patna — Photo 34"}, {"file": "photo0233.jpg", "caption": "Patna — Photo 35", "alt": "Patna — Photo 35"}, {"file": "photo0234.jpg", "caption": "Patna — Photo 36", "alt": "Patna — Photo 36"}, {"file": "photo0235.jpg", "caption": "Patna — Photo 37", "alt": "Patna — Photo 37"}, {"file": "photo0240.jpg", "caption": "Patna — Photo 38", "alt": "Patna — Photo 38"}, {"file": "photo0242.jpg", "caption": "Patna — Photo 39", "alt": "Patna — Photo 39"}, {"file": "photo0244.jpg", "caption": "Patna — Photo 40", "alt": "Patna — Photo 40"}, {"file": "photo0245.jpg", "caption": "Patna — Photo 41", "alt": "Patna — Photo 41"}, {"file": "photo0247.jpg", "caption": "Patna — Photo 42", "alt": "Patna — Photo 42"}, {"file": "photo0248.jpg", "caption": "Patna — Photo 43", "alt": "Patna — Photo 43"}, {"file": "photo0249.jpg", "caption": "Patna — Photo 44", "alt": "Patna — Photo 44"}, {"file": "photo0250.jpg", "caption": "Patna — Photo 45", "alt": "Patna — Photo 45"}, {"file": "photo0251.jpg", "caption": "Patna — Photo 46", "alt": "Patna — Photo 46"}, {"file": "photo0254.jpg", "caption": "Patna — Photo 47", "alt": "Patna — Photo 47"}, {"file": "photo0255.jpg", "caption": "Patna — Photo 48", "alt": "Patna — Photo 48"}, {"file": "photo0257.jpg", "caption": "Patna — Photo 49", "alt": "Patna — Photo 49"}, {"file": "photo0261.jpg", "caption": "Patna — Photo 50", "alt": "Patna — Photo 50"}, {"file": "photo0263.jpg", "caption": "Patna — Photo 51", "alt": "Patna — Photo 51"}, {"file": "photo0264.jpg", "caption": "Patna — Photo 52", "alt": "Patna — Photo 52"}, {"file": "photo0265.jpg", "caption": "Patna — Photo 53", "alt": "Patna — Photo 53"}, {"file": "photo0266.jpg", "caption": "Patna — Photo 54", "alt": "Patna — Photo 54"}];
+  var slug = "patna";
+  var totalImages = images.length;
+  var currentIndex = 0;
+  var grid = document.getElementById("photo-grid");
+  var viewer = document.getElementById("photo-viewer");
+  var viewerImage = document.getElementById("viewer-image");
+  var captionText = document.getElementById("caption-text");
+  var photoCounter = document.getElementById("photo-counter");
+  function showGrid(){ if(grid) grid.style.display="grid"; if(viewer) { viewer.style.display="none"; viewer.classList.remove("active"); } document.body.style.overflow="auto"; }
+  function showViewer(index){ currentIndex = index; if(grid) grid.style.display="none"; if(!viewer) viewer = document.getElementById("photo-viewer"); if(viewer){ viewer.style.display="flex"; viewer.classList.add("active"); } document.body.style.overflow="hidden"; loadPhoto(index); }
+  function loadPhoto(index){ try{ if(!viewerImage) viewerImage = document.getElementById("viewer-image"); if(!captionText) captionText = document.getElementById("caption-text"); if(!photoCounter) photoCounter = document.getElementById("photo-counter"); var img = images[index]; if(!img) return; var src = "/_assets/images/photos/" + slug + "/originals/" + (img.file||""); if(viewerImage) { viewerImage.src = src; viewerImage.alt = img.alt || ""; } if(captionText) captionText.textContent = img.caption || ""; if(photoCounter) photoCounter.textContent = (index+1) + " / " + totalImages; currentIndex = index; }catch(e){console.error("loadPhoto error",e);} }
+  window.navigatePrev = function(){ var newIndex = currentIndex===0 ? totalImages-1 : currentIndex-1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
+  window.navigateNext = function(){ var newIndex = currentIndex===totalImages-1 ? 0 : currentIndex+1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
+  window.closeViewer = function(){ try{ history.replaceState(null, "", window.location.pathname); showGrid(); }catch(e){} }
+  window.openPhoto = function(evt, num){ try{ if(evt && typeof evt.preventDefault === "function") evt.preventDefault(); var idx = (typeof num === "number") ? num-1 : (parseInt(num,10)-1); if(isNaN(idx)) idx = 0; var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); }catch(e){console.error("openPhoto error",e);} };
+  function handleHash(){ var hash = window.location.hash; if(!hash || hash==="#") { showGrid(); } else { var m = hash.match(/#photo-(\d+)/); if(m){ var num = parseInt(m[1],10); if(num>=1 && num<=totalImages){ showViewer(num-1); } else { showGrid(); } } } }
+  document.addEventListener("keydown", function(e){ try{ if(viewer && (viewer.classList && viewer.classList.contains("active") || viewer.style.display==="flex")){ if(e.key==="ArrowLeft") navigatePrev(); else if(e.key==="ArrowRight") navigateNext(); else if(e.key==="Escape") closeViewer(); } }catch(e){} });
+  window.addEventListener("hashchange", handleHash);
+  window.addEventListener("popstate", handleHash);
+  handleHash();
+  document.addEventListener("click", function(e){ try{ var a = e.target.closest && e.target.closest("a[data-image-index]"); if(a){ var idx = parseInt(a.getAttribute("data-image-index"),10)-1; if(!isNaN(idx)){ var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); e.preventDefault(); } } }catch(e){} });
+})();
+</script>
 ]]></description>
 </item>
 <item>
-<title>System</title>
-<link>https://imsaichauhan.pages.dev/bookmarks/system/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/system/</guid>
-<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
+<title>Chennai</title>
+<link>https://imsaichauhan.pages.dev/photos/chennai/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/photos/chennai/</guid>
+<pubDate>Thu, 04 Dec 2025 19:30:23 -0000</pubDate>
 <description><![CDATA[
-*Software, extensions, workflows, online projects, blogs.*
+<link rel="stylesheet" href="/_assets/css/photos.css">
+<script src="/_assets/js/photos-viewer-fallback.js" defer></script>
 
-Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
+<section aria-label="Photo grid" class="photo-grid" id="photo-grid">
+  <a href="#photo-1" data-image-index="1" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0267.jpg" alt="Chennai — Photo 1" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-2" data-image-index="2" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0268.jpg" alt="Chennai — Photo 2" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-3" data-image-index="3" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0270.jpg" alt="Chennai — Photo 3" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-4" data-image-index="4" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0271.jpg" alt="Chennai — Photo 4" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-5" data-image-index="5" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0273.jpg" alt="Chennai — Photo 5" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-6" data-image-index="6" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0279.jpg" alt="Chennai — Photo 6" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-7" data-image-index="7" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0280.jpg" alt="Chennai — Photo 7" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-8" data-image-index="8" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0282.jpg" alt="Chennai — Photo 8" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-9" data-image-index="9" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0284.jpg" alt="Chennai — Photo 9" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-10" data-image-index="10" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0285.jpg" alt="Chennai — Photo 10" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-11" data-image-index="11" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0286.jpg" alt="Chennai — Photo 11" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-12" data-image-index="12" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0287.jpg" alt="Chennai — Photo 12" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-13" data-image-index="13" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0289.jpg" alt="Chennai — Photo 13" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-14" data-image-index="14" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0290.jpg" alt="Chennai — Photo 14" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-15" data-image-index="15" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0292.jpg" alt="Chennai — Photo 15" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-16" data-image-index="16" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0298.jpg" alt="Chennai — Photo 16" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-17" data-image-index="17" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0299.jpg" alt="Chennai — Photo 17" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-18" data-image-index="18" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0300.jpg" alt="Chennai — Photo 18" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-19" data-image-index="19" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0301.jpg" alt="Chennai — Photo 19" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-20" data-image-index="20" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0302.jpg" alt="Chennai — Photo 20" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-21" data-image-index="21" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0303.jpg" alt="Chennai — Photo 21" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-22" data-image-index="22" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0304.jpg" alt="Chennai — Photo 22" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-23" data-image-index="23" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0305.jpg" alt="Chennai — Photo 23" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-24" data-image-index="24" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0306.jpg" alt="Chennai — Photo 24" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-25" data-image-index="25" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0308.jpg" alt="Chennai — Photo 25" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-26" data-image-index="26" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0310.jpg" alt="Chennai — Photo 26" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-27" data-image-index="27" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0311.jpg" alt="Chennai — Photo 27" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-28" data-image-index="28" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0312.jpg" alt="Chennai — Photo 28" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-29" data-image-index="29" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0313.jpg" alt="Chennai — Photo 29" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-30" data-image-index="30" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0315.jpg" alt="Chennai — Photo 30" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-31" data-image-index="31" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0316.jpg" alt="Chennai — Photo 31" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-32" data-image-index="32" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0317.jpg" alt="Chennai — Photo 32" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-33" data-image-index="33" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0318.jpg" alt="Chennai — Photo 33" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-34" data-image-index="34" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0319.jpg" alt="Chennai — Photo 34" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-35" data-image-index="35" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0320.jpg" alt="Chennai — Photo 35" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-36" data-image-index="36" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0322.jpg" alt="Chennai — Photo 36" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-37" data-image-index="37" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0323.jpg" alt="Chennai — Photo 37" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-38" data-image-index="38" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0324.jpg" alt="Chennai — Photo 38" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-39" data-image-index="39" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0325.jpg" alt="Chennai — Photo 39" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-40" data-image-index="40" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0326.jpg" alt="Chennai — Photo 40" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-41" data-image-index="41" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0327.jpg" alt="Chennai — Photo 41" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-42" data-image-index="42" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0328.jpg" alt="Chennai — Photo 42" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-43" data-image-index="43" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0329.jpg" alt="Chennai — Photo 43" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-44" data-image-index="44" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0331.jpg" alt="Chennai — Photo 44" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+  <a href="#photo-45" data-image-index="45" class="photo-grid-item">
+    <span class="thumb-4-3 inline-block">
+      <img src="/_assets/images/photos/chennai/thumbnails/photo0332.jpg" alt="Chennai — Photo 45" loading="lazy" class="w-full h-auto" />
+    </span>
+  </a>
+</section>
 
-- [Example system item](https://example.com) | Short description of the system item | System
-]]></description>
-</item>
-<item>
-<title>Media</title>
-<link>https://imsaichauhan.pages.dev/bookmarks/media/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/media/</guid>
-<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
-<description><![CDATA[
-*Videos, films, podcasts, music albums.*
-
-Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
-
-- [Example media item](https://example.com) | Short description of the media item | Media
-]]></description>
-</item>
-<item>
-<title>Reading</title>
-<link>https://imsaichauhan.pages.dev/bookmarks/reading/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/reading/</guid>
-<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
-<description><![CDATA[
-*Articles, essays, research papers, quotes, books.*
-
-Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
-
-- [Example reading item](https://example.org) | Short description of the reading item | Reading
+<script>
+(function(){
+  var images = [{"file": "photo0267.jpg", "caption": "Chennai — Photo 1", "alt": "Chennai — Photo 1"}, {"file": "photo0268.jpg", "caption": "Chennai — Photo 2", "alt": "Chennai — Photo 2"}, {"file": "photo0270.jpg", "caption": "Chennai — Photo 3", "alt": "Chennai — Photo 3"}, {"file": "photo0271.jpg", "caption": "Chennai — Photo 4", "alt": "Chennai — Photo 4"}, {"file": "photo0273.jpg", "caption": "Chennai — Photo 5", "alt": "Chennai — Photo 5"}, {"file": "photo0279.jpg", "caption": "Chennai — Photo 6", "alt": "Chennai — Photo 6"}, {"file": "photo0280.jpg", "caption": "Chennai — Photo 7", "alt": "Chennai — Photo 7"}, {"file": "photo0282.jpg", "caption": "Chennai — Photo 8", "alt": "Chennai — Photo 8"}, {"file": "photo0284.jpg", "caption": "Chennai — Photo 9", "alt": "Chennai — Photo 9"}, {"file": "photo0285.jpg", "caption": "Chennai — Photo 10", "alt": "Chennai — Photo 10"}, {"file": "photo0286.jpg", "caption": "Chennai — Photo 11", "alt": "Chennai — Photo 11"}, {"file": "photo0287.jpg", "caption": "Chennai — Photo 12", "alt": "Chennai — Photo 12"}, {"file": "photo0289.jpg", "caption": "Chennai — Photo 13", "alt": "Chennai — Photo 13"}, {"file": "photo0290.jpg", "caption": "Chennai — Photo 14", "alt": "Chennai — Photo 14"}, {"file": "photo0292.jpg", "caption": "Chennai — Photo 15", "alt": "Chennai — Photo 15"}, {"file": "photo0298.jpg", "caption": "Chennai — Photo 16", "alt": "Chennai — Photo 16"}, {"file": "photo0299.jpg", "caption": "Chennai — Photo 17", "alt": "Chennai — Photo 17"}, {"file": "photo0300.jpg", "caption": "Chennai — Photo 18", "alt": "Chennai — Photo 18"}, {"file": "photo0301.jpg", "caption": "Chennai — Photo 19", "alt": "Chennai — Photo 19"}, {"file": "photo0302.jpg", "caption": "Chennai — Photo 20", "alt": "Chennai — Photo 20"}, {"file": "photo0303.jpg", "caption": "Chennai — Photo 21", "alt": "Chennai — Photo 21"}, {"file": "photo0304.jpg", "caption": "Chennai — Photo 22", "alt": "Chennai — Photo 22"}, {"file": "photo0305.jpg", "caption": "Chennai — Photo 23", "alt": "Chennai — Photo 23"}, {"file": "photo0306.jpg", "caption": "Chennai — Photo 24", "alt": "Chennai — Photo 24"}, {"file": "photo0308.jpg", "caption": "Chennai — Photo 25", "alt": "Chennai — Photo 25"}, {"file": "photo0310.jpg", "caption": "Chennai — Photo 26", "alt": "Chennai — Photo 26"}, {"file": "photo0311.jpg", "caption": "Chennai — Photo 27", "alt": "Chennai — Photo 27"}, {"file": "photo0312.jpg", "caption": "Chennai — Photo 28", "alt": "Chennai — Photo 28"}, {"file": "photo0313.jpg", "caption": "Chennai — Photo 29", "alt": "Chennai — Photo 29"}, {"file": "photo0315.jpg", "caption": "Chennai — Photo 30", "alt": "Chennai — Photo 30"}, {"file": "photo0316.jpg", "caption": "Chennai — Photo 31", "alt": "Chennai — Photo 31"}, {"file": "photo0317.jpg", "caption": "Chennai — Photo 32", "alt": "Chennai — Photo 32"}, {"file": "photo0318.jpg", "caption": "Chennai — Photo 33", "alt": "Chennai — Photo 33"}, {"file": "photo0319.jpg", "caption": "Chennai — Photo 34", "alt": "Chennai — Photo 34"}, {"file": "photo0320.jpg", "caption": "Chennai — Photo 35", "alt": "Chennai — Photo 35"}, {"file": "photo0322.jpg", "caption": "Chennai — Photo 36", "alt": "Chennai — Photo 36"}, {"file": "photo0323.jpg", "caption": "Chennai — Photo 37", "alt": "Chennai — Photo 37"}, {"file": "photo0324.jpg", "caption": "Chennai — Photo 38", "alt": "Chennai — Photo 38"}, {"file": "photo0325.jpg", "caption": "Chennai — Photo 39", "alt": "Chennai — Photo 39"}, {"file": "photo0326.jpg", "caption": "Chennai — Photo 40", "alt": "Chennai — Photo 40"}, {"file": "photo0327.jpg", "caption": "Chennai — Photo 41", "alt": "Chennai — Photo 41"}, {"file": "photo0328.jpg", "caption": "Chennai — Photo 42", "alt": "Chennai — Photo 42"}, {"file": "photo0329.jpg", "caption": "Chennai — Photo 43", "alt": "Chennai — Photo 43"}, {"file": "photo0331.jpg", "caption": "Chennai — Photo 44", "alt": "Chennai — Photo 44"}, {"file": "photo0332.jpg", "caption": "Chennai — Photo 45", "alt": "Chennai — Photo 45"}];
+  var slug = "chennai";
+  var totalImages = images.length;
+  var currentIndex = 0;
+  var grid = document.getElementById("photo-grid");
+  var viewer = document.getElementById("photo-viewer");
+  var viewerImage = document.getElementById("viewer-image");
+  var captionText = document.getElementById("caption-text");
+  var photoCounter = document.getElementById("photo-counter");
+  function showGrid(){ if(grid) grid.style.display="grid"; if(viewer) { viewer.style.display="none"; viewer.classList.remove("active"); } document.body.style.overflow="auto"; }
+  function showViewer(index){ currentIndex = index; if(grid) grid.style.display="none"; if(!viewer) viewer = document.getElementById("photo-viewer"); if(viewer){ viewer.style.display="flex"; viewer.classList.add("active"); } document.body.style.overflow="hidden"; loadPhoto(index); }
+  function loadPhoto(index){ try{ if(!viewerImage) viewerImage = document.getElementById("viewer-image"); if(!captionText) captionText = document.getElementById("caption-text"); if(!photoCounter) photoCounter = document.getElementById("photo-counter"); var img = images[index]; if(!img) return; var src = "/_assets/images/photos/" + slug + "/originals/" + (img.file||""); if(viewerImage) { viewerImage.src = src; viewerImage.alt = img.alt || ""; } if(captionText) captionText.textContent = img.caption || ""; if(photoCounter) photoCounter.textContent = (index+1) + " / " + totalImages; currentIndex = index; }catch(e){console.error("loadPhoto error",e);} }
+  window.navigatePrev = function(){ var newIndex = currentIndex===0 ? totalImages-1 : currentIndex-1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
+  window.navigateNext = function(){ var newIndex = currentIndex===totalImages-1 ? 0 : currentIndex+1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
+  window.closeViewer = function(){ try{ history.replaceState(null, "", window.location.pathname); showGrid(); }catch(e){} }
+  window.openPhoto = function(evt, num){ try{ if(evt && typeof evt.preventDefault === "function") evt.preventDefault(); var idx = (typeof num === "number") ? num-1 : (parseInt(num,10)-1); if(isNaN(idx)) idx = 0; var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); }catch(e){console.error("openPhoto error",e);} };
+  function handleHash(){ var hash = window.location.hash; if(!hash || hash==="#") { showGrid(); } else { var m = hash.match(/#photo-(\d+)/); if(m){ var num = parseInt(m[1],10); if(num>=1 && num<=totalImages){ showViewer(num-1); } else { showGrid(); } } } }
+  document.addEventListener("keydown", function(e){ try{ if(viewer && (viewer.classList && viewer.classList.contains("active") || viewer.style.display==="flex")){ if(e.key==="ArrowLeft") navigatePrev(); else if(e.key==="ArrowRight") navigateNext(); else if(e.key==="Escape") closeViewer(); } }catch(e){} });
+  window.addEventListener("hashchange", handleHash);
+  window.addEventListener("popstate", handleHash);
+  handleHash();
+  document.addEventListener("click", function(e){ try{ var a = e.target.closest && e.target.closest("a[data-image-index]"); if(a){ var idx = parseInt(a.getAttribute("data-image-index"),10)-1; if(!isNaN(idx)){ var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); e.preventDefault(); } } }catch(e){} });
+})();
+</script>
 ]]></description>
 </item>
 <item>
 <title>Banaras</title>
 <link>https://imsaichauhan.pages.dev/photos/banaras/</link>
 <guid isPermaLink="true">https://imsaichauhan.pages.dev/photos/banaras/</guid>
-<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
+<pubDate>Thu, 04 Dec 2025 19:30:23 -0000</pubDate>
 <description><![CDATA[
 <link rel="stylesheet" href="/_assets/css/photos.css">
 <script src="/_assets/js/photos-viewer-fallback.js" defer></script>
@@ -692,578 +1187,92 @@ Here's a simple list format — one item per bullet. The Pandoc filter `_filters
 ]]></description>
 </item>
 <item>
-<title>Patna</title>
-<link>https://imsaichauhan.pages.dev/photos/patna/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/photos/patna/</guid>
-<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
+<title>Photos</title>
+<link>https://imsaichauhan.pages.dev/photos/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/photos/</guid>
+<pubDate>Thu, 04 Dec 2025 19:30:23 -0000</pubDate>
 <description><![CDATA[
 <link rel="stylesheet" href="/_assets/css/photos.css">
-<script src="/_assets/js/photos-viewer-fallback.js" defer></script>
-
-<section aria-label="Photo grid" class="photo-grid" id="photo-grid">
-  <a href="#photo-1" data-image-index="1" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0178.jpg" alt="Patna — Photo 1" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-2" data-image-index="2" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0180.jpg" alt="Patna — Photo 2" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-3" data-image-index="3" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0181.jpg" alt="Patna — Photo 3" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-4" data-image-index="4" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0186.jpg" alt="Patna — Photo 4" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-5" data-image-index="5" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0188.jpg" alt="Patna — Photo 5" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-6" data-image-index="6" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0190.jpg" alt="Patna — Photo 6" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-7" data-image-index="7" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0191.jpg" alt="Patna — Photo 7" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-8" data-image-index="8" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0192.jpg" alt="Patna — Photo 8" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-9" data-image-index="9" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0199.jpg" alt="Patna — Photo 9" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-10" data-image-index="10" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0200.jpg" alt="Patna — Photo 10" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-11" data-image-index="11" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0202.jpg" alt="Patna — Photo 11" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-12" data-image-index="12" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0204.jpg" alt="Patna — Photo 12" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-13" data-image-index="13" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0205.jpg" alt="Patna — Photo 13" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-14" data-image-index="14" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0206.jpg" alt="Patna — Photo 14" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-15" data-image-index="15" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0209.jpg" alt="Patna — Photo 15" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-16" data-image-index="16" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0210.jpg" alt="Patna — Photo 16" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-17" data-image-index="17" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0211.jpg" alt="Patna — Photo 17" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-18" data-image-index="18" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0212.jpg" alt="Patna — Photo 18" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-19" data-image-index="19" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0214.jpg" alt="Patna — Photo 19" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-20" data-image-index="20" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0215.jpg" alt="Patna — Photo 20" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-21" data-image-index="21" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0217.jpg" alt="Patna — Photo 21" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-22" data-image-index="22" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0218.jpg" alt="Patna — Photo 22" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-23" data-image-index="23" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0219.jpg" alt="Patna — Photo 23" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-24" data-image-index="24" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0220.jpg" alt="Patna — Photo 24" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-25" data-image-index="25" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0221.jpg" alt="Patna — Photo 25" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-26" data-image-index="26" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0222.jpg" alt="Patna — Photo 26" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-27" data-image-index="27" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0223.jpg" alt="Patna — Photo 27" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-28" data-image-index="28" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0224.jpg" alt="Patna — Photo 28" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-29" data-image-index="29" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0226.jpg" alt="Patna — Photo 29" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-30" data-image-index="30" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0227.jpg" alt="Patna — Photo 30" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-31" data-image-index="31" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0228.jpg" alt="Patna — Photo 31" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-32" data-image-index="32" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0229.jpg" alt="Patna — Photo 32" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-33" data-image-index="33" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0230.jpg" alt="Patna — Photo 33" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-34" data-image-index="34" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0231.jpg" alt="Patna — Photo 34" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-35" data-image-index="35" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0233.jpg" alt="Patna — Photo 35" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-36" data-image-index="36" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0234.jpg" alt="Patna — Photo 36" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-37" data-image-index="37" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0235.jpg" alt="Patna — Photo 37" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-38" data-image-index="38" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0240.jpg" alt="Patna — Photo 38" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-39" data-image-index="39" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0242.jpg" alt="Patna — Photo 39" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-40" data-image-index="40" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0244.jpg" alt="Patna — Photo 40" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-41" data-image-index="41" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0245.jpg" alt="Patna — Photo 41" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-42" data-image-index="42" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0247.jpg" alt="Patna — Photo 42" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-43" data-image-index="43" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0248.jpg" alt="Patna — Photo 43" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-44" data-image-index="44" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0249.jpg" alt="Patna — Photo 44" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-45" data-image-index="45" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0250.jpg" alt="Patna — Photo 45" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-46" data-image-index="46" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0251.jpg" alt="Patna — Photo 46" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-47" data-image-index="47" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0254.jpg" alt="Patna — Photo 47" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-48" data-image-index="48" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0255.jpg" alt="Patna — Photo 48" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-49" data-image-index="49" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0257.jpg" alt="Patna — Photo 49" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-50" data-image-index="50" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0261.jpg" alt="Patna — Photo 50" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-51" data-image-index="51" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0263.jpg" alt="Patna — Photo 51" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-52" data-image-index="52" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0264.jpg" alt="Patna — Photo 52" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-53" data-image-index="53" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0265.jpg" alt="Patna — Photo 53" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-54" data-image-index="54" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/patna/thumbnails/photo0266.jpg" alt="Patna — Photo 54" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-</section>
-
-<script>
-(function(){
-  var images = [{"file": "photo0178.jpg", "caption": "Patna — Photo 1", "alt": "Patna — Photo 1"}, {"file": "photo0180.jpg", "caption": "Patna — Photo 2", "alt": "Patna — Photo 2"}, {"file": "photo0181.jpg", "caption": "Patna — Photo 3", "alt": "Patna — Photo 3"}, {"file": "photo0186.jpg", "caption": "Patna — Photo 4", "alt": "Patna — Photo 4"}, {"file": "photo0188.jpg", "caption": "Patna — Photo 5", "alt": "Patna — Photo 5"}, {"file": "photo0190.jpg", "caption": "Patna — Photo 6", "alt": "Patna — Photo 6"}, {"file": "photo0191.jpg", "caption": "Patna — Photo 7", "alt": "Patna — Photo 7"}, {"file": "photo0192.jpg", "caption": "Patna — Photo 8", "alt": "Patna — Photo 8"}, {"file": "photo0199.jpg", "caption": "Patna — Photo 9", "alt": "Patna — Photo 9"}, {"file": "photo0200.jpg", "caption": "Patna — Photo 10", "alt": "Patna — Photo 10"}, {"file": "photo0202.jpg", "caption": "Patna — Photo 11", "alt": "Patna — Photo 11"}, {"file": "photo0204.jpg", "caption": "Patna — Photo 12", "alt": "Patna — Photo 12"}, {"file": "photo0205.jpg", "caption": "Patna — Photo 13", "alt": "Patna — Photo 13"}, {"file": "photo0206.jpg", "caption": "Patna — Photo 14", "alt": "Patna — Photo 14"}, {"file": "photo0209.jpg", "caption": "Patna — Photo 15", "alt": "Patna — Photo 15"}, {"file": "photo0210.jpg", "caption": "Patna — Photo 16", "alt": "Patna — Photo 16"}, {"file": "photo0211.jpg", "caption": "Patna — Photo 17", "alt": "Patna — Photo 17"}, {"file": "photo0212.jpg", "caption": "Patna — Photo 18", "alt": "Patna — Photo 18"}, {"file": "photo0214.jpg", "caption": "Patna — Photo 19", "alt": "Patna — Photo 19"}, {"file": "photo0215.jpg", "caption": "Patna — Photo 20", "alt": "Patna — Photo 20"}, {"file": "photo0217.jpg", "caption": "Patna — Photo 21", "alt": "Patna — Photo 21"}, {"file": "photo0218.jpg", "caption": "Patna — Photo 22", "alt": "Patna — Photo 22"}, {"file": "photo0219.jpg", "caption": "Patna — Photo 23", "alt": "Patna — Photo 23"}, {"file": "photo0220.jpg", "caption": "Patna — Photo 24", "alt": "Patna — Photo 24"}, {"file": "photo0221.jpg", "caption": "Patna — Photo 25", "alt": "Patna — Photo 25"}, {"file": "photo0222.jpg", "caption": "Patna — Photo 26", "alt": "Patna — Photo 26"}, {"file": "photo0223.jpg", "caption": "Patna — Photo 27", "alt": "Patna — Photo 27"}, {"file": "photo0224.jpg", "caption": "Patna — Photo 28", "alt": "Patna — Photo 28"}, {"file": "photo0226.jpg", "caption": "Patna — Photo 29", "alt": "Patna — Photo 29"}, {"file": "photo0227.jpg", "caption": "Patna — Photo 30", "alt": "Patna — Photo 30"}, {"file": "photo0228.jpg", "caption": "Patna — Photo 31", "alt": "Patna — Photo 31"}, {"file": "photo0229.jpg", "caption": "Patna — Photo 32", "alt": "Patna — Photo 32"}, {"file": "photo0230.jpg", "caption": "Patna — Photo 33", "alt": "Patna — Photo 33"}, {"file": "photo0231.jpg", "caption": "Patna — Photo 34", "alt": "Patna — Photo 34"}, {"file": "photo0233.jpg", "caption": "Patna — Photo 35", "alt": "Patna — Photo 35"}, {"file": "photo0234.jpg", "caption": "Patna — Photo 36", "alt": "Patna — Photo 36"}, {"file": "photo0235.jpg", "caption": "Patna — Photo 37", "alt": "Patna — Photo 37"}, {"file": "photo0240.jpg", "caption": "Patna — Photo 38", "alt": "Patna — Photo 38"}, {"file": "photo0242.jpg", "caption": "Patna — Photo 39", "alt": "Patna — Photo 39"}, {"file": "photo0244.jpg", "caption": "Patna — Photo 40", "alt": "Patna — Photo 40"}, {"file": "photo0245.jpg", "caption": "Patna — Photo 41", "alt": "Patna — Photo 41"}, {"file": "photo0247.jpg", "caption": "Patna — Photo 42", "alt": "Patna — Photo 42"}, {"file": "photo0248.jpg", "caption": "Patna — Photo 43", "alt": "Patna — Photo 43"}, {"file": "photo0249.jpg", "caption": "Patna — Photo 44", "alt": "Patna — Photo 44"}, {"file": "photo0250.jpg", "caption": "Patna — Photo 45", "alt": "Patna — Photo 45"}, {"file": "photo0251.jpg", "caption": "Patna — Photo 46", "alt": "Patna — Photo 46"}, {"file": "photo0254.jpg", "caption": "Patna — Photo 47", "alt": "Patna — Photo 47"}, {"file": "photo0255.jpg", "caption": "Patna — Photo 48", "alt": "Patna — Photo 48"}, {"file": "photo0257.jpg", "caption": "Patna — Photo 49", "alt": "Patna — Photo 49"}, {"file": "photo0261.jpg", "caption": "Patna — Photo 50", "alt": "Patna — Photo 50"}, {"file": "photo0263.jpg", "caption": "Patna — Photo 51", "alt": "Patna — Photo 51"}, {"file": "photo0264.jpg", "caption": "Patna — Photo 52", "alt": "Patna — Photo 52"}, {"file": "photo0265.jpg", "caption": "Patna — Photo 53", "alt": "Patna — Photo 53"}, {"file": "photo0266.jpg", "caption": "Patna — Photo 54", "alt": "Patna — Photo 54"}];
-  var slug = "patna";
-  var totalImages = images.length;
-  var currentIndex = 0;
-  var grid = document.getElementById("photo-grid");
-  var viewer = document.getElementById("photo-viewer");
-  var viewerImage = document.getElementById("viewer-image");
-  var captionText = document.getElementById("caption-text");
-  var photoCounter = document.getElementById("photo-counter");
-  function showGrid(){ if(grid) grid.style.display="grid"; if(viewer) { viewer.style.display="none"; viewer.classList.remove("active"); } document.body.style.overflow="auto"; }
-  function showViewer(index){ currentIndex = index; if(grid) grid.style.display="none"; if(!viewer) viewer = document.getElementById("photo-viewer"); if(viewer){ viewer.style.display="flex"; viewer.classList.add("active"); } document.body.style.overflow="hidden"; loadPhoto(index); }
-  function loadPhoto(index){ try{ if(!viewerImage) viewerImage = document.getElementById("viewer-image"); if(!captionText) captionText = document.getElementById("caption-text"); if(!photoCounter) photoCounter = document.getElementById("photo-counter"); var img = images[index]; if(!img) return; var src = "/_assets/images/photos/" + slug + "/originals/" + (img.file||""); if(viewerImage) { viewerImage.src = src; viewerImage.alt = img.alt || ""; } if(captionText) captionText.textContent = img.caption || ""; if(photoCounter) photoCounter.textContent = (index+1) + " / " + totalImages; currentIndex = index; }catch(e){console.error("loadPhoto error",e);} }
-  window.navigatePrev = function(){ var newIndex = currentIndex===0 ? totalImages-1 : currentIndex-1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
-  window.navigateNext = function(){ var newIndex = currentIndex===totalImages-1 ? 0 : currentIndex+1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
-  window.closeViewer = function(){ try{ history.replaceState(null, "", window.location.pathname); showGrid(); }catch(e){} }
-  window.openPhoto = function(evt, num){ try{ if(evt && typeof evt.preventDefault === "function") evt.preventDefault(); var idx = (typeof num === "number") ? num-1 : (parseInt(num,10)-1); if(isNaN(idx)) idx = 0; var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); }catch(e){console.error("openPhoto error",e);} };
-  function handleHash(){ var hash = window.location.hash; if(!hash || hash==="#") { showGrid(); } else { var m = hash.match(/#photo-(\d+)/); if(m){ var num = parseInt(m[1],10); if(num>=1 && num<=totalImages){ showViewer(num-1); } else { showGrid(); } } } }
-  document.addEventListener("keydown", function(e){ try{ if(viewer && (viewer.classList && viewer.classList.contains("active") || viewer.style.display==="flex")){ if(e.key==="ArrowLeft") navigatePrev(); else if(e.key==="ArrowRight") navigateNext(); else if(e.key==="Escape") closeViewer(); } }catch(e){} });
-  window.addEventListener("hashchange", handleHash);
-  window.addEventListener("popstate", handleHash);
-  handleHash();
-  document.addEventListener("click", function(e){ try{ var a = e.target.closest && e.target.closest("a[data-image-index]"); if(a){ var idx = parseInt(a.getAttribute("data-image-index"),10)-1; if(!isNaN(idx)){ var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); e.preventDefault(); } } }catch(e){} });
-})();
-</script>
 ]]></description>
 </item>
 <item>
-<title>Chennai</title>
-<link>https://imsaichauhan.pages.dev/photos/chennai/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/photos/chennai/</guid>
+<title>Now</title>
+<link>https://imsaichauhan.pages.dev/now/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/now/</guid>
+<pubDate>Thu, 04 Dec 2025 02:29:19 -0000</pubDate>
+<description><![CDATA[
+Last updated: November 22, 2025 [·]{.now-separator} [Inspired by Derek Sivers](https://nownownow.com/about){.now-credit-link}
+
+I'm in a season of [deep focus/transition/building/exploration]. After [recent change or realization], I've been spending most of my energy on work that feels both challenging and necessary—the kind where you're not entirely sure you're doing it right, but you know you need to keep going.
+
+Right now, I'm working on [primary project or focus area]. It started as [how it began], but it's evolved into something more interesting: [what it's become and why it matters]. The work is [adjective describing the experience—absorbing, frustrating, illuminating], and I'm learning that [insight about the process or yourself]. On the side, I'm also [secondary project], which gives me space to think about [related concept or application]. It's slower than I'd like, but I'm trying to trust that good work takes time.
+
+I'm also spending time with [book, paper, or body of work] by [author], which has shifted how I think about [topic or approach]. There's this idea in it about [key concept] that keeps surfacing in my work—the sense that [how it connects to what you're doing]. I've also been reading [second book or source], mostly because [reason—curiosity, recommendation, research]. Between the two, I'm thinking a lot about [overarching theme or question].
+
+Day to day, I'm based in [location], working from [where you work—home, office, cafe]. My routine is [description of rhythm—structured, fluid, evolving], and I'm trying to [habit or practice you're cultivating]. I've been saying no to [what you're actively avoiding—social media, certain types of projects, distractions] because I need the mental space for what I'm building. It's not that those things aren't valuable—they're just not for right now.
+
+I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate next step or ongoing commitment], and seeing what emerges from consistent attention. If you want to talk about [topic you'd welcome conversation about], reach out—I'd love to hear from you.
+
+[See archives](/now/archive/)
+]]></description>
+</item>
+<item>
+<title>Curiosities</title>
+<link>https://imsaichauhan.pages.dev/bookmarks/curiosities/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/curiosities/</guid>
 <pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
 <description><![CDATA[
-<link rel="stylesheet" href="/_assets/css/photos.css">
-<script src="/_assets/js/photos-viewer-fallback.js" defer></script>
+- [The Library of Babel Made Real](https://libraryofbabel.info) | Every possible page of text already exists in this algorithmic library. Your thoughts, written exactly as you're thinking them right now, are already there—you just need to find the right address. | Library
+- [The Anthropocene's Golden Spike](https://example.com/golden-spike) | Geologists are trying to pinpoint the exact moment humanity became a geological force; plutonium isotopes from 1950s tests are a strong candidate. | Geology
+- [Gödel's Lost Letter to von Neumann](https://example.com/godel-letter) | In 1956 Gödel hinted at complexity ideas that resemble P vs NP; a fascinating historical what-if. | CS
+- [The Voynich Manuscript's Statistical Signature](https://example.com/voynich) | Follows Zipf's law like natural language but resists decipherment; a statistical mystery. | Manuscript
+- [Quantum Immortality and the Anthropic Shadow](https://example.com/quantum-immortality) | If many-worlds is true, observers experience only branches where they survive — with interesting anthropic implications. | Physics
+- [The Longest Poem in the World](https://example.com/longest-poem) | A generative poem built from every tweet; an extreme example of algorithmic literature. | Art
+- [Roko's Basilisk and Decision Theory](https://example.com/rokos-basilisk) | An information hazard thought experiment mixing acausal trade and Pascal-like reasoning. | Decision Theory
+- [The Tamagotchi Effect in Digital Spaces](https://example.com/tamagotchi-effect) | Why we empathize with virtual entities and what that says about moral psychology. | Psychology
+- [Normcore and the Death of Subcultures](https://example.com/normcore) | How mainstreaming and irony changed subcultural meaning. | Culture
+- [The Fermi Paradox's Dark Forest Solution](https://example.com/dark-forest) | A game-theoretic explanation for cosmic silence: silence as survival. | Astrobiology
+- [Borges's Tlön, Uqbar, Orbis Tertius](https://example.com/tlon) | Fictional worlds described so convincingly they start to affect reality. | Literature
+- [The Phantom Time Hypothesis](https://example.com/phantom-time) | A fringe claim that certain medieval years were fabricated — notable as an epistemic puzzle. | History
+]]></description>
+</item>
+<item>
+<title>System</title>
+<link>https://imsaichauhan.pages.dev/bookmarks/system/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/system/</guid>
+<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
+<description><![CDATA[
+*Software, extensions, workflows, online projects, blogs.*
 
-<section aria-label="Photo grid" class="photo-grid" id="photo-grid">
-  <a href="#photo-1" data-image-index="1" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0267.jpg" alt="Chennai — Photo 1" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-2" data-image-index="2" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0268.jpg" alt="Chennai — Photo 2" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-3" data-image-index="3" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0270.jpg" alt="Chennai — Photo 3" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-4" data-image-index="4" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0271.jpg" alt="Chennai — Photo 4" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-5" data-image-index="5" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0273.jpg" alt="Chennai — Photo 5" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-6" data-image-index="6" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0279.jpg" alt="Chennai — Photo 6" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-7" data-image-index="7" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0280.jpg" alt="Chennai — Photo 7" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-8" data-image-index="8" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0282.jpg" alt="Chennai — Photo 8" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-9" data-image-index="9" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0284.jpg" alt="Chennai — Photo 9" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-10" data-image-index="10" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0285.jpg" alt="Chennai — Photo 10" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-11" data-image-index="11" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0286.jpg" alt="Chennai — Photo 11" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-12" data-image-index="12" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0287.jpg" alt="Chennai — Photo 12" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-13" data-image-index="13" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0289.jpg" alt="Chennai — Photo 13" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-14" data-image-index="14" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0290.jpg" alt="Chennai — Photo 14" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-15" data-image-index="15" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0292.jpg" alt="Chennai — Photo 15" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-16" data-image-index="16" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0298.jpg" alt="Chennai — Photo 16" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-17" data-image-index="17" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0299.jpg" alt="Chennai — Photo 17" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-18" data-image-index="18" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0300.jpg" alt="Chennai — Photo 18" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-19" data-image-index="19" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0301.jpg" alt="Chennai — Photo 19" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-20" data-image-index="20" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0302.jpg" alt="Chennai — Photo 20" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-21" data-image-index="21" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0303.jpg" alt="Chennai — Photo 21" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-22" data-image-index="22" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0304.jpg" alt="Chennai — Photo 22" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-23" data-image-index="23" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0305.jpg" alt="Chennai — Photo 23" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-24" data-image-index="24" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0306.jpg" alt="Chennai — Photo 24" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-25" data-image-index="25" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0308.jpg" alt="Chennai — Photo 25" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-26" data-image-index="26" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0310.jpg" alt="Chennai — Photo 26" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-27" data-image-index="27" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0311.jpg" alt="Chennai — Photo 27" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-28" data-image-index="28" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0312.jpg" alt="Chennai — Photo 28" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-29" data-image-index="29" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0313.jpg" alt="Chennai — Photo 29" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-30" data-image-index="30" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0315.jpg" alt="Chennai — Photo 30" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-31" data-image-index="31" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0316.jpg" alt="Chennai — Photo 31" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-32" data-image-index="32" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0317.jpg" alt="Chennai — Photo 32" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-33" data-image-index="33" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0318.jpg" alt="Chennai — Photo 33" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-34" data-image-index="34" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0319.jpg" alt="Chennai — Photo 34" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-35" data-image-index="35" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0320.jpg" alt="Chennai — Photo 35" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-36" data-image-index="36" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0322.jpg" alt="Chennai — Photo 36" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-37" data-image-index="37" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0323.jpg" alt="Chennai — Photo 37" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-38" data-image-index="38" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0324.jpg" alt="Chennai — Photo 38" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-39" data-image-index="39" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0325.jpg" alt="Chennai — Photo 39" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-40" data-image-index="40" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0326.jpg" alt="Chennai — Photo 40" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-41" data-image-index="41" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0327.jpg" alt="Chennai — Photo 41" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-42" data-image-index="42" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0328.jpg" alt="Chennai — Photo 42" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-43" data-image-index="43" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0329.jpg" alt="Chennai — Photo 43" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-44" data-image-index="44" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0331.jpg" alt="Chennai — Photo 44" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-  <a href="#photo-45" data-image-index="45" class="photo-grid-item">
-    <span class="thumb-4-3 inline-block">
-      <img src="/_assets/images/photos/chennai/thumbnails/photo0332.jpg" alt="Chennai — Photo 45" loading="lazy" class="w-full h-auto" />
-    </span>
-  </a>
-</section>
+Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
 
-<script>
-(function(){
-  var images = [{"file": "photo0267.jpg", "caption": "Chennai — Photo 1", "alt": "Chennai — Photo 1"}, {"file": "photo0268.jpg", "caption": "Chennai — Photo 2", "alt": "Chennai — Photo 2"}, {"file": "photo0270.jpg", "caption": "Chennai — Photo 3", "alt": "Chennai — Photo 3"}, {"file": "photo0271.jpg", "caption": "Chennai — Photo 4", "alt": "Chennai — Photo 4"}, {"file": "photo0273.jpg", "caption": "Chennai — Photo 5", "alt": "Chennai — Photo 5"}, {"file": "photo0279.jpg", "caption": "Chennai — Photo 6", "alt": "Chennai — Photo 6"}, {"file": "photo0280.jpg", "caption": "Chennai — Photo 7", "alt": "Chennai — Photo 7"}, {"file": "photo0282.jpg", "caption": "Chennai — Photo 8", "alt": "Chennai — Photo 8"}, {"file": "photo0284.jpg", "caption": "Chennai — Photo 9", "alt": "Chennai — Photo 9"}, {"file": "photo0285.jpg", "caption": "Chennai — Photo 10", "alt": "Chennai — Photo 10"}, {"file": "photo0286.jpg", "caption": "Chennai — Photo 11", "alt": "Chennai — Photo 11"}, {"file": "photo0287.jpg", "caption": "Chennai — Photo 12", "alt": "Chennai — Photo 12"}, {"file": "photo0289.jpg", "caption": "Chennai — Photo 13", "alt": "Chennai — Photo 13"}, {"file": "photo0290.jpg", "caption": "Chennai — Photo 14", "alt": "Chennai — Photo 14"}, {"file": "photo0292.jpg", "caption": "Chennai — Photo 15", "alt": "Chennai — Photo 15"}, {"file": "photo0298.jpg", "caption": "Chennai — Photo 16", "alt": "Chennai — Photo 16"}, {"file": "photo0299.jpg", "caption": "Chennai — Photo 17", "alt": "Chennai — Photo 17"}, {"file": "photo0300.jpg", "caption": "Chennai — Photo 18", "alt": "Chennai — Photo 18"}, {"file": "photo0301.jpg", "caption": "Chennai — Photo 19", "alt": "Chennai — Photo 19"}, {"file": "photo0302.jpg", "caption": "Chennai — Photo 20", "alt": "Chennai — Photo 20"}, {"file": "photo0303.jpg", "caption": "Chennai — Photo 21", "alt": "Chennai — Photo 21"}, {"file": "photo0304.jpg", "caption": "Chennai — Photo 22", "alt": "Chennai — Photo 22"}, {"file": "photo0305.jpg", "caption": "Chennai — Photo 23", "alt": "Chennai — Photo 23"}, {"file": "photo0306.jpg", "caption": "Chennai — Photo 24", "alt": "Chennai — Photo 24"}, {"file": "photo0308.jpg", "caption": "Chennai — Photo 25", "alt": "Chennai — Photo 25"}, {"file": "photo0310.jpg", "caption": "Chennai — Photo 26", "alt": "Chennai — Photo 26"}, {"file": "photo0311.jpg", "caption": "Chennai — Photo 27", "alt": "Chennai — Photo 27"}, {"file": "photo0312.jpg", "caption": "Chennai — Photo 28", "alt": "Chennai — Photo 28"}, {"file": "photo0313.jpg", "caption": "Chennai — Photo 29", "alt": "Chennai — Photo 29"}, {"file": "photo0315.jpg", "caption": "Chennai — Photo 30", "alt": "Chennai — Photo 30"}, {"file": "photo0316.jpg", "caption": "Chennai — Photo 31", "alt": "Chennai — Photo 31"}, {"file": "photo0317.jpg", "caption": "Chennai — Photo 32", "alt": "Chennai — Photo 32"}, {"file": "photo0318.jpg", "caption": "Chennai — Photo 33", "alt": "Chennai — Photo 33"}, {"file": "photo0319.jpg", "caption": "Chennai — Photo 34", "alt": "Chennai — Photo 34"}, {"file": "photo0320.jpg", "caption": "Chennai — Photo 35", "alt": "Chennai — Photo 35"}, {"file": "photo0322.jpg", "caption": "Chennai — Photo 36", "alt": "Chennai — Photo 36"}, {"file": "photo0323.jpg", "caption": "Chennai — Photo 37", "alt": "Chennai — Photo 37"}, {"file": "photo0324.jpg", "caption": "Chennai — Photo 38", "alt": "Chennai — Photo 38"}, {"file": "photo0325.jpg", "caption": "Chennai — Photo 39", "alt": "Chennai — Photo 39"}, {"file": "photo0326.jpg", "caption": "Chennai — Photo 40", "alt": "Chennai — Photo 40"}, {"file": "photo0327.jpg", "caption": "Chennai — Photo 41", "alt": "Chennai — Photo 41"}, {"file": "photo0328.jpg", "caption": "Chennai — Photo 42", "alt": "Chennai — Photo 42"}, {"file": "photo0329.jpg", "caption": "Chennai — Photo 43", "alt": "Chennai — Photo 43"}, {"file": "photo0331.jpg", "caption": "Chennai — Photo 44", "alt": "Chennai — Photo 44"}, {"file": "photo0332.jpg", "caption": "Chennai — Photo 45", "alt": "Chennai — Photo 45"}];
-  var slug = "chennai";
-  var totalImages = images.length;
-  var currentIndex = 0;
-  var grid = document.getElementById("photo-grid");
-  var viewer = document.getElementById("photo-viewer");
-  var viewerImage = document.getElementById("viewer-image");
-  var captionText = document.getElementById("caption-text");
-  var photoCounter = document.getElementById("photo-counter");
-  function showGrid(){ if(grid) grid.style.display="grid"; if(viewer) { viewer.style.display="none"; viewer.classList.remove("active"); } document.body.style.overflow="auto"; }
-  function showViewer(index){ currentIndex = index; if(grid) grid.style.display="none"; if(!viewer) viewer = document.getElementById("photo-viewer"); if(viewer){ viewer.style.display="flex"; viewer.classList.add("active"); } document.body.style.overflow="hidden"; loadPhoto(index); }
-  function loadPhoto(index){ try{ if(!viewerImage) viewerImage = document.getElementById("viewer-image"); if(!captionText) captionText = document.getElementById("caption-text"); if(!photoCounter) photoCounter = document.getElementById("photo-counter"); var img = images[index]; if(!img) return; var src = "/_assets/images/photos/" + slug + "/originals/" + (img.file||""); if(viewerImage) { viewerImage.src = src; viewerImage.alt = img.alt || ""; } if(captionText) captionText.textContent = img.caption || ""; if(photoCounter) photoCounter.textContent = (index+1) + " / " + totalImages; currentIndex = index; }catch(e){console.error("loadPhoto error",e);} }
-  window.navigatePrev = function(){ var newIndex = currentIndex===0 ? totalImages-1 : currentIndex-1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
-  window.navigateNext = function(){ var newIndex = currentIndex===totalImages-1 ? 0 : currentIndex+1; var hash = "#photo-" + (newIndex+1); history.pushState({index:newIndex}, "", hash); loadPhoto(newIndex); }
-  window.closeViewer = function(){ try{ history.replaceState(null, "", window.location.pathname); showGrid(); }catch(e){} }
-  window.openPhoto = function(evt, num){ try{ if(evt && typeof evt.preventDefault === "function") evt.preventDefault(); var idx = (typeof num === "number") ? num-1 : (parseInt(num,10)-1); if(isNaN(idx)) idx = 0; var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); }catch(e){console.error("openPhoto error",e);} };
-  function handleHash(){ var hash = window.location.hash; if(!hash || hash==="#") { showGrid(); } else { var m = hash.match(/#photo-(\d+)/); if(m){ var num = parseInt(m[1],10); if(num>=1 && num<=totalImages){ showViewer(num-1); } else { showGrid(); } } } }
-  document.addEventListener("keydown", function(e){ try{ if(viewer && (viewer.classList && viewer.classList.contains("active") || viewer.style.display==="flex")){ if(e.key==="ArrowLeft") navigatePrev(); else if(e.key==="ArrowRight") navigateNext(); else if(e.key==="Escape") closeViewer(); } }catch(e){} });
-  window.addEventListener("hashchange", handleHash);
-  window.addEventListener("popstate", handleHash);
-  handleHash();
-  document.addEventListener("click", function(e){ try{ var a = e.target.closest && e.target.closest("a[data-image-index]"); if(a){ var idx = parseInt(a.getAttribute("data-image-index"),10)-1; if(!isNaN(idx)){ var hash = "#photo-" + (idx+1); history.pushState({index:idx}, "", hash); showViewer(idx); e.preventDefault(); } } }catch(e){} });
-})();
-</script>
+- [Example system item](https://example.com) | Short description of the system item | System
+]]></description>
+</item>
+<item>
+<title>Media</title>
+<link>https://imsaichauhan.pages.dev/bookmarks/media/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/media/</guid>
+<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
+<description><![CDATA[
+*Videos, films, podcasts, music albums.*
+
+Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
+
+- [Example media item](https://example.com) | Short description of the media item | Media
+]]></description>
+</item>
+<item>
+<title>Reading</title>
+<link>https://imsaichauhan.pages.dev/bookmarks/reading/</link>
+<guid isPermaLink="true">https://imsaichauhan.pages.dev/bookmarks/reading/</guid>
+<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
+<description><![CDATA[
+*Articles, essays, research papers, quotes, books.*
+
+Here's a simple list format — one item per bullet. The Pandoc filter `_filters/bookmarks-grid.lua` will convert this into the projects-style grid at build time.
+
+- [Example reading item](https://example.org) | Short description of the reading item | Reading
 ]]></description>
 </item>
 <item>
@@ -1291,15 +1300,6 @@ Now page archive
   To add/remove/edit bookmark cards, edit _data/bookmarks.yml
   Then run: python3 _scripts/generate-bookmarks.py
 -->
-]]></description>
-</item>
-<item>
-<title>Photos</title>
-<link>https://imsaichauhan.pages.dev/photos/</link>
-<guid isPermaLink="true">https://imsaichauhan.pages.dev/photos/</guid>
-<pubDate>Thu, 04 Dec 2025 02:26:06 -0000</pubDate>
-<description><![CDATA[
-<link rel="stylesheet" href="/_assets/css/photos.css">
 ]]></description>
 </item>
 <item>
