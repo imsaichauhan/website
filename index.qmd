@@ -53,8 +53,8 @@ and the rabbit holes they open.
     <ul>
       <li><a href="bookmarks/reading/">Reading</a></li>
       <li><a href="bookmarks/media/">Media</a></li>
-      <li><a href="bookmarks/curiosities/">Curiosities</a></li>
       <li><a href="bookmarks/system/">System</a></li>
+      <li><a href="bookmarks/curiosities/">Curiosities</a></li>
     </ul>
   </li>
   <li class="index-now">
