@@ -23,32 +23,69 @@ I’m someone who drifts through varied interests
 and the rabbit holes they open.
 :::
 
-::: {.home-nav}
-::: {.home-nav-grid}
-::: {.nav-section}
-## Indexes
-
-- [Projects](projects/)
-- [Bookmarks](bookmarks/)
-- [Now](now/)
-- [Photos](photos/)
-:::
-
-::: {.nav-section .secondary}
-## Information
-
-- [Resume](resume/)
-- [Contact](contact/)
-- [Colophon](colophon/)
-- [RSS](rss.xml)
-:::
-
-::: {.dark-mode-container}
+::: {.view-controls}
 <button class="dark-mode-toggle home-dark-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
   <span class="mode-light">[Light]</span>
   <span class="mode-dark">Dark</span>
 </button>
+
+<button class="nav-expand-toggle" id="nav-expand-toggle" aria-label="Expand navigation" aria-expanded="false" title="Show all pages">
+  <span class="toggle-collapsed">Less</span>
+  <span class="toggle-expanded">More</span>
+</button>
 :::
+
+::: {.home-nav}
+::: {.home-nav-grid}
+```{=html}
+<div class="nav-section indexes-section">
+<h2>Indexes</h2>
+<ul>
+  <li class="index-projects">
+    <a href="projects/">Projects</a>
+    <ul>
+      <li><a href="projects/rice/">Climate</a></li>
+      <li><a href="projects/sentiment/">Sentiment</a></li>
+    </ul>
+  </li>
+  <li class="index-bookmarks">
+    <a href="bookmarks/">Bookmarks</a>
+    <ul>
+      <li><a href="bookmarks/reading/">Reading</a></li>
+      <li><a href="bookmarks/media/">Media</a></li>
+      <li><a href="bookmarks/curiosities/">Curiosities</a></li>
+      <li><a href="bookmarks/system/">System</a></li>
+    </ul>
+  </li>
+  <li class="index-now">
+    <a href="now/">Now</a>
+    <ul>
+      <li><a href="now/archive/">Archive</a></li>
+    </ul>
+  </li>
+  <li class="index-photos">
+    <a href="photos/">Photos</a>
+    <ul>
+      <li><a href="photos/banaras/">Banaras</a></li>
+      <li><a href="photos/chennai/">Chennai</a></li>
+      <li><a href="photos/patna/">Patna</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+```
+
+```{=html}
+<div class="nav-section information-section">
+<h2>Information</h2>
+<ul>
+  <li><a href="resume/">Resume</a></li>
+  <li><a href="contact/">Contact</a></li>
+  <li><a href="colophon/">Colophon</a></li>
+  <li><a href="rss.xml">RSS</a></li>
+</ul>
+</div>
+```
 :::
 :::
 :::

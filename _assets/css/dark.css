@@ -1078,3 +1078,14 @@ body {
 [data-theme="dark"] .colophon-footer p {
     color: rgba(212, 207, 196, 0.5);
 }
+
+/* Dark mode table headers */
+[data-theme="dark"] thead {
+    background-color: transparent !important;
+    border-bottom-color: #d4cfc4;
+}
+
+[data-theme="dark"] thead tr,
+[data-theme="dark"] thead th {
+    background-color: transparent !important;
+}

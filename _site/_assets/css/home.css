@@ -139,6 +139,12 @@ body.home .quarto-title-banner {
     margin: 0;
 }
 
+.nav-section > ul > li {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
 .nav-section li {
     margin: 0;
     padding: 0;
@@ -159,16 +165,19 @@ body.home .quarto-title-banner {
 }
 
 /* ========================================
-   DARK MODE TOGGLE
+   VIEW CONTROLS (DARK MODE + NAV TOGGLE)
    ======================================== */
 
-.dark-mode-container {
+.view-controls {
+    display: flex;
+    gap: 4rem;
+    align-items: baseline;
     text-align: left;
-    margin-top: 0.5rem;
-    margin-bottom: 0;
+    margin: 2rem 0 3rem 0;
 }
 
-.home-dark-toggle {
+.home-dark-toggle,
+.nav-expand-toggle {
     background: none;
     border: none;
     padding: 0;
@@ -180,7 +189,8 @@ body.home .quarto-title-banner {
     display: inline;
 }
 
-.home-dark-toggle:hover {
+.home-dark-toggle:hover,
+.nav-expand-toggle:hover {
     opacity: 0.6;
 }
 
@@ -193,8 +203,78 @@ body.home .quarto-title-banner {
     opacity: 0.6;
 }
 
+/* Nav expand toggle states - brackets show current state, similar to dark mode toggle */
+/* When collapsed (default): show [Collapsed] Expanded - Collapsed is current state, Expanded is muted */
+.nav-expand-toggle .toggle-collapsed::before {
+    content: '[';
+}
+
+.nav-expand-toggle .toggle-collapsed::after {
+    content: ']';
+}
+
+.nav-expand-toggle .toggle-collapsed {
+    opacity: 1;
+}
+
+.nav-expand-toggle .toggle-expanded {
+    opacity: 0.6;
+}
+
+/* When expanded: show Collapsed [Expanded] - Expanded is current state, Collapsed is muted */
+.nav-expand-toggle.is-expanded .toggle-collapsed::before,
+.nav-expand-toggle.is-expanded .toggle-collapsed::after {
+    content: '';
+}
+
+.nav-expand-toggle.is-expanded .toggle-collapsed {
+    opacity: 0.6;
+}
+
+.nav-expand-toggle.is-expanded .toggle-expanded::before {
+    content: '[';
+}
+
+.nav-expand-toggle.is-expanded .toggle-expanded::after {
+    content: ']';
+}
+
+.nav-expand-toggle.is-expanded .toggle-expanded {
+    opacity: 1;
+}
+
 /* ========================================
-   DESKTOP: TWO-COLUMN LAYOUT
+   CHILD LINKS (HIDDEN BY DEFAULT)
+   ======================================== */
+
+.nav-section ul ul {
+    display: none !important;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-section ul ul li {
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    opacity: 0.75;
+    line-height: 1.6;
+    position: relative;
+}
+
+.nav-section ul ul li::before {
+    content: "→ ";
+    position: absolute;
+    left: 0;
+    opacity: 0.5;
+}
+
+.nav-section ul ul a {
+    font-size: 1rem;
+}
+
+/* ========================================
+   DESKTOP: TWO-COLUMN LAYOUT (COLLAPSED)
    ======================================== */
 
 @media (min-width: 768px) {
@@ -204,10 +284,214 @@ body.home .quarto-title-banner {
         gap: 4rem;
         align-items: start;
     }
+}
 
-    /* Make dark mode span both columns */
-    .dark-mode-container {
-        grid-column: 1 / -1;
+/* ========================================
+   EXPANDED STATE: SINGLE COLUMN (MOBILE/TABLET)
+   ======================================== */
+
+@media (max-width: 1199px) {
+    .home-nav-grid.nav-expanded .nav-section ul ul {
+        display: block !important;
+    }
+
+    /* Keep Now's Archive hidden on mobile/tablet expanded */
+    .home-nav-grid.nav-expanded .nav-section .index-now ul {
+        display: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 0 !important;
+    }
+    
+    /* Replace arrows with middle dot for child links on mobile */
+    .home-nav-grid.nav-expanded .nav-section ul ul li::before {
+        content: '· ';
+        opacity: 0.5;
+    }
+}
+
+/* ========================================
+   EXPANDED STATE: 4-COLUMN LAYOUT (DESKTOP)
+   ======================================== */
+
+@media (min-width: 1200px) {
+    .home-nav-grid.nav-expanded {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: min-content;
+        column-gap: 2.5rem;
+        row-gap: 0;
+        align-items: start;
+        grid-auto-flow: dense;
+    }
+    
+    /* Hide section headers in expanded state */
+    .home-nav-grid.nav-expanded .nav-section > h2 {
+        display: none;
+    }
+    
+    /* Unwrap indexes section and its ul to expose list items to grid */
+    .home-nav-grid.nav-expanded .indexes-section {
+        display: contents;
+    }
+    
+    .home-nav-grid.nav-expanded .indexes-section > ul {
+        display: contents;
+    }
+    
+    /* Position each index in its column at row 1 */
+    .home-nav-grid.nav-expanded .index-projects {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: start;
+    }
+    
+    .home-nav-grid.nav-expanded .index-bookmarks {
+        grid-column: 2;
+        grid-row: 1;
+        align-self: start;
+    }
+    
+    .home-nav-grid.nav-expanded .index-photos {
+        grid-column: 3;
+        grid-row: 1;
+        align-self: start;
+    }
+    
+    /* Unwrap information section to expose its list and list items */
+    .home-nav-grid.nav-expanded .information-section {
+        display: contents;
+    }
+    
+    .home-nav-grid.nav-expanded .information-section > h2 {
+        display: none;
+    }
+    
+    .home-nav-grid.nav-expanded .information-section > ul {
+        display: contents;
+    }
+    
+    /* Column 4 items - all items contribute to grid row height, so place them together */
+    .home-nav-grid.nav-expanded .index-now {
+        grid-column: 4;
+        grid-row: 1;
+        list-style: none;
+        padding: 0 !important;
+        margin: 0 !important;
+        line-height: 1.6;
+        align-self: start;
+    }
+    
+    .home-nav-grid.nav-expanded .information-section li {
+        grid-column: 4;
+        grid-row: 1;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        line-height: 1.6;
+        align-self: start;
+    }
+    
+    /* Use flexbox-like stacking with margins for column 4 */
+    .home-nav-grid.nav-expanded .index-now {
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .home-nav-grid.nav-expanded .information-section li {
+        margin-top: calc(var(--stack-offset, 0) * 1px);
+    }
+    
+    .home-nav-grid.nav-expanded .information-section li:nth-child(1) {
+        --stack-offset: 37;
+    }
+    
+    .home-nav-grid.nav-expanded .information-section li:nth-child(2) {
+        --stack-offset: 74;
+    }
+    
+    .home-nav-grid.nav-expanded .information-section li:nth-child(3) {
+        --stack-offset: 111;
+    }
+    
+    .home-nav-grid.nav-expanded .information-section li:nth-child(4) {
+        --stack-offset: 148;
+    }
+    
+    /* Show child links under project items in expanded state */
+    .home-nav-grid.nav-expanded .indexes-section ul ul {
+        display: block !important;
+    }
+    
+    /* Hide Now's Archive on desktop expanded */
+    .home-nav-grid.nav-expanded .nav-section .index-now ul {
+        display: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 0 !important;
+    }
+    
+    /* Ensure information section ul stays as contents (not block) */
+    .home-nav-grid.nav-expanded .information-section > ul {
+        display: contents !important;
+    }
+    
+    /* Style parent links to match column 4 items */
+    .home-nav-grid.nav-expanded .indexes-section > ul > li > a {
+        font-weight: 400;
+        font-size: 1.125rem;
+        display: block;
+        margin-bottom: 0.75rem;
+        opacity: 1;
+    }
+    
+    /* Child links styling (for indexes section only) */
+    .home-nav-grid.nav-expanded .indexes-section ul ul {
+        padding-left: 0;
+        margin-top: 0.5rem;
+    }
+    
+    .home-nav-grid.nav-expanded .indexes-section ul ul li {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        padding-left: 0;
+    }
+    
+    .home-nav-grid.nav-expanded .indexes-section ul ul li::before {
+        display: none;
+    }
+    
+    .home-nav-grid.nav-expanded .nav-section ul ul a {
+        opacity: 0.8;
+        font-size: 1rem;
+    }
+    
+    /* Style Now link to match information section items - must come after parent link rule */
+    .home-nav-grid.nav-expanded .indexes-section .index-now > a {
+        display: block;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-weight: 400 !important;
+        font-size: 1.125rem !important;
+        line-height: 1.6 !important;
+        opacity: 1 !important;
+    }
+    
+    /* Style information section links */
+    .home-nav-grid.nav-expanded .information-section li > a {
+        display: block;
+        margin: 0 !important;
+        padding: 0;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 1.6;
+    }
+    
+    /* Hover states for expanded navigation */
+    .home-nav-grid.nav-expanded .indexes-section > ul > li > a:hover,
+    .home-nav-grid.nav-expanded .indexes-section .index-now > a:hover,
+    .home-nav-grid.nav-expanded .information-section li > a:hover,
+    .home-nav-grid.nav-expanded .nav-section ul ul a:hover {
+        opacity: 0.6 !important;
     }
 }
 
@@ -241,11 +525,13 @@ body.home .quarto-title-banner {
     opacity: 0.7;
 }
 
-[data-theme="dark"] .home-dark-toggle {
+[data-theme="dark"] .home-dark-toggle,
+[data-theme="dark"] .nav-expand-toggle {
     color: #d4cfc4;
 }
 
-[data-theme="dark"] .home-dark-toggle:hover {
+[data-theme="dark"] .home-dark-toggle:hover,
+[data-theme="dark"] .nav-expand-toggle:hover {
     opacity: 0.7;
 }
 
@@ -276,8 +562,17 @@ body.home .quarto-title-banner {
         font-size: 1rem;
     }
     
-    .home-dark-toggle {
+    .home-dark-toggle,
+    .nav-expand-toggle {
         font-size: 1rem;
+    }
+    
+    /* Stack view controls vertically on mobile */
+    .view-controls {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+        margin: 1.5rem 0 2rem 0;
     }
 }
 

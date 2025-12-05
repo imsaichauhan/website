@@ -84,6 +84,7 @@ format:
     include-after-body:
       - file: _includes/footer.html
       - text: |
+          <script src="/_assets/js/nav-expand.js"></script>
           <script src="/_assets/js/footnotes.js"></script>
           <script src="/_assets/js/citations.js"></script>
           <script src="/_assets/js/figures.js"></script>

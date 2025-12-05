@@ -2597,7 +2597,6 @@ nav#TOC * {
 [data-theme="dark"] .now-separator {
     color: rgba(255, 255, 255, 0.5);
 }
-
 [data-theme="dark"] .now-archive a {
     color: rgba(255, 255, 255, 0.5);
 }

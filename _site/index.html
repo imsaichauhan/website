@@ -482,30 +482,59 @@ document.body.classList.add('home');
 <p>I’m someone who drifts through varied interests</p>
 <p>and the rabbit holes they open.</p>
 </div>
-<div class="home-nav">
-<div class="home-nav-grid">
-<section id="indexes" class="nav-section">
-<h2>Indexes</h2>
-<ul>
-<li><a href="projects/">Projects</a></li>
-<li><a href="bookmarks/">Bookmarks</a></li>
-<li><a href="now/">Now</a></li>
-<li><a href="photos/">Photos</a></li>
-</ul>
-</section>
-<section id="information" class="nav-section secondary">
-<h2>Information</h2>
-<ul>
-<li><a href="resume/">Resume</a></li>
-<li><a href="contact/">Contact</a></li>
-<li><a href="colophon/">Colophon</a></li>
-<li><a href="rss.xml">RSS</a></li>
-</ul>
-</section>
-<div class="dark-mode-container">
+<div class="view-controls">
 <button class="dark-mode-toggle home-dark-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
 <span class="mode-light">[Light]</span> <span class="mode-dark">Dark</span>
 </button>
+<button class="nav-expand-toggle" id="nav-expand-toggle" aria-label="Expand navigation" aria-expanded="false" title="Show all pages">
+<span class="toggle-collapsed">Less</span> <span class="toggle-expanded">More</span>
+</button>
+</div>
+<div class="home-nav">
+<div class="home-nav-grid">
+<div class="nav-section indexes-section">
+<h2>Indexes</h2>
+<ul>
+  <li class="index-projects">
+    <a href="projects/">Projects</a>
+    <ul>
+      <li><a href="projects/rice/">Climate</a></li>
+      <li><a href="projects/sentiment/">Sentiment</a></li>
+    </ul>
+  </li>
+  <li class="index-bookmarks">
+    <a href="bookmarks/">Bookmarks</a>
+    <ul>
+      <li><a href="bookmarks/reading/">Reading</a></li>
+      <li><a href="bookmarks/media/">Media</a></li>
+      <li><a href="bookmarks/curiosities/">Curiosities</a></li>
+      <li><a href="bookmarks/system/">System</a></li>
+    </ul>
+  </li>
+  <li class="index-now">
+    <a href="now/">Now</a>
+    <ul>
+      <li><a href="now/archive/">Archive</a></li>
+    </ul>
+  </li>
+  <li class="index-photos">
+    <a href="photos/">Photos</a>
+    <ul>
+      <li><a href="photos/banaras/">Banaras</a></li>
+      <li><a href="photos/chennai/">Chennai</a></li>
+      <li><a href="photos/patna/">Patna</a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+<div class="nav-section information-section">
+<h2>Information</h2>
+<ul>
+  <li><a href="resume/">Resume</a></li>
+  <li><a href="contact/">Contact</a></li>
+  <li><a href="colophon/">Colophon</a></li>
+  <li><a href="rss.xml">RSS</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -925,6 +954,7 @@ document.body.classList.add('home');
     <hr class="footer-rule bottom" aria-hidden="true">
   </div>
 </footer>
+<script src="./_assets/js/nav-expand.js"></script>
 <script src="./_assets/js/footnotes.js"></script>
 <script src="./_assets/js/citations.js"></script>
 <script src="./_assets/js/figures.js"></script>
