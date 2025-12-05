@@ -170,7 +170,28 @@ document.addEventListener('DOMContentLoaded', function() {
         width: 2rem;
     }
     
-    /* Hamburger Menu */
+    /* Skip to main content link - visually hidden until focused */
+    .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background-color: #1a1a1a;
+        color: #f5f1eb;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 0.9rem;
+        z-index: 10000;
+        transition: top 0.2s ease;
+    }
+    
+    .skip-link:focus {
+        top: 0;
+        outline: 3px solid #f4d06f;
+        outline-offset: 2px;
+    }
+    
+    /* Hamburger Menu - now a button element */
     .hamburger {
         display: none;
         flex-direction: column;
@@ -179,9 +200,21 @@ document.addEventListener('DOMContentLoaded', function() {
         padding: 0 1.5rem;
         cursor: pointer;
         background-color: #f5f1eb;
+        border: none;
         border-left: 1px solid #1a1a1a;
         transition: background-color 0.2s ease;
         min-width: 60px;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    
+    .hamburger:focus {
+        outline: none;
+    }
+    
+    .hamburger:focus-visible {
+        outline: 2px solid rgba(0,0,0,0.6);
+        outline-offset: -2px;
     }
     .hamburger:hover {
         background-color: #1a1a1a;
@@ -302,6 +335,11 @@ document.addEventListener('DOMContentLoaded', function() {
         background-color: #2a2520;
     }
     
+    [data-theme="dark"] .hamburger:focus-visible {
+        outline: 2px solid rgba(212, 207, 196, 0.6);
+        outline-offset: -2px;
+    }
+    
     [data-theme="dark"] nav {
         background-color: #2a2520;
         border-bottom-color: rgba(212, 207, 196, 0.25);
@@ -309,6 +347,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     [data-theme="dark"] .nav-separator {
         background-color: rgba(212, 207, 196, 0.25);
+    }
+    
+    [data-theme="dark"] .skip-link {
+        background-color: #d4cfc4;
+        color: #2a2520;
+    }
+    
+    [data-theme="dark"] .skip-link:focus {
+        outline-color: #f4d06f;
     }
 </style>
 
@@ -323,9 +370,12 @@ document.addEventListener('DOMContentLoaded', function() {
     })();
 </script>
 
+<!-- Skip to main content link for keyboard users -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <header>
     <a href="../../" class="header-name" style="opacity: var(--header-name-opacity, 1)">Sai Prakash</a>
-    <nav id="nav">
+    <nav id="nav" role="navigation" aria-label="Main navigation">
         <a href="../../projects/" data-page="projects">Projects</a>
         <a href="../../bookmarks/" data-page="bookmarks">Bookmarks</a>
         <a href="../../now/" data-page="now">Now</a>
@@ -333,20 +383,33 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="nav-separator"></div>
         <div class="nav-gap"></div>
     </nav>
-    <div class="hamburger" id="hamburger">
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
         <span></span>
         <span></span>
         <span></span>
-    </div>
+    </button>
 </header>
 
 <script>
     const hamburger = document.getElementById('hamburger');
     const nav = document.getElementById('nav');
     
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
+    function toggleMenu() {
+        const isActive = hamburger.classList.toggle('active');
         nav.classList.toggle('active');
+        hamburger.setAttribute('aria-expanded', isActive);
+    }
+    
+    hamburger.addEventListener('click', toggleMenu);
+    
+    // Keyboard support for hamburger menu
+    hamburger.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleMenu();
+        } else if (e.key === 'Escape' && hamburger.classList.contains('active')) {
+            toggleMenu();
+        }
     });
     
     // Close menu when clicking outside
@@ -354,6 +417,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!hamburger.contains(e.target) && !nav.contains(e.target)) {
             hamburger.classList.remove('active');
             nav.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
         }
     });
     
@@ -363,6 +427,7 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', () => {
             hamburger.classList.remove('active');
             nav.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
         });
     });
     

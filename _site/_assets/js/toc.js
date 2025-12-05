@@ -26,16 +26,34 @@
         indicator.style.fontWeight = '300';
         tocTitle.appendChild(indicator);
         
-        // Make title clickable
+        // Make title clickable and keyboard accessible
         tocTitle.style.cursor = 'pointer';
         tocTitle.style.userSelect = 'none';
+        tocTitle.setAttribute('tabindex', '0');
+        tocTitle.setAttribute('role', 'button');
+        tocTitle.setAttribute('aria-expanded', 'false');
+        tocTitle.setAttribute('aria-controls', 'toc-list');
+        tocList.setAttribute('id', 'toc-list');
+        
+        function toggleTOC() {
+            isExpanded = !isExpanded;
+            tocList.style.display = isExpanded ? 'block' : 'none';
+            indicator.textContent = isExpanded ? '−' : '+';
+            tocTitle.setAttribute('aria-expanded', isExpanded.toString());
+        }
         
         // Toggle expand/collapse on title click
         tocTitle.addEventListener('click', function(e) {
             e.stopPropagation();
-            isExpanded = !isExpanded;
-            tocList.style.display = isExpanded ? 'block' : 'none';
-            indicator.textContent = isExpanded ? '−' : '+';
+            toggleTOC();
+        });
+        
+        // Keyboard support for TOC toggle
+        tocTitle.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleTOC();
+            }
         });
         
         // Track current section on scroll

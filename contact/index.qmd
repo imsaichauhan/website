@@ -6,7 +6,7 @@ format: html
 ---
 
 ```{=html}
-<div class="contact-container">
+<div id="main-content" class="contact-container" role="main">
   <div class="contact-left">
     <div class="contact-method-email">
       <div class="method-label">Email</div>
@@ -30,9 +30,9 @@ format: html
   <div class="contact-right">
     <div class="contact-method-form">
       <div class="method-label">Send a message</div>
-      <form class="contact-form" action="https://formsubmit.co/imsaichauhan@gmail.com" method="POST">
+      <form class="contact-form" action="https://formsubmit.co/imsaichauhan@gmail.com" method="POST" aria-label="Contact form">
         <!-- Honeypot field (hidden) -->
-        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
         <!-- Disable reCAPTCHA -->
         <input type="hidden" name="_captcha" value="false">
         <!-- Redirect to thank-you page after submit (dynamically set by JavaScript) -->
@@ -40,21 +40,21 @@ format: html
 
         <div class="field-row">
           <label for="name">Name <span class="field-optional">(optional)</span></label>
-          <input type="text" id="name" name="name" placeholder="Your name">
+          <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name">
         </div>
 
         <div class="field-row">
           <label for="email">Email <span class="field-optional">(optional)</span></label>
-          <input type="email" id="email" name="email" placeholder="you@example.com">
+          <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
         </div>
 
         <div class="field-row">
-          <label for="message">Message <span class="field-required">*</span></label>
-          <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+          <label for="message">Message <span class="field-required" aria-label="required">*</span></label>
+          <textarea id="message" name="message" required placeholder="Write your message here..." aria-required="true"></textarea>
         </div>
 
         <div class="submit-wrap">
-          <input type="submit" value="Send Message">
+          <button type="submit" class="submit-button">Send Message</button>
         </div>
       </form>
       <p class="form-privacy-note">Your message is sent privately. See privacy details <a href="/colophon/#privacy">here</a>.</p>
@@ -318,7 +318,8 @@ document.addEventListener('DOMContentLoaded', function() {
   margin-top: 2rem;
 }
 
-.contact-form input[type="submit"] {
+.contact-form input[type="submit"],
+.contact-form .submit-button {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.875rem;
   font-weight: 500;
@@ -334,13 +335,21 @@ document.addEventListener('DOMContentLoaded', function() {
   border-radius: 0;
 }
 
-.contact-form input[type="submit"]:hover {
+.contact-form input[type="submit"]:hover,
+.contact-form .submit-button:hover {
   background-color: #1a1a1a;
   color: #f5f1eb;
 }
 
-.contact-form input[type="submit"]:active {
+.contact-form input[type="submit"]:active,
+.contact-form .submit-button:active {
   opacity: 0.8;
+}
+
+.contact-form input[type="submit"]:focus-visible,
+.contact-form .submit-button:focus-visible {
+  outline: 2px solid rgba(0,0,0,0.6);
+  outline-offset: 3px;
 }
 
 .form-privacy-note {

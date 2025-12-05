@@ -10,7 +10,7 @@ title: ""
 ::: {.projects-layout}
 ::: {.featured-project}
 ::: {.featured-image}
-[![](../../_assets/images/projects/rice.jpg)](/projects/rice/)
+[![](../_assets/images/projects/rice.jpg)](/projects/rice/)
 :::
 ::: {.featured-content}
 ::: {.featured-title}
@@ -42,102 +42,6 @@ Climate Change
 :::
 
 ::: {.projects-grid}
-::: {.project-grid-card}
-::: {.project-grid-title}
-[Rivers are now battlefields](/projects/rivers-battlefields/)
-:::
-::: {.project-grid-separator}
-:::
-::: {.project-grid-description}
-Chinese dams will hold billions of people downstream to ransom. Could solar-powered desalination make them irrelevant?
-:::
-::: {.project-grid-read-more}
-[Read more →](/projects/rivers-battlefields/)
-:::
-::: {.project-grid-separator}
-:::
-::: {.project-grid-meta}
-::: {.project-grid-tag}
-Dams
-:::
-::: {.project-grid-reading-time}
-6 min read
-:::
-:::
-:::
-
-::: {.project-grid-card}
-::: {.project-grid-title}
-[Sunscreen for the planet](/projects/sunscreen-planet/)
-:::
-::: {.project-grid-separator}
-:::
-::: {.project-grid-description}
-The world is warming faster than we can cut emissions. Volcanoes are already cooling the planet, with particles that reflect sunlight. Maybe we can too.
-:::
-::: {.project-grid-read-more}
-[Read more →](/projects/sunscreen-planet/)
-:::
-::: {.project-grid-separator}
-:::
-::: {.project-grid-meta}
-::: {.project-grid-tag}
-Cooling
-:::
-::: {.project-grid-reading-time}
-1 min read
-:::
-:::
-:::
-
-::: {.project-grid-card}
-::: {.project-grid-title}
-[Why science needs outsiders](/projects/science-outsiders/)
-:::
-::: {.project-grid-separator}
-:::
-::: {.project-grid-description}
-Science has forgotten that the greatest breakthroughs often come from outsiders who are able to take a fresh perspective.
-:::
-::: {.project-grid-read-more}
-[Read more →](/projects/science-outsiders/)
-:::
-::: {.project-grid-separator}
-:::
-::: {.project-grid-meta}
-::: {.project-grid-tag}
-Outsiders
-:::
-::: {.project-grid-reading-time}
-1 min read
-:::
-:::
-:::
-
-::: {.project-grid-card}
-::: {.project-grid-title}
-[The future of energy storage](/projects/energy-storage/)
-:::
-::: {.project-grid-separator}
-:::
-::: {.project-grid-description}
-Next-generation batteries are transforming renewable energy. New materials and designs promise to make solar and wind power reliable around the clock.
-:::
-::: {.project-grid-read-more}
-[Read more →](/projects/energy-storage/)
-:::
-::: {.project-grid-separator}
-:::
-::: {.project-grid-meta}
-::: {.project-grid-tag}
-Energy
-:::
-::: {.project-grid-reading-time}
-2 min read
-:::
-:::
-:::
-
 ::: {.project-grid-card}
 ::: {.project-grid-title}
 [Leveraging News Sentiment Analysis for Stock Price Forecasting](/projects/sentiment/)

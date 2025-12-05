@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-feature-settings: "onum" 0, "pnum" 0, "tnum" 0, "lnum" 1;
+    font-variant-numeric: lining-nums proportional-nums;
 }
 
 /* Ensure images are responsive by default */
@@ -47,7 +49,6 @@ body {
     margin: 0;
     padding: 2.5rem;
     padding-top: 45px;
-    font-variant-numeric: lining-nums; /* Use lining numerals globally */
 }
 
 /* Mobile: Reduce body padding for better space usage */
@@ -359,7 +360,6 @@ p {
     font-family: var(--font-editor-regular);
     font-weight: 400;
     position: relative; /* Required for absolute positioning of sidenotes */
-    font-variant-numeric: lining-nums; /* Use lining numerals instead of old-style */
 }
 
 /* Mobile: Adjust paragraph size for better readability */
@@ -700,6 +700,7 @@ body:has(.projects-grid.bookmarks-grid) #title-block-header {
     padding: 0;
     display: flex;
     flex-direction: column;
+    align-self: start;
 }
 
 .project-grid-card > :last-child {

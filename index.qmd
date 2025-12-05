@@ -11,7 +11,7 @@ body-classes: home
 document.body.classList.add('home');
 </script>
 
-::: {.home-container}
+::: {#main-content .home-container role="main"}
 ::: {.hero-minimal}
 *Welcome to the website of*  
 **Sai Prakash**
