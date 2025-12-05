@@ -62,7 +62,7 @@ The Bombay Stock Exchange(BSE) price data for Reliance Industries was obtained u
 | 2014-04-15 | 476.88 | 476.88 | 468.48 | 474.25 | 436.28 | 1,943,098 |
 | 2014-04-16 | 470.10 | 479.50 | 469.10 | 470.52 | 432.85 | 451,072 |
 
-![Methodology Workflow Diagram](methodology_workflow.png){#fig-workflow}
+![Reliance Industries Adjusted Close Price (2014-2024)](reliance_adj_price.png){#fig-reliance-price width=100%}
 
 ### Proposed Model for Sentiment Analysis of Financial News
 
@@ -78,18 +78,56 @@ We have used SentimentIntensityAnalyzer, a class within NLTK's VADER module, tha
 
 TextBlob is a Python library known for its user-friendly interface and versatile text processing capabilities. It offers built-in functions for sentiment analysis, which assess the sentiment polarity and subjectivity of textual content. Sentiment polarity categorizes text as positive, negative, or neutral based on its emotional tone, while subjectivity measures the degree to which the text expresses opinions rather than factual information. TextBlob's simplicity and pre-trained sentiment analysis model make it a convenient tool for analyzing sentiment in textual data within the realm of finance.
 
-: VADER and TextBlob Significance {#tbl-sentiment-scores}
+::: {#tbl-sentiment-scores}
 
-| Algorithm | Score | Range | Significance |
-|:----------|:------|:-----:|:-------------|
-| **VADER** | | | |
-| | Negative | [0,1] | The proportion of textual data that fall in the Negative category |
-| | Neutral | [0,1] | The proportion of textual data that fall in the Neutral category |
-| | Positive | [0,1] | The proportion of textual data that fall in the positive category |
-| | Compound | [-1,1] | Calculates the sum of all lexicon ratings which have been normalized between [-1,1] |
-| **TextBlob** | | | |
-| | Subjectivity | [0,1] | Subjectivity tells us the extent to which a statement is subjective or objective where 0.0 represents very objective and 1.0 represents highly subjective. The higher subjectivity means text contains personal opinions rather than factual information. |
-| | Polarity | [-1,1] | Calculates the sentiment of a statement where -1 represents a negative statement and +1 is a positive statement |
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Algorithm</strong></th>
+<th style="text-align: left;"><strong>Score</strong></th>
+<th style="text-align: center;"><strong>Range</strong></th>
+<th style="text-align: left;"><strong>Significance</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th rowspan="4" style="text-align: left; vertical-align: middle;"><strong>VADER</strong></th>
+<td style="text-align: left;">Negative</td>
+<td style="text-align: center;">[0,1]</td>
+<td style="text-align: left;">The proportion of textual data that fall in the Negative category</td>
+</tr>
+<tr>
+<td style="text-align: left;">Neutral</td>
+<td style="text-align: center;">[0,1]</td>
+<td style="text-align: left;">The proportion of textual data that fall in the Neutral category</td>
+</tr>
+<tr>
+<td style="text-align: left;">Positive</td>
+<td style="text-align: center;">[0,1]</td>
+<td style="text-align: left;">The proportion of textual data that fall in the positive category</td>
+</tr>
+<tr>
+<td style="text-align: left;">Compound</td>
+<td style="text-align: center;">[-1,1]</td>
+<td style="text-align: left;">Calculates the sum of all lexicon ratings which have been normalized between [-1,1]</td>
+</tr>
+<tr>
+<th rowspan="2" style="text-align: left; vertical-align: middle;"><strong>TextBlob</strong></th>
+<td style="text-align: left;">Subjectivity</td>
+<td style="text-align: center;">[0,1]</td>
+<td style="text-align: left;">Subjectivity tells us the extent to which a statement is subjective or objective where 0.0 represents very objective and 1.0 represents highly subjective. The higher subjectivity means text contains personal opinions rather than factual information.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Polarity</td>
+<td style="text-align: center;">[-1,1]</td>
+<td style="text-align: left;">Calculates the sentiment of a statement where -1 represents a negative statement and +1 is a positive statement</td>
+</tr>
+</tbody>
+</table>
+
+VADER and TextBlob Significance
+
+:::
 
 Table adapted from @maqbool_2022.
 
@@ -159,13 +197,37 @@ MLPClassifier is a feedforward neural network that learns complex non-linear rel
 
 We will leverage the Confusion Matrix to evaluate the effectiveness of each model in predicting stock price movements. It is a tool that provides a concise summary of the model's performance by illustrating the number of correct and incorrect predictions made for each class.
 
-: Confusion Matrix {#tbl-confusion-matrix}
+::: {#tbl-confusion-matrix}
 
-|                | Predicted Class |             |
-|:---------------|:---------------:|:-----------:|
-| **True Class** | **Positive**    | **Negative** |
-| **Positive** | True positives (TP) | False negatives (FN) |
-| **Negative** | False positives (FP) | True negatives (TN) |
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="2" style="text-align: center; vertical-align: middle;"></th>
+<th colspan="2" style="text-align: center;"><strong>Predicted Class</strong></th>
+</tr>
+<tr>
+<th style="text-align: center;"><strong>Positive</strong></th>
+<th style="text-align: center;"><strong>Negative</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th rowspan="2" style="text-align: center; vertical-align: middle;"><strong>True Class</strong></th>
+<th style="text-align: center;"><strong>Positive</strong></th>
+<td style="text-align: center;">True positives (TP)</td>
+<td style="text-align: center;">False negatives (FN)</td>
+</tr>
+<tr>
+<th style="text-align: center;"><strong>Negative</strong></th>
+<td style="text-align: center;">False positives (FP)</td>
+<td style="text-align: center;">True negatives (TN)</td>
+</tr>
+</tbody>
+</table>
+
+Confusion Matrix
+
+:::
 
 True Positive (TP): Instances correctly predicted as positive.
 
@@ -177,7 +239,26 @@ True Negative (TN): Instances correctly predicted as negative.
 
 Each cell in the table represents the count of instances for a particular combination of actual and predicted classes.
 
-![Confusion Matrix of each model](confusion_matrices.png){#fig-confusion-matrices}
+::: {#fig-confusion-matrices layout-ncol=2}
+
+![Linear Discriminant Analysis](linear_discriminant.png){#fig-lda}
+
+![SVM Classification](svm.png){#fig-svm}
+
+![SGD Classifier](sgd_classifier.png){#fig-sgd}
+
+![K-Nearest Classifiers](k_neighbors.png){#fig-knn}
+
+![Gaussian Process Classifier](gaussian_process.png){#fig-gpc}
+
+![Random Forest Classifier](random_forest.png){#fig-rf}
+
+![Gaussian Naive Bayes](gaussian_nb.png){#fig-gnb}
+
+![Neural Network](neural_network.png){#fig-mlp}
+
+Confusion Matrix of each model
+:::
 
 Precision and accuracy are calculated using the values obtained from the confusion matrix.
 
@@ -193,18 +274,75 @@ Accuracy is the ratio of correct predictions (both true positives and true negat
 
 $$\text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{Total Predictions}}$$
 
-: Precision and Accuracy of various models {#tbl-model-performance}
+::: {#tbl-model-performance}
 
-| Model | Precision (Decrease) | Precision (Increase) | Accuracy |
-|-------|:--------------------:|:--------------------:|:--------:|
-| LDA | 0.46 | 0.54 | 0.50 |
-| SVM | 0.17 | 0.80 | 0.51 |
-| SGD | 0.34 | 0.68 | 0.52 |
-| KNN | 0.51 | 0.40 | 0.45 |
-| GPC | 0.37 | 0.59 | 0.49 |
-| Random Forest | 0.46 | 0.51 | 0.49 |
-| GaussianNB | 0.87 | 0.08 | 0.45 |
-| MLPClassifier | 0.45 | 0.58 | 0.52 |
+<table>
+<thead>
+<tr>
+<th rowspan="2" style="text-align: left; vertical-align: middle;"><strong>Model</strong></th>
+<th colspan="2" style="text-align: center;"><strong>Precision</strong></th>
+<th rowspan="2" style="text-align: center; vertical-align: middle;"><strong>Accuracy</strong></th>
+</tr>
+<tr>
+<th style="text-align: center;"><strong>Decrease</strong></th>
+<th style="text-align: center;"><strong>Increase</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">LDA</td>
+<td style="text-align: center;">0.46</td>
+<td style="text-align: center;">0.54</td>
+<td style="text-align: center;">0.50</td>
+</tr>
+<tr>
+<td style="text-align: left;">SVM</td>
+<td style="text-align: center;">0.17</td>
+<td style="text-align: center;">0.80</td>
+<td style="text-align: center;">0.51</td>
+</tr>
+<tr>
+<td style="text-align: left;">SGD</td>
+<td style="text-align: center;">0.34</td>
+<td style="text-align: center;">0.68</td>
+<td style="text-align: center;">0.52</td>
+</tr>
+<tr>
+<td style="text-align: left;">KNN</td>
+<td style="text-align: center;">0.51</td>
+<td style="text-align: center;">0.40</td>
+<td style="text-align: center;">0.45</td>
+</tr>
+<tr>
+<td style="text-align: left;">GPC</td>
+<td style="text-align: center;">0.37</td>
+<td style="text-align: center;">0.59</td>
+<td style="text-align: center;">0.49</td>
+</tr>
+<tr>
+<td style="text-align: left;">Random Forest</td>
+<td style="text-align: center;">0.46</td>
+<td style="text-align: center;">0.51</td>
+<td style="text-align: center;">0.49</td>
+</tr>
+<tr>
+<td style="text-align: left;">GaussianNB</td>
+<td style="text-align: center;">0.87</td>
+<td style="text-align: center;">0.08</td>
+<td style="text-align: center;">0.45</td>
+</tr>
+<tr>
+<td style="text-align: left;">Neural Network</td>
+<td style="text-align: center;">0.45</td>
+<td style="text-align: center;">0.58</td>
+<td style="text-align: center;">0.52</td>
+</tr>
+</tbody>
+</table>
+
+Precision and Accuracy of various models
+
+:::
 
 Precision and accuracy scores serve as performance metrics. It's crucial to highlight that this process is implemented across all models. During our assessment, Gaussian Naive Bayes (GaussianNB) and Support Vector Machine (SVM) Classification stood out among the pool of eight models considered. Notably, GaussianNB displayed exceptional precision in identifying 'Decrease' movements with a score of 0.87, while SVM Classification achieved an impressive precision of 0.80 for 'Increase' movements.
 

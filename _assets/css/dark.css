@@ -150,17 +150,83 @@ body {
 
 /* Dark mode tables */
 [data-theme="dark"] table {
-    border-color: rgba(212, 207, 196, 0.25);
+    background-color: #24201b; /* Slightly darker than body background */
+    border-color: rgba(212, 207, 196, 0.3);
 }
 
-[data-theme="dark"] th,
-[data-theme="dark"] td {
-    border-color: rgba(212, 207, 196, 0.2);
-    color: #d4cfc4;
+[data-theme="dark"] thead {
+    border-bottom-color: rgba(212, 207, 196, 0.4);
 }
 
 [data-theme="dark"] th {
-    background-color: #363430;
+    background-color: #363430; /* Darker header background */
+    border-color: rgba(212, 207, 196, 0.3);
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] td {
+    border-color: rgba(212, 207, 196, 0.15);
+    color: #d4cfc4;
+}
+
+[data-theme="dark"] tbody tr:hover {
+    background-color: rgba(212, 207, 196, 0.05);
+}
+
+/* Dark mode table captions */
+[data-theme="dark"] .table-caption,
+[data-theme="dark"] figcaption {
+    color: rgba(212, 207, 196, 0.85);
+}
+
+/* Dark mode: Better contrast for cells with rowspan/colspan */
+[data-theme="dark"] th[rowspan],
+[data-theme="dark"] th[colspan] {
+    background-color: #3d3935; /* Slightly lighter for emphasis */
+    border-color: rgba(212, 207, 196, 0.35);
+}
+
+/* Dark mode: Quarto figure containers */
+[data-theme="dark"] .quarto-float.quarto-figure {
+    background-color: transparent;
+}
+
+[data-theme="dark"] .quarto-float-tbl {
+    background-color: transparent;
+}
+
+/* Dark mode: Quarto figure captions */
+[data-theme="dark"] figcaption.quarto-float-caption {
+    color: rgba(212, 207, 196, 0.85);
+    background-color: transparent;
+}
+
+/* Dark mode: Better visibility for strong elements in tables */
+[data-theme="dark"] th strong,
+[data-theme="dark"] td strong {
+    color: #e0dbd0; /* Slightly brighter for emphasis */
+}
+
+/* Dark mode: KaTeX math equations */
+[data-theme="dark"] .katex,
+[data-theme="dark"] .katex * {
+    color: #d4cfc4 !important;
+}
+
+[data-theme="dark"] .katex .base {
+    color: #d4cfc4 !important;
+}
+
+/* Dark mode: Display math blocks */
+[data-theme="dark"] .katex-display {
+    background-color: transparent;
+}
+
+/* Dark mode: Inline code */
+[data-theme="dark"] code:not(pre code) {
+    background-color: rgba(212, 207, 196, 0.1);
+    color: #d4cfc4;
+    border: 1px solid rgba(212, 207, 196, 0.2);
 }
 
 /* Dark mode notes/callouts */
@@ -900,8 +966,66 @@ body {
     border-bottom-color: rgba(212, 207, 196, 0.2);
 }
 
-/* Mobile sidenote styling for dark mode */
-@media (max-width: 900px) {
+/* Mobile: Dark mode footnotes at bottom */
+@media (max-width: 768px) {
+    [data-theme="dark"] .footnotes {
+        border-top-color: rgba(212, 207, 196, 0.2);
+    }
+    
+    [data-theme="dark"] .footnotes hr {
+        background-color: rgba(212, 207, 196, 0.2);
+    }
+    
+    [data-theme="dark"] .footnotes h2,
+    [data-theme="dark"] .footnotes .footnotes-title {
+        color: #d4cfc4;
+    }
+    
+    [data-theme="dark"] .footnotes ol {
+        color: #d4cfc4;
+    }
+    
+    [data-theme="dark"] .footnotes li {
+        color: rgba(212, 207, 196, 0.6);
+    }
+    
+    [data-theme="dark"] .footnotes li p {
+        color: rgba(212, 207, 196, 0.6);
+    }
+    
+    [data-theme="dark"] .footnotes a {
+        color: rgba(212, 207, 196, 0.8);
+        border-bottom-color: rgba(212, 207, 196, 0.3);
+    }
+    
+    [data-theme="dark"] .footnotes a:hover {
+        border-bottom-color: rgba(212, 207, 196, 0.6);
+    }
+    
+    [data-theme="dark"] a.footnote-ref {
+        color: #d4cfc4;
+    }
+    
+    [data-theme="dark"] a.footnote-back {
+        color: rgba(212, 207, 196, 0.4);
+    }
+    
+    [data-theme="dark"] a.footnote-back:hover {
+        color: rgba(212, 207, 196, 0.6);
+    }
+    
+    /* Dark mode references section */
+    [data-theme="dark"] #refs.references {
+        color: rgba(212, 207, 196, 0.85);
+    }
+    
+    [data-theme="dark"] .csl-entry {
+        color: rgba(212, 207, 196, 0.85);
+    }
+}
+
+/* Tablet: Dark mode sidenotes shown inline */
+@media (min-width: 769px) and (max-width: 900px) {
     [data-theme="dark"] .sidenote {
         border-top-color: rgba(212, 207, 196, 0.2);
         background-color: #363430;

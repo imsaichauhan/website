@@ -7,6 +7,13 @@
     function createSidenotes() {
         console.log('Creating sidenotes...');
         
+        // Don't create sidenotes on mobile - let footnotes show at bottom
+        const isMobile = window.matchMedia('(max-width: 768px)').matches;
+        if (isMobile) {
+            console.log('Mobile detected - skipping sidenote creation');
+            return;
+        }
+        
         // Disable Quarto's tippy.js tooltips for footnotes
         if (window.tippy) {
             window.tippy.setDefaultProps({ trigger: 'manual' });
@@ -91,11 +98,9 @@
             const offsetTop = refRect.top - paragraphRect.top;
             
             // Apply styles directly as well as via class (for maximum specificity)
-            // On small screens we want sidenotes to flow inline (stacked) so
-            // they do not overlap content. Only use absolute positioning on
-            // wider screens (desktop) so desktop layout remains unchanged.
-            const isMobile = window.matchMedia('(max-width: 1024px)').matches;
-            if (isMobile) {
+            // On tablet/narrow screens show sidenotes inline, on desktop use margin
+            const isTablet = window.matchMedia('(min-width: 769px) and (max-width: 900px)').matches;
+            if (isTablet) {
                 // Let CSS handle stacking; ensure the element is relative/100% width
                 sidenote.style.position = 'relative';
                 sidenote.style.left = '0';

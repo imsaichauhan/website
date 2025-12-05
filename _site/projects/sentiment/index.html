@@ -603,13 +603,13 @@ Table&nbsp;2: Sample from the RELIANCE stock dataset
 </div>
 </figure>
 </div>
-<div id="fig-workflow" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-reliance-price" class="quarto-float quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="methodology_workflow.png" class="img-fluid">
+<div aria-describedby="fig-reliance-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="reliance_adj_price.png" class="img-fluid" style="width:100.0%">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Methodology Workflow Diagram
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-reliance-price-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Reliance Industries Adjusted Close Price (2014-2024)
 </figcaption>
 </figure>
 </div>
@@ -626,69 +626,95 @@ Figure&nbsp;1: Methodology Workflow Diagram
 Table&nbsp;3: VADER and TextBlob Significance
 </figcaption>
 <div aria-describedby="tbl-sentiment-scores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top">
-<colgroup>
-<col style="width: 28%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 35%">
-</colgroup>
+<table>
 <thead>
-<tr class="header">
-<th style="text-align: left;">Algorithm</th>
-<th style="text-align: left;">Score</th>
-<th style="text-align: center;">Range</th>
-<th style="text-align: left;">Significance</th>
+<tr>
+<th style="text-align: left;">
+<strong>Algorithm</strong>
+</th>
+<th style="text-align: left;">
+<strong>Score</strong>
+</th>
+<th style="text-align: center;">
+<strong>Range</strong>
+</th>
+<th style="text-align: left;">
+<strong>Significance</strong>
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>VADER</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
+<tr>
+<th rowspan="4" style="text-align: left; vertical-align: middle;">
+<strong>VADER</strong>
+</th>
+<td style="text-align: left;">
+Negative
+</td>
+<td style="text-align: center;">
+[0,1]
+</td>
+<td style="text-align: left;">
+The proportion of textual data that fall in the Negative category
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Negative</td>
-<td style="text-align: center;">[0,1]</td>
-<td style="text-align: left;">The proportion of textual data that fall in the Negative category</td>
+<tr>
+<td style="text-align: left;">
+Neutral
+</td>
+<td style="text-align: center;">
+[0,1]
+</td>
+<td style="text-align: left;">
+The proportion of textual data that fall in the Neutral category
+</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Neutral</td>
-<td style="text-align: center;">[0,1]</td>
-<td style="text-align: left;">The proportion of textual data that fall in the Neutral category</td>
+<tr>
+<td style="text-align: left;">
+Positive
+</td>
+<td style="text-align: center;">
+[0,1]
+</td>
+<td style="text-align: left;">
+The proportion of textual data that fall in the positive category
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Positive</td>
-<td style="text-align: center;">[0,1]</td>
-<td style="text-align: left;">The proportion of textual data that fall in the positive category</td>
+<tr>
+<td style="text-align: left;">
+Compound
+</td>
+<td style="text-align: center;">
+[-1,1]
+</td>
+<td style="text-align: left;">
+Calculates the sum of all lexicon ratings which have been normalized between [-1,1]
+</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Compound</td>
-<td style="text-align: center;">[-1,1]</td>
-<td style="text-align: left;">Calculates the sum of all lexicon ratings which have been normalized between [-1,1]</td>
+<tr>
+<th rowspan="2" style="text-align: left; vertical-align: middle;">
+<strong>TextBlob</strong>
+</th>
+<td style="text-align: left;">
+Subjectivity
+</td>
+<td style="text-align: center;">
+[0,1]
+</td>
+<td style="text-align: left;">
+Subjectivity tells us the extent to which a statement is subjective or objective where 0.0 represents very objective and 1.0 represents highly subjective. The higher subjectivity means text contains personal opinions rather than factual information.
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;"><strong>TextBlob</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Subjectivity</td>
-<td style="text-align: center;">[0,1]</td>
-<td style="text-align: left;">Subjectivity tells us the extent to which a statement is subjective or objective where 0.0 represents very objective and 1.0 represents highly subjective. The higher subjectivity means text contains personal opinions rather than factual information.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Polarity</td>
-<td style="text-align: center;">[-1,1]</td>
-<td style="text-align: left;">Calculates the sentiment of a statement where -1 represents a negative statement and +1 is a positive statement</td>
+<tr>
+<td style="text-align: left;">
+Polarity
+</td>
+<td style="text-align: center;">
+[-1,1]
+</td>
+<td style="text-align: left;">
+Calculates the sentiment of a statement where -1 represents a negative statement and +1 is a positive statement
+</td>
 </tr>
 </tbody>
 </table>
@@ -812,29 +838,49 @@ Table&nbsp;5: Sample from dataset after Data Preprocessing (Part 2: Sentiment Sc
 Table&nbsp;6: Confusion Matrix
 </figcaption>
 <div aria-describedby="tbl-confusion-matrix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top">
+<table>
 <thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: center;">Predicted Class</th>
-<th style="text-align: center;"></th>
+<tr>
+<th colspan="2" rowspan="2" style="text-align: center; vertical-align: middle;">
+</th>
+<th colspan="2" style="text-align: center;">
+<strong>Predicted Class</strong>
+</th>
+</tr>
+<tr>
+<th style="text-align: center;">
+<strong>Positive</strong>
+</th>
+<th style="text-align: center;">
+<strong>Negative</strong>
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>True Class</strong></td>
-<td style="text-align: center;"><strong>Positive</strong></td>
-<td style="text-align: center;"><strong>Negative</strong></td>
+<tr>
+<th rowspan="2" style="text-align: center; vertical-align: middle;">
+<strong>True Class</strong>
+</th>
+<th style="text-align: center;">
+<strong>Positive</strong>
+</th>
+<td style="text-align: center;">
+True positives (TP)
+</td>
+<td style="text-align: center;">
+False negatives (FN)
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Positive</strong></td>
-<td style="text-align: center;">True positives (TP)</td>
-<td style="text-align: center;">False negatives (FN)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Negative</strong></td>
-<td style="text-align: center;">False positives (FP)</td>
-<td style="text-align: center;">True negatives (TN)</td>
+<tr>
+<th style="text-align: center;">
+<strong>Negative</strong>
+</th>
+<td style="text-align: center;">
+False positives (FP)
+</td>
+<td style="text-align: center;">
+True negatives (TN)
+</td>
 </tr>
 </tbody>
 </table>
@@ -846,10 +892,113 @@ Table&nbsp;6: Confusion Matrix
 <p>False Positive (FP): Instances incorrectly predicted as positive.</p>
 <p>True Negative (TN): Instances correctly predicted as negative.</p>
 <p>Each cell in the table represents the count of instances for a particular combination of actual and predicted classes.</p>
-<div id="fig-confusion-matrices" class="quarto-float quarto-figure quarto-figure-center">
+<div id="fig-confusion-matrices" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-confusion-matrices-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="confusion_matrices.png" class="img-fluid">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-confusion-matrices" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-lda" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-lda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="linear_discriminant.png" class="img-fluid" data-ref-parent="fig-confusion-matrices">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-lda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Linear Discriminant Analysis
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-confusion-matrices" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-svm" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-svm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="svm.png" class="img-fluid" data-ref-parent="fig-confusion-matrices">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-svm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) SVM Classification
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-confusion-matrices" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-sgd" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-sgd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="sgd_classifier.png" class="img-fluid" data-ref-parent="fig-confusion-matrices">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-sgd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(c) SGD Classifier
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-confusion-matrices" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-knn" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-knn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="k_neighbors.png" class="img-fluid" data-ref-parent="fig-confusion-matrices">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-knn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(d) K-Nearest Classifiers
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-confusion-matrices" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-gpc" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-gpc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="gaussian_process.png" class="img-fluid" data-ref-parent="fig-confusion-matrices">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-gpc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(e) Gaussian Process Classifier
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-confusion-matrices" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-rf" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-rf-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="random_forest.png" class="img-fluid" data-ref-parent="fig-confusion-matrices">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-rf-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(f) Random Forest Classifier
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-confusion-matrices" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-gnb" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-gnb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="gaussian_nb.png" class="img-fluid" data-ref-parent="fig-confusion-matrices">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-gnb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(g) Gaussian Naive Bayes
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-confusion-matrices" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-mlp" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-mlp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="neural_network.png" class="img-fluid" data-ref-parent="fig-confusion-matrices">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-mlp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(h) Neural Network
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-confusion-matrices-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Confusion Matrix of each model
@@ -869,63 +1018,140 @@ Figure&nbsp;2: Confusion Matrix of each model
 Table&nbsp;7: Precision and Accuracy of various models
 </figcaption>
 <div aria-describedby="tbl-model-performance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top">
+<table>
 <thead>
-<tr class="header">
-<th>Model</th>
-<th style="text-align: center;">Precision (Decrease)</th>
-<th style="text-align: center;">Precision (Increase)</th>
-<th style="text-align: center;">Accuracy</th>
+<tr>
+<th rowspan="2" style="text-align: left; vertical-align: middle;">
+<strong>Model</strong>
+</th>
+<th colspan="2" style="text-align: center;">
+<strong>Precision</strong>
+</th>
+<th rowspan="2" style="text-align: center; vertical-align: middle;">
+<strong>Accuracy</strong>
+</th>
+</tr>
+<tr>
+<th style="text-align: center;">
+<strong>Decrease</strong>
+</th>
+<th style="text-align: center;">
+<strong>Increase</strong>
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>LDA</td>
-<td style="text-align: center;">0.46</td>
-<td style="text-align: center;">0.54</td>
-<td style="text-align: center;">0.50</td>
+<tr>
+<td style="text-align: left;">
+LDA
+</td>
+<td style="text-align: center;">
+0.46
+</td>
+<td style="text-align: center;">
+0.54
+</td>
+<td style="text-align: center;">
+0.50
+</td>
 </tr>
-<tr class="even">
-<td>SVM</td>
-<td style="text-align: center;">0.17</td>
-<td style="text-align: center;">0.80</td>
-<td style="text-align: center;">0.51</td>
+<tr>
+<td style="text-align: left;">
+SVM
+</td>
+<td style="text-align: center;">
+0.17
+</td>
+<td style="text-align: center;">
+0.80
+</td>
+<td style="text-align: center;">
+0.51
+</td>
 </tr>
-<tr class="odd">
-<td>SGD</td>
-<td style="text-align: center;">0.34</td>
-<td style="text-align: center;">0.68</td>
-<td style="text-align: center;">0.52</td>
+<tr>
+<td style="text-align: left;">
+SGD
+</td>
+<td style="text-align: center;">
+0.34
+</td>
+<td style="text-align: center;">
+0.68
+</td>
+<td style="text-align: center;">
+0.52
+</td>
 </tr>
-<tr class="even">
-<td>KNN</td>
-<td style="text-align: center;">0.51</td>
-<td style="text-align: center;">0.40</td>
-<td style="text-align: center;">0.45</td>
+<tr>
+<td style="text-align: left;">
+KNN
+</td>
+<td style="text-align: center;">
+0.51
+</td>
+<td style="text-align: center;">
+0.40
+</td>
+<td style="text-align: center;">
+0.45
+</td>
 </tr>
-<tr class="odd">
-<td>GPC</td>
-<td style="text-align: center;">0.37</td>
-<td style="text-align: center;">0.59</td>
-<td style="text-align: center;">0.49</td>
+<tr>
+<td style="text-align: left;">
+GPC
+</td>
+<td style="text-align: center;">
+0.37
+</td>
+<td style="text-align: center;">
+0.59
+</td>
+<td style="text-align: center;">
+0.49
+</td>
 </tr>
-<tr class="even">
-<td>Random Forest</td>
-<td style="text-align: center;">0.46</td>
-<td style="text-align: center;">0.51</td>
-<td style="text-align: center;">0.49</td>
+<tr>
+<td style="text-align: left;">
+Random Forest
+</td>
+<td style="text-align: center;">
+0.46
+</td>
+<td style="text-align: center;">
+0.51
+</td>
+<td style="text-align: center;">
+0.49
+</td>
 </tr>
-<tr class="odd">
-<td>GaussianNB</td>
-<td style="text-align: center;">0.87</td>
-<td style="text-align: center;">0.08</td>
-<td style="text-align: center;">0.45</td>
+<tr>
+<td style="text-align: left;">
+GaussianNB
+</td>
+<td style="text-align: center;">
+0.87
+</td>
+<td style="text-align: center;">
+0.08
+</td>
+<td style="text-align: center;">
+0.45
+</td>
 </tr>
-<tr class="even">
-<td>MLPClassifier</td>
-<td style="text-align: center;">0.45</td>
-<td style="text-align: center;">0.58</td>
-<td style="text-align: center;">0.52</td>
+<tr>
+<td style="text-align: left;">
+Neural Network
+</td>
+<td style="text-align: center;">
+0.45
+</td>
+<td style="text-align: center;">
+0.58
+</td>
+<td style="text-align: center;">
+0.52
+</td>
 </tr>
 </tbody>
 </table>
