@@ -20,9 +20,9 @@ Day to day, I'm based in [location], working from [where you work—home, office
 
 I'm not entirely sure where this all leads, but I'm okay with that. For now, I'm focused on [immediate next step or ongoing commitment], and seeing what emerges from consistent attention. If you want to talk about [topic you'd welcome conversation about], reach out—I'd love to hear from you.
 
-::: {.now-archive}
+<!-- ::: {.now-archive}
 [See archives](/now/archive/)
-:::
+::: -->
 
 :::
 
