@@ -1,6 +1,7 @@
 ---
 title: "Sunscreen for the planet"
 description: "The world is warming faster than we can cut emissions. Volcanoes are already cooling the planet, with particles that reflect sunlight. Maybe we can too."
+reading-time: "1 min read"
 tag: "Cooling"
 image: "../../_assets/images/projects/sunscreen-planet.jpg"
 date: "2024-01-15"

@@ -15,6 +15,8 @@ all: bookmarks projects
 
 # Generate all content from data files (run before quarto render)
 generate: thumbnails photos bookmarks projects
+	python _scripts/calculate-reading-time.py --all
+	python _scripts/generate-projects.py
 	@echo "All content generated from data files"
 
 # Generate RSS feed (run after quarto render)

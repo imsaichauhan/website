@@ -1,7 +1,5 @@
 ---
 title: ""
-pagetitle: "Bookmarks"
-description: "Curated links to articles, videos, tools, and curiosities worth saving."
 page-layout: custom
 toc: false
 css: ../_assets/css/bookmarks.css

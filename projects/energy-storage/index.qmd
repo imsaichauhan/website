@@ -1,6 +1,7 @@
 ---
 title: "The future of energy storage"
 description: "Next-generation batteries are transforming renewable energy. New materials and designs promise to make solar and wind power reliable around the clock."
+reading-time: "2 min read"
 tag: "Energy"
 image: "../../_assets/images/projects/energy-storage.jpg"
 date: "2024-02-25"

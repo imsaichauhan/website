@@ -112,6 +112,20 @@
     margin: 0.2rem 0;
 }
 
+.featured-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-reading-time {
+    font-size: 0.95rem;
+    color: #000000;
+    font-family: var(--font-gt-america-mono-light);
+    font-weight: 300;
+    white-space: nowrap;
+}
+
 .featured-description-wrapper {
     display: flex;
     gap: 1.5rem;
@@ -391,4 +405,121 @@
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
+}
+
+/* ===== Project Pages: Tables & Math Optimization ===== */
+
+/* Mobile optimization for wide tables in project pages */
+@media (max-width: 768px) {
+    main table {
+        font-size: 0.75rem !important;
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    main th,
+    main td {
+        padding: 0.4rem 0.5rem !important;
+        white-space: nowrap;
+    }
+    
+    /* Make KaTeX math formulas smaller on mobile */
+    main .katex {
+        font-size: 0.9em;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+    main table {
+        font-size: 0.7rem !important;
+    }
+    
+    main th,
+    main td {
+        padding: 0.3rem 0.4rem !important;
+    }
+}
+
+/* Dark mode: KaTeX math elements */
+[data-theme="dark"] .katex,
+[data-theme="dark"] .katex-html,
+[data-theme="dark"] .katex .mord,
+[data-theme="dark"] .katex .mbin,
+[data-theme="dark"] .katex .mrel,
+[data-theme="dark"] .katex .mopen,
+[data-theme="dark"] .katex .mclose,
+[data-theme="dark"] .katex .mpunct {
+    color: #d4cfc4 !important;
+}
+
+/* Table captions - left aligned */
+.quarto-float-caption,
+figcaption,
+table caption {
+    text-align: left !important;
+}
+
+/* Dark mode: Table captions */
+[data-theme="dark"] .table-caption,
+[data-theme="dark"] .quarto-float-caption,
+[data-theme="dark"] table caption,
+[data-theme="dark"] figcaption {
+    color: rgba(212, 207, 196, 0.85) !important;
+    text-align: left !important;
+}
+
+/* Dark mode: Enhanced table styling - override existing dark.css */
+[data-theme="dark"] table.caption-top,
+[data-theme="dark"] main table {
+    border-color: rgba(212, 207, 196, 0.25) !important;
+    background-color: transparent !important;
+}
+
+[data-theme="dark"] table.caption-top thead,
+[data-theme="dark"] table.caption-top th,
+[data-theme="dark"] main thead,
+[data-theme="dark"] main th {
+    background-color: rgba(54, 52, 48, 0.8) !important;
+    color: #d4cfc4 !important;
+    border-color: rgba(212, 207, 196, 0.2) !important;
+}
+
+[data-theme="dark"] table.caption-top tbody,
+[data-theme="dark"] main tbody {
+    background-color: transparent !important;
+}
+
+[data-theme="dark"] table.caption-top tbody tr,
+[data-theme="dark"] main tbody tr {
+    background-color: transparent !important;
+}
+
+[data-theme="dark"] table.caption-top tbody tr:hover,
+[data-theme="dark"] main tbody tr:hover {
+    background-color: rgba(54, 52, 48, 0.3) !important;
+}
+
+[data-theme="dark"] table.caption-top td,
+[data-theme="dark"] main td {
+    color: #d4cfc4 !important;
+    border-color: rgba(212, 207, 196, 0.15) !important;
+}
+
+[data-theme="dark"] table.caption-top tbody tr.odd td,
+[data-theme="dark"] table.caption-top tbody tr.even td {
+    background-color: transparent !important;
+}
+
+/* Dark mode: Links in tables */
+[data-theme="dark"] table.caption-top a,
+[data-theme="dark"] main table a {
+    color: #d4cfc4 !important;
+    text-decoration: underline;
+}
+
+[data-theme="dark"] table.caption-top a:hover,
+[data-theme="dark"] main table a:hover {
+    opacity: 0.8;
 }

@@ -1,6 +1,7 @@
 ---
 title: "Rivers are now battlefields"
 description: "Chinese dams will hold billions of people downstream to ransom. Could solar-powered desalination make them irrelevant?"
+reading-time: "6 min read"
 tag: "Dams"
 image: "../../_assets/images/projects/rivers-battlefields.jpg"
 date: "2024-02-10"

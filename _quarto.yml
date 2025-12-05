@@ -70,6 +70,13 @@ format:
           <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500;700&family=Gelasio:wght@400;700&display=swap" rel="stylesheet">
       - text: |
           <link rel="alternate" type="application/rss+xml" href="/rss.xml">
+      - text: |
+          <script>
+          // Inject reading-time meta tag from front matter
+          document.addEventListener('DOMContentLoaded', function() {
+            // This will be replaced by Quarto's metadata if available
+          });
+          </script>
     include-before-body:
       - file: _includes/header.html
       - text: |
@@ -84,6 +91,8 @@ format:
           <script src="/_assets/js/external-links.js"></script>
           <script src="/_assets/js/broken-links.js"></script>
           <script src="/_assets/js/auto-hide-header.js"></script>
+          <script src="/_assets/js/reading-time.js"></script>
     filters:
+      - _filters/reading-time.lua
       - _filters/bookmarks-grid.lua
       - _filters/photos-listing-cleanup.lua

@@ -103,15 +103,82 @@ body {
     padding-right: 0; /* Remove right padding to allow full width */
 }
 
+#title-block-header .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.75);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-family: var(--font-editor-regular);
+    font-weight: 400;
+}
+
+#title-block-header .quarto-title-meta {
+    display: flex;
+    gap: 1.5rem;
+    align-items: baseline;
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    color: #666;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+}
+
+#title-block-header .quarto-title-meta-contents {
+    color: #999;
+}
+
 #title-block-header .date {
     position: absolute;
-    bottom: 0.5rem;
+    bottom: 0;
     right: 0;
     font-size: 0.8rem;
     color: #999;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
     margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Reading time display */
+.reading-time {
+    font-size: 0.8rem;
+    color: #999;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+}
+
+/* Inline reading time with date */
+.reading-time-inline {
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.meta-separator {
+    margin: 0 0.25rem;
+    color: inherit;
+}
+
+/* Project grid meta row (tag + reading time) */
+.project-grid-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.1rem 0.18rem 1.1rem;
+}
+
+.project-grid-tag p,
+.project-grid-reading-time p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
 }
 
 /* Main Content Container */
@@ -527,13 +594,15 @@ header nav a:hover {
 /* Projects-specific rules moved to `_assets/css/projects.css` to keep
    project layout isolated and avoid duplication. See projects.css. */
 
-.featured-tag p {
+.featured-tag p,
+.featured-reading-time p {
     margin: 0;
     padding: 0;
     line-height: 1;
     font-family: inherit;
     font-weight: inherit;
     font-size: inherit;
+    color: inherit;
 }
 
 /* Project Grid - Right Column (Scrollable) */
@@ -635,7 +704,6 @@ body:has(.projects-grid.bookmarks-grid) #title-block-header {
 
 .project-grid-card > :last-child {
     margin-bottom: 0;
-    padding-bottom: 0.18rem;
 }
 
 .project-grid-title {
@@ -661,6 +729,55 @@ body:has(.projects-grid.bookmarks-grid) #title-block-header {
 }
 
 .project-grid-title a:hover {
+    text-decoration: none;
+}
+
+.project-grid-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.1rem 0.75rem 1.1rem;
+}
+
+.project-grid-tag,
+.project-grid-reading-time {
+    font-size: 0.875rem;
+    font-family: var(--font-gt-america-mono-light);
+    font-weight: 300;
+}
+
+.project-grid-reading-time {
+    white-space: nowrap;
+}
+
+.project-grid-separator {
+    height: 1px;
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+.project-grid-description {
+    padding: 0.9rem 1.1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #333;
+    font-family: var(--font-editor-regular);
+    flex: 1;
+}
+
+.project-grid-read-more {
+    padding: 0.5rem 1.1rem 0.75rem 1.1rem;
+    font-size: 0.875rem;
+    font-family: var(--font-gt-america-mono-bold);
+    font-weight: 700;
+}
+
+.project-grid-read-more a {
+    color: #000;
+    text-decoration: none;
+}
+
+.project-grid-read-more a:hover {
     text-decoration: none;
 }
 
@@ -768,26 +885,7 @@ body:has(.projects-grid.bookmarks-grid) #title-block-header {
     text-decoration: none;
 }
 
-.project-grid-tag {
-    display: block;
-    padding: 0.18rem 1.1rem;
-    border: none;
-    font-size: 0.85rem;
-    background-color: #fff;
-    margin: 0;
-    line-height: 1;
-    font-family: var(--font-gt-america-mono-light);
-    font-weight: 300;
-}
 
-.project-grid-tag p {
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-family: inherit;
-    font-weight: inherit;
-    font-size: inherit;
-}
 
 /* Mobile optimizations for project grid cards */
 @media (max-width: 768px) {

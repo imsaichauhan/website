@@ -1,6 +1,7 @@
 ---
 title: "Why science needs outsiders"
 description: "Science has forgotten that the greatest breakthroughs often come from outsiders who are able to take a fresh perspective."
+reading-time: "1 min read"
 tag: "Outsiders"
 image: "../../_assets/images/projects/science-outsiders.jpg"
 date: "2024-02-01"

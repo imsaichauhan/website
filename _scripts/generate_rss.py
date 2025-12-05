@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
 """
-Lightweight RSS generator for the site.
+Enhanced RSS generator for the site.
 
 Scans `projects/`, `bookmarks/`, `photos/`, and `now/` for `.qmd` files,
-extracts simple YAML front-matter (title/date) and content, and writes
-`rss.xml` at the project root (RSS 2.0). Description uses the raw
-markdown content wrapped in CDATA so content is preserved.
+extracts YAML front-matter (title/date/description/image) and content, and writes
+`rss.xml` at the project root (RSS 2.0).
 
-This script avoids external dependencies and uses a simple front-matter
-parser that supports common title/date keys. It's intentionally minimal.
+Enhanced features:
+- Full HTML content in description with proper formatting
+- Images converted to absolute URLs
+- Better markdown-to-HTML conversion
+- Support for content:encoded for full article content
+- Proper metadata extraction (author, categories)
 """
 import os
 import re
 import sys
 from datetime import datetime, UTC
 from email.utils import format_datetime
+from html import escape
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 SCAN_DIRS = ['projects', 'bookmarks', 'photos', 'now']
@@ -84,15 +88,61 @@ def escape_cdata(s):
     return s.replace(']]>', ']]]]><![CDATA[>')
 
 
-def clean_content(text):
-    """Strip Quarto divs and other markup for cleaner RSS content."""
+def markdown_to_html(text):
+    """Convert markdown to HTML with proper formatting."""
     # Remove Quarto div syntax
     text = re.sub(r':::\s*\{[^}]+\}\s*', '', text)
     text = re.sub(r'^:::$', '', text, flags=re.MULTILINE)
     # Remove HTML blocks
     text = re.sub(r'```\{=html\}.*?```', '', text, flags=re.DOTALL)
-    # Remove code blocks
-    text = re.sub(r'```[^`]*```', '', text, flags=re.DOTALL)
+    # Remove code blocks but preserve their content as <pre><code>
+    def code_replacer(match):
+        code = match.group(1) if match.group(1) else match.group(0)
+        return f'<pre><code>{escape(code)}</code></pre>'
+    text = re.sub(r'```(?:[a-z]+)?\n(.*?)```', code_replacer, text, flags=re.DOTALL)
+    
+    # Convert headings
+    text = re.sub(r'^### (.+)$', r'<h3>\1</h3>', text, flags=re.MULTILINE)
+    text = re.sub(r'^## (.+)$', r'<h2>\1</h2>', text, flags=re.MULTILINE)
+    text = re.sub(r'^# (.+)$', r'<h1>\1</h1>', text, flags=re.MULTILINE)
+    
+    # Convert bold and italic
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+    text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
+    
+    # Convert links
+    text = re.sub(r'\[([^\]]+)\]\(([^\)]+)\)', r'<a href="\2">\1</a>', text)
+    
+    # Convert images to absolute URLs
+    text = re.sub(r'!\[([^\]]*)\]\((/[^\)]+)\)', rf'<img src="{SITE_URL}\2" alt="\1" />', text)
+    text = re.sub(r'!\[([^\]]*)\]\((\.\./[^\)]+)\)', lambda m: f'<img src="{SITE_URL}/{m.group(2).replace("../", "")}" alt="{m.group(1)}" />', text)
+    
+    # Convert paragraphs
+    lines = text.split('\n')
+    html_lines = []
+    in_paragraph = False
+    for line in lines:
+        line = line.strip()
+        if not line:
+            if in_paragraph:
+                html_lines.append('</p>')
+                in_paragraph = False
+        elif line.startswith('<h') or line.startswith('<pre>') or line.startswith('<img'):
+            if in_paragraph:
+                html_lines.append('</p>')
+                in_paragraph = False
+            html_lines.append(line)
+        else:
+            if not in_paragraph:
+                html_lines.append('<p>')
+                in_paragraph = True
+            else:
+                html_lines.append(' ')
+            html_lines.append(line)
+    if in_paragraph:
+        html_lines.append('</p>')
+    
+    text = ''.join(html_lines)
     # Clean up excessive whitespace
     text = re.sub(r'\n\n\n+', '\n\n', text)
     return text.strip()
@@ -114,8 +164,26 @@ def main():
                 title = fm.get('title') or fm.get('pagetitle') or fm.get('name') or os.path.splitext(fn)[0]
                 dt = guess_date(fm, path)
                 url = make_url(path)
-                content = clean_content(body)
-                items.append({'title': title, 'date': dt, 'url': url, 'content': content})
+                description = fm.get('description', '')
+                image = fm.get('image', '')
+                tag = fm.get('tag', '')
+                
+                # Convert relative image paths to absolute URLs
+                if image and image.startswith('../'):
+                    image = SITE_URL + '/' + image.replace('../', '')
+                elif image and not image.startswith('http'):
+                    image = SITE_URL + image
+                
+                content_html = markdown_to_html(body)
+                items.append({
+                    'title': title,
+                    'date': dt,
+                    'url': url,
+                    'description': description,
+                    'content': content_html,
+                    'image': image,
+                    'tag': tag
+                })
 
     # sort descending by date
     items.sort(key=lambda x: x['date'], reverse=True)
@@ -124,31 +192,56 @@ def main():
 
     channel_title = 'Sai Prakash'
     channel_link = SITE_URL
-    channel_desc = 'Recent content from Sai Prakash'
+    channel_desc = 'Writing on climate, science, and ideas that shape the future'
 
     parts = []
     parts.append('<?xml version="1.0" encoding="utf-8"?>')
-    parts.append('<rss version="2.0">')
+    parts.append('<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">')
     parts.append('<channel>')
     parts.append(f'<title>{channel_title}</title>')
     parts.append(f'<link>{channel_link}</link>')
     parts.append(f'<description>{channel_desc}</description>')
     parts.append(f'<lastBuildDate>{format_datetime(datetime.now(UTC))}</lastBuildDate>')
+    parts.append(f'<atom:link href="{SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />')
+    parts.append(f'<language>en</language>')
 
     for it in items:
         pub = format_datetime(it['date'])
-        title = it['title']
+        title = escape(it['title'])
         link = SITE_URL + it['url']
         guid = link
+        description = it.get('description', '')
         content = escape_cdata(it['content'])
+        image = it.get('image', '')
+        tag = it.get('tag', '')
+        
         parts.append('<item>')
         parts.append(f'<title>{title}</title>')
         parts.append(f'<link>{link}</link>')
         parts.append(f'<guid isPermaLink="true">{guid}</guid>')
         parts.append(f'<pubDate>{pub}</pubDate>')
-        parts.append('<description><![CDATA[')
-        parts.append(content)
-        parts.append(']]></description>')
+        
+        # Add category/tag if available
+        if tag:
+            parts.append(f'<category>{escape(tag)}</category>')
+        
+        # Short description in description field
+        if description:
+            parts.append(f'<description><![CDATA[{escape_cdata(description)}]]></description>')
+        else:
+            # Fallback to truncated content
+            plain_content = re.sub(r'<[^>]+>', '', content)[:200]
+            parts.append(f'<description><![CDATA[{escape_cdata(plain_content)}...]]></description>')
+        
+        # Full HTML content in content:encoded
+        full_content = content
+        # Add featured image at the top of content if available
+        if image:
+            full_content = f'<p><img src="{escape(image)}" alt="{escape(title)}" style="max-width: 100%; height: auto;" /></p>' + full_content
+        
+        parts.append('<content:encoded><![CDATA[')
+        parts.append(full_content)
+        parts.append(']]></content:encoded>')
         parts.append('</item>')
 
     parts.append('</channel>')

@@ -1,7 +1,5 @@
 ---
 title: ""
-pagetitle: "Projects"
-description: "Long-form writing on climate policy, science, and global challenges."
 ---
 
 ```{=html}
@@ -12,7 +10,7 @@ description: "Long-form writing on climate policy, science, and global challenge
 ::: {.projects-layout}
 ::: {.featured-project}
 ::: {.featured-image}
-[![](../_assets/images/projects/rice.jpg)](/projects/rice/)
+[![](../../_assets/images/projects/rice.jpg)](/projects/rice/)
 :::
 ::: {.featured-content}
 ::: {.featured-title}
@@ -30,8 +28,13 @@ How global giants can curb warming together and why fairness, not just carbon pr
 :::
 ::: {.featured-separator}
 :::
+::: {.featured-meta}
 ::: {.featured-tag}
 Climate Change
+:::
+::: {.featured-reading-time}
+15 min read
+:::
 :::
 ::: {.featured-separator}
 :::
@@ -53,8 +56,13 @@ Chinese dams will hold billions of people downstream to ransom. Could solar-powe
 :::
 ::: {.project-grid-separator}
 :::
+::: {.project-grid-meta}
 ::: {.project-grid-tag}
 Dams
+:::
+::: {.project-grid-reading-time}
+6 min read
+:::
 :::
 :::
 
@@ -72,8 +80,13 @@ The world is warming faster than we can cut emissions. Volcanoes are already coo
 :::
 ::: {.project-grid-separator}
 :::
+::: {.project-grid-meta}
 ::: {.project-grid-tag}
 Cooling
+:::
+::: {.project-grid-reading-time}
+1 min read
+:::
 :::
 :::
 
@@ -91,8 +104,13 @@ Science has forgotten that the greatest breakthroughs often come from outsiders 
 :::
 ::: {.project-grid-separator}
 :::
+::: {.project-grid-meta}
 ::: {.project-grid-tag}
 Outsiders
+:::
+::: {.project-grid-reading-time}
+1 min read
+:::
 :::
 :::
 
@@ -110,8 +128,37 @@ Next-generation batteries are transforming renewable energy. New materials and d
 :::
 ::: {.project-grid-separator}
 :::
+::: {.project-grid-meta}
 ::: {.project-grid-tag}
 Energy
+:::
+::: {.project-grid-reading-time}
+2 min read
+:::
+:::
+:::
+
+::: {.project-grid-card}
+::: {.project-grid-title}
+[Leveraging News Sentiment Analysis for Stock Price Forecasting](/projects/sentiment/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-description}
+Machine learning analysis of financial news sentiment to predict Reliance Industries stock movements
+:::
+::: {.project-grid-read-more}
+[Read more →](/projects/sentiment/)
+:::
+::: {.project-grid-separator}
+:::
+::: {.project-grid-meta}
+::: {.project-grid-tag}
+Finance
+:::
+::: {.project-grid-reading-time}
+17 min read
+:::
 :::
 :::
 

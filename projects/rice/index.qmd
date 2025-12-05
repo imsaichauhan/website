@@ -1,6 +1,7 @@
 ---
 title: "Regional Climate Cooperation: A RICE Model Analysis"
 description: "How global giants can curb warming together and why fairness, not just carbon pricing, decides if cooperation survives."
+reading-time: "15 min read"
 tag: "Climate Change"
 image: "../../_assets/images/projects/rice.jpg"
 date: "2024-02-10"

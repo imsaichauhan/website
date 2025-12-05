@@ -20,6 +20,7 @@ PROJECT_ORDER = [
     "death-rays",
     "building-cities",
     "energy-storage",
+    "sentiment",
 ]
 
 def parse_yaml_frontmatter(content):
@@ -62,6 +63,7 @@ def load_project_metadata(project_name):
         'image': metadata.get('image', ''),
         # preserve original image URL separately so we don't overwrite it
         'image_original': metadata.get('image', ''),
+        'reading_time': metadata.get('reading-time', ''),
         # include project directory name so generators can look for local assets
         'name': project_name,
         'link': f'/projects/{project_name}/'
@@ -137,9 +139,12 @@ def generate_projects_page():
         ":::\n"
         "::: {.featured-separator}\n"
         ":::\n"
+        "::: {.featured-meta}\n"
         "::: {.featured-tag}\n"
         + featured['tag'] + "\n"
         ":::\n"
+        + ("::: {.featured-reading-time}\n" + featured['reading_time'] + "\n:::\n" if featured.get('reading_time') else "")
+        + ":::\n"
         "::: {.featured-separator}\n"
         ":::\n"
         ":::\n"
@@ -149,6 +154,13 @@ def generate_projects_page():
     
     # Add grid projects
     for project in grid_projects:
+        reading_time_section = ""
+        if project.get('reading_time'):
+            reading_time_section = """::: {.project-grid-reading-time}
+""" + project['reading_time'] + """
+:::
+"""
+        
         output += """::: {.project-grid-card}
 ::: {.project-grid-title}
 [""" + project['title'] + """](""" + project['link'] + """)
@@ -163,9 +175,11 @@ def generate_projects_page():
 :::
 ::: {.project-grid-separator}
 :::
+::: {.project-grid-meta}
 ::: {.project-grid-tag}
 """ + project['tag'] + """
 :::
+""" + reading_time_section + """:::
 :::
 
 """
